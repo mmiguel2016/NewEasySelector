@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">EnDOtec Castolin</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro">INTRO</string>
+    <string name="backButton">back</string>
+    <string name="action_advantages">Advantages:</string>
+    <string name="selections_title">Choose a phenomenon:</string>
+    <string name="title_activity_abrasion_impact_heat">Make a selection</string>
+    <string name="Selectionlist1">Abrasion/Impact/Heat</string>
+    <string name="Selectionlist2">Abrasion/Impact/Corrosion</string>
+    <string name="Selectionlist3">Abrasion/Heat/Corrosion</string>
+    <string name="Selectionlist4">Heat/Impact/Corrosion</string>
+    <string name="Selectionlist5">Erosion</string>
+    <string name="Selectionlist6">Mechanical Fatigue (Cavitation)</string>
+    <string name="Selectionlist7">Cavitation</string>
+    <string name="Selectionlist8">Friction and Rubbing</string>
+
+    <string name="AIH1">Abrasion</string>
+    <string name="AIH2">Impact</string>
+    <string name="AIH3">Heat</string>
+    <string name="AIH4">Abrasion + Impact</string>
+    <string name="AIH5">Impact + Abrasion</string>
+    <string name="AIH6">Abrasion + Heat</string>
+    <string name="AIH7">Impact + Heat</string>
+    <string name="AIH8">Abrasion + Impact+Heat</string>
+
+    <string name="erosion1">DO*390N</string>
+    <string name="erosion2">8336EG</string>
+    <string name="erosion3">DO*48</string>
+    <string name="erosion4">DO*11</string>
+    <string name="erosion5">DO*33</string>
+    <string name="erosion6">DO*322</string>
+
+    <string name="application1">Part:</string>
+    <string name="application2">Wear:</string>
+    <string name="application3">Typical Solutions:</string>
+    <string name="application4">Advanced Solutions:</string>
+    <string name="application5">Advantages:</string>
+
+    <string name="mechanical1">DO*22</string>
+    <string name="mechanical2">DO*02</string>
+    <string name="mechanical3">DO*257</string>
+
+    <string name="cavitation1">CAVITEC</string>
+    <string name="cavitation2">DO*80</string>
+    <string name="cavitation3">DO*04</string>
+    <string name="cavitation4">DO*05</string>
+    <string name="cavitation5">DO*02</string>
+
+    <string name="DO390N">Exchangeable solution. The shells can be turn 90º after wearing so at least 4 times longer lifetime</string>
+
+    <string name="EG8336">2,5 times better service lifetime and easy assembling and disassembling of wear protection plates</string>
+
+    <string name="DO48">Increasing lifetime, from 730 days with previous solution to 1095 days with current solution</string>
+
+    <string name="DO11">Reducing welding time (around 65%) . Increasing life time up to 3 times</string>
+
+    <string name="DO33">Increasing lifetime more that 5 times compared to Hardox</string>
+
+    <string name="DO322">Increasing service lifetime. 14months</string>
+
+    <string name="DO22">Faster application with this wire and absence of slag</string>
+
+    <string name="DO02">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+
+    <string name="DO257">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+
+    <string name="CAVITEC">Longer service life and higher equipment efficiency. Cavitec has the best comparison results to any other alloy.</string>
+
+    <string name="DO80">Longer service lifetime, at least 3 years</string>
+
+    <string name="DO04">Life time increased up to 4 times</string>
+
+    <string name="DO05">Increasing service lifetime. Very long, not finish yet.</string>
+
+    <string name="DO02cavitation">Service lifetime : 4-5 months and quicker repair</string>
+
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_abrasion_impact_corrosion">AbrasionImpactCorrosion</string>
+    <string name="title_activity_selections">Choose a phenomenon:</string>
+    <string name="title_activity_aih">Make a selection:</string>
+    <string name="title_activity_erosion">EROSION</string>
+    <string name="title_activity_DO390N">DO*390N</string>
+    <string name="title_activity_EG8336">8336EG</string>
+    <string name="title_activity_DO48">DO*48</string>
+    <string name="title_activity_DO11">DO*11</string>
+    <string name="title_activity_DO33">DO*33</string>
+    <string name="title_activity_DO322">DO*322</string>
+    <string name="title_activity_mechanical_fatigue">MECHANICAL FATIGUE</string>
+    <string name="title_activity_DO22">DO*22</string>
+    <string name="title_activity_DO02">DO*02</string>
+    <string name="title_activity_DO257">DO*257</string>
+    <string name="title_activity_cavitation">CAVITATION</string>
+    <string name="title_activity_CAVITEC">CAVITEC</string>
+    <string name="title_activity_DO80">DO*80</string>
+    <string name="title_activity_DO04">DO*04</string>
+    <string name="title_activity_DO05">DO*05</string>
+    <string name="title_activity_DO02cavitation">DO*02</string>
+    <string name="title_activity_read_me">EnDOtec®</string>
+    <string name="read_me_description">It is usual that an observed worn part involves the combination of several individual wear mechanisms. Simple solutions become insuficient and the practical solution lies with experience,a broad product range and partnership.\n\n
+THIS IS A TRUE CASTOLIN EUTECTIC COMPETENCE\n\n
+This makes the wear mechanism considerably more complex and difficult to understand. Sometimes 2, 3 or even 4 different wear mechanisms can be operating, which render the simple solutions insufficient. However, the primary wear mechanism must be established.\n\n
+1. Analyse and identify the primary wear factor involved\n
+2. Analyse and identify the secondary and tertiary wear factors\n
+3. Use this guide to have a first selection of the Endotec wires oriented to your application requirements.\n\n
+If needed consult your technical department for confirmation and further help in welding procedure</string>
+    <string name="title_activity_test_app">testApp</string>
+</resources>
