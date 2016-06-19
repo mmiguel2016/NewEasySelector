@@ -203,7 +203,7 @@
         </activity>
         <activity
             android:name=".CAVITEC"
-            android:label="@string/title_activity_CAVITEC"
+            android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

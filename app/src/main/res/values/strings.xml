@@ -267,9 +267,9 @@ If needed consult your technical department for confirmation and further help in
     <string name="DO022">Mechanical fatigue</string>
     <string name="DO023">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
 
-    <string name="DO2571">Good weldabilty, excellent mechanical properties and high deposition rate </string>
-    <string name="DO2572">Good weldabilty, excellent mechanical properties and high deposition rate </string>
-    <string name="DO2573">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+    <string name="DO2571">Satellites in a cement kiln. Cracks repairing Base metal: St35</string>
+    <string name="DO2572">Thermal and mechanical fatigue </string>
+    <string name="DO2573">Good weldabilty, excellent mechanical properties and high deposition rate</string>
 
     <string name="CAVITEC1">Pelton buckets of Pelton turbine in a hydroelectrical power plant. Base metal: low alloyed cast steel (410 NiMo).</string>
     <string name="CAVITEC2">Severe cavitation and erosion because of suspension solids in the water used to move the buckets.</string>
