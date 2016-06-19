@@ -2,6 +2,7 @@ package com.castolin.easyselector;
 
 import android.app.ListFragment;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -22,20 +23,8 @@ public class Selections extends AppCompatActivity {
     //new
     ArrayList<Item> selectionList=new ArrayList<>();
 
-    /**ListActivity
-     * AppCompatActivity
-     * Activity
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-
     private GoogleApiClient client;
 
-
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +32,10 @@ public class Selections extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarHeader = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarHeader.setTitle(getString(R.string.selections_title));
+        toolbarHeader.setTitleTextColor(Color.RED);
 
         lv=(ListView)findViewById(R.id.android_list);
 
@@ -70,6 +63,21 @@ public class Selections extends AppCompatActivity {
                     Intent intent = new Intent(Selections.this, AIH.class);
                     startActivity(intent);
                 }
+                else if (position == 1) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(Selections.this, AbrasionImpactCorrosion.class);
+                    startActivity(intent);
+                }
+                else if (position == 2) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(Selections.this, AHC.class);
+                    startActivity(intent);
+                }
+                else if (position == 3) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(Selections.this, HIC.class);
+                    startActivity(intent);
+                }
                 else if (position == 4) {
                     //code specific to 1st list item
                     Intent intent = new Intent(Selections.this, Erosion.class);
@@ -85,6 +93,11 @@ public class Selections extends AppCompatActivity {
                     Intent intent = new Intent(Selections.this, Cavitation.class);
                     startActivity(intent);
                 }
+                else if (position == 7) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(Selections.this, FrictionAndRubbing.class);
+                    startActivity(intent);
+                }
             }
         });
 
@@ -93,44 +106,18 @@ public class Selections extends AppCompatActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-
     @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Selections Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://com.castolin.easyselector/http/host/path")
-        );
-        AppIndex.AppIndexApi.start(client, viewAction);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_back, menu);
+        return true;
     }
 
     @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        Action viewAction = Action.newAction(
-                Action.TYPE_VIEW, // TODO: choose an action type.
-                "Selections Page", // TODO: Define a title for the content shown.
-                // TODO: If you have web page content that matches this app activity's content,
-                // make sure this auto-generated web page URL is correct.
-                // Otherwise, set the URL to null.
-                Uri.parse("http://host/path"),
-                // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://com.castolin.easyselector/http/host/path")
-        );
-        AppIndex.AppIndexApi.end(client, viewAction);
-        client.disconnect();
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent = new Intent(Selections.this, LaunchActivity.class);
+        startActivity(intent);
+        return true;
     }
+
 }

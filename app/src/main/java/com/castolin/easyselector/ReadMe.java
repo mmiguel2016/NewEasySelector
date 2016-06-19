@@ -1,6 +1,7 @@
 package com.castolin.easyselector;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,6 +20,10 @@ public class ReadMe extends AppCompatActivity {
         setContentView(R.layout.activity_read_me);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarHeader = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarHeader.setTitle(getString(R.string.title_activity_read_me));
+        toolbarHeader.setTitleTextColor(Color.RED);
 
         TextView textView=(TextView) findViewById(R.id.ReadMetextView);
 

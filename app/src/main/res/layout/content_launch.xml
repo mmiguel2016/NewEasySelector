@@ -17,11 +17,11 @@
         android:text="@string/intro"
         android:id="@+id/ButtonSelection"
         android:background="#ffffff"/>
-    <ImageButton
+    <Button
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_weight="1"
-        android:src="@drawable/readme"
-        android:id="@+id/ButtonReadMe"
+        android:text="@string/readme"
+        android:id="@+id/ButtonReadme"
         android:background="#ffffff"/>
 </LinearLayout>

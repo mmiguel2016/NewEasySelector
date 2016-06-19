@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -28,6 +29,25 @@ public class DO22 extends AppCompatActivity{
         setContentView(R.layout.do22);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarHeader = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarHeader.setTitle(getString(R.string.title_activity_DO22));
+        toolbarHeader.setTitleTextColor(Color.RED);
+
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_bottom);
+        toolbarBottom.setTitle(getString(R.string.action_technical_support));
+        toolbarBottom.setTitleTextColor(Color.WHITE);
+        toolbarBottom.setNavigationIcon(R.drawable.info);
+
+
+        /* Listener for the bottom toolbar */
+        toolbarBottom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DO22.this, Feedback.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

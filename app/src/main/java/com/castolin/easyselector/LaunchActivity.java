@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 public class LaunchActivity extends AppCompatActivity {
 
     private static Button button_selection;
-    private static ImageButton button_readme;
+    private static Button button_ReadMe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class LaunchActivity extends AppCompatActivity {
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
         OnClickButtonListener();
-        addListenerOnButton();
+        OnClickButtonListener1();
     }
 
     public void OnClickButtonListener(){
@@ -37,24 +37,18 @@ public class LaunchActivity extends AppCompatActivity {
         );
     }
 
-    public void addListenerOnButton() {
-
-        button_readme = (ImageButton) findViewById(R.id.ButtonReadMe);
-
-        button_readme.setOnClickListener(
-                new View.OnClickListener(){
+    public void OnClickButtonListener1(){
+        button_ReadMe=(Button)findViewById(R.id.ButtonReadme);
+        button_ReadMe.setOnClickListener(
+                new View.OnClickListener() {
                     @Override
-                    public void onClick(View v){
-                        Intent intent=new Intent("com.castolin.easyselector.ReadMe");
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.castolin.easyselector.ReadMe");
                         startActivity(intent);
                     }
                 }
-
         );
-
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

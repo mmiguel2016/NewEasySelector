@@ -1,11 +1,13 @@
 package com.castolin.easyselector;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
 
 import java.util.ArrayList;
@@ -23,6 +25,25 @@ public class DO05 extends AppCompatActivity {
         setContentView(R.layout.do05);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarHeader = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarHeader.setTitle(getString(R.string.title_activity_DO05));
+        toolbarHeader.setTitleTextColor(Color.RED);
+
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_bottom);
+        toolbarBottom.setTitle(getString(R.string.action_technical_support));
+        toolbarBottom.setTitleTextColor(Color.WHITE);
+        toolbarBottom.setNavigationIcon(R.drawable.info);
+
+
+        /* Listener for the bottom toolbar */
+        toolbarBottom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DO05.this, Feedback.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

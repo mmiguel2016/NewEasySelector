@@ -1,5 +1,6 @@
 package com.castolin.easyselector;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -29,6 +30,11 @@ public class Erosion extends AppCompatActivity {
         setContentView(R.layout.activity_erosion);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarBottom.setTitle(getString(R.string.title_activity_erosion));
+        toolbarBottom.setTitleTextColor(Color.RED);
+
         lv=(ListView)findViewById(R.id.android_list);
         MyAdapter myAdapter=new MyAdapter(this,R.layout.list_view_items,selectionList);
         lv.setAdapter(myAdapter);

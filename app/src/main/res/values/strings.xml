@@ -1,11 +1,34 @@
 <resources>
     <string name="app_name">EnDOtec Castolin</string>
     <string name="action_settings">Settings</string>
-    <string name="intro">INTRO</string>
+    <string name="intro">START</string>
+    <string name="readme">Read me</string>
     <string name="backButton">back</string>
     <string name="action_advantages">Advantages:</string>
+    <string name="action_part">Part:</string>
+    <string name="action_wear">Wear:</string>
+    <string name="action_technical_support">Request Additional Info</string>
     <string name="selections_title">Choose a phenomenon:</string>
-    <string name="title_activity_abrasion_impact_heat">Make a selection</string>
+    <string name="NameOfCustomer">Your full name here:</string>
+    <string name="Country">Country:</string>
+    <string name="Company">Company:</string>
+    <string name="Email">Email:</string>
+    <string name="PhoneNumber">Telephone:</string>
+    <string name="Description">Description:</string>
+    <string name="SendFeedback">Send</string>
+    <string name="AllFieldsCompulsory">All the fields are compulsory.\n</string>
+    <string name="EmailClient">Choose an Email client :</string>
+    <string name="EmailTechnicalSupport">Technical support request from EnDOtec EASYselector App</string>
+
+    <string name="read_me_description">\nIt is usual that an observed worn part involves the combination of several individual wear mechanisms. Simple solutions become insuficient and the practical solution lies with experience a broad product range and partnership.\n\n
+THIS IS A TRUE CASTOLIN EUTECTIC COMPETENCE\n\n
+This makes the wear mechanism considerably more complex and difficult to understand. Sometimes 2, 3 or even 4 different wear mechanisms can be operating, which render the simple solutions insufficient. However, the primary wear mechanism must be established.\n\n
+How to use this app:\n
+1. Analyse and identify the primary wear factor involved.\n
+2. Analyse and identify the secondary and tertiary wear factors.\n
+3. Use this guide to have a first selection of the Endotec wires oriented to your application requirements.\n\n
+If needed consult your technical department for confirmation and further help in welding procedure.</string>
+
     <string name="Selectionlist1">Abrasion/Impact/Heat</string>
     <string name="Selectionlist2">Abrasion/Impact/Corrosion</string>
     <string name="Selectionlist3">Abrasion/Heat/Corrosion</string>
@@ -18,18 +41,43 @@
     <string name="AIH1">Abrasion</string>
     <string name="AIH2">Impact</string>
     <string name="AIH3">Heat</string>
-    <string name="AIH4">Abrasion + Impact</string>
-    <string name="AIH5">Impact + Abrasion</string>
+    <string name="AIH4">ABRASION + Impact</string>
+    <string name="AIH5">IMPACT + Abrasion</string>
     <string name="AIH6">Abrasion + Heat</string>
     <string name="AIH7">Impact + Heat</string>
-    <string name="AIH8">Abrasion + Impact+Heat</string>
+    <string name="AIH8">Abrasion + Impact + Heat</string>
 
-    <string name="erosion1">DO*390N</string>
-    <string name="erosion2">8336EG</string>
-    <string name="erosion3">DO*48</string>
-    <string name="erosion4">DO*11</string>
-    <string name="erosion5">DO*33</string>
-    <string name="erosion6">DO*322</string>
+    <string name="AIC1">Abrasion</string>
+    <string name="AIC2">Impact</string>
+    <string name="AIC3">Corrosion</string>
+    <string name="AIC4">ABRASION + Impact</string>
+    <string name="AIC5">IMPACT + Abrasion</string>
+    <string name="AIC6">Abrasion + Corrosion</string>
+    <string name="AIC7">Impact + Corrosion</string>
+    <string name="AIC8">Abrasion + Impact + Corrosion</string>
+
+    <string name="AHC1">Abrasion</string>
+    <string name="AHC2">Heat</string>
+    <string name="AHC3">Corrosion</string>
+    <string name="AHC4">Abrasion + Heat</string>
+    <string name="AHC5">Abrasion + Corrosion</string>
+    <string name="AHC6">Heat + Corrosion</string>
+    <string name="AHC7">Abrasion + Heat + Corrosion</string>
+
+    <string name="HIC1">Heat</string>
+    <string name="HIC2">Impact</string>
+    <string name="HIC3">Corrosion</string>
+    <string name="HIC4">Heat + Impact</string>
+    <string name="HIC5">Heat + Corrosion</string>
+    <string name="HIC6">Impact + Corrosion</string>
+    <string name="HIC7">Heat + Impact + Corrosion</string>
+
+    <string name="erosion1">1. DO*390N</string>
+    <string name="erosion2">2. 8336EG</string>
+    <string name="erosion3">3. DO*48</string>
+    <string name="erosion4">4. DO*11</string>
+    <string name="erosion5">5. DO*33</string>
+    <string name="erosion6">6. DO*322</string>
 
     <string name="application1">Part:</string>
     <string name="application2">Wear:</string>
@@ -37,48 +85,711 @@
     <string name="application4">Advanced Solutions:</string>
     <string name="application5">Advantages:</string>
 
-    <string name="mechanical1">DO*22</string>
-    <string name="mechanical2">DO*02</string>
-    <string name="mechanical3">DO*257</string>
+    <string name="mechanical1">1. DO*22</string>
+    <string name="mechanical2">2. DO*02</string>
+    <string name="mechanical3">3. DO*257</string>
 
-    <string name="cavitation1">CAVITEC</string>
-    <string name="cavitation2">DO*80</string>
-    <string name="cavitation3">DO*04</string>
-    <string name="cavitation4">DO*05</string>
-    <string name="cavitation5">DO*02</string>
+    <string name="cavitation1">1. CAVITEC</string>
+    <string name="cavitation2">2. DO*80</string>
+    <string name="cavitation3">3. DO*04</string>
+    <string name="cavitation4">4. DO*05</string>
+    <string name="cavitation5">5. DO*02</string>
 
-    <string name="DO390N">Exchangeable solution. The shells can be turn 90º after wearing so at least 4 times longer lifetime</string>
+    <string name="frictionrubbing1">1. DO*80</string>
+    <string name="frictionrubbing2">2. DO*70</string>
+    <string name="frictionrubbing3">3. DO*60</string>
+    <string name="frictionrubbing4">4. DO*329</string>
+    <string name="frictionrubbing5">5. DO*06</string>
+    <string name="frictionrubbing6">6. DO*360X</string>
+    <string name="frictionrubbing7">7. DO*04</string>
 
-    <string name="EG8336">2,5 times better service lifetime and easy assembling and disassembling of wear protection plates</string>
+    <string name="aihabrasion1">1. DO*48</string>
+    <string name="aihabrasion2">2. DO*390N</string>
+    <string name="aihabrasion3">3. 8336EG</string>
+    <string name="aihabrasion4">4. DO*11</string>
+    <string name="aihabrasion5">5. DO*33</string>
+    <string name="aihabrasion6">6. DO*30</string>
+    <string name="aihabrasion7">7. DO*322</string>
+    <string name="aihabrasion8">8. DO*31</string>
+    <string name="aihabrasion9">9. DO*06</string>
+    <string name="aihabrasion10">10. DO*360X</string>
+    <string name="aihabrasion11">11. DO*15</string>
+    <string name="aihabrasion12">12. DO*13</string>
 
-    <string name="DO48">Increasing lifetime, from 730 days with previous solution to 1095 days with current solution</string>
+    <string name="aihimpact1">1. DO*05</string>
+    <string name="aihimpact2">2. DO*02</string>
+    <string name="aihimpact3">3. DO*310</string>
+    <string name="aihimpact4">4. DO*327</string>
+    <string name="aihimpact5">5. DO*15</string>
+    <string name="aihimpact6">6. DO*351</string>
+    <string name="aihimpact7">7. DO*13</string>
+    <string name="aihimpact8">8. DO*332</string>
 
-    <string name="DO11">Reducing welding time (around 65%) . Increasing life time up to 3 times</string>
+    <string name="aihheat1">1. DO*84</string>
+    <string name="aihheat2">2. DO*80</string>
+    <string name="aihheat3">3. DO*04</string>
+    <string name="aihheat4">4. DO*360X</string>
+    <string name="aihheat5">5. DO*70</string>
+    <string name="aihheat6">6. DO*60</string>
+    <string name="aihheat7">7. DO*22</string>
 
-    <string name="DO33">Increasing lifetime more that 5 times compared to Hardox</string>
+    <string name="aihabrasionimpact1">1. 8336EG</string>
+    <string name="aihabrasionimpact2">2. DO*48</string>
+    <string name="aihabrasionimpact3">3. DO*390N</string>
+    <string name="aihabrasionimpact4">4. DO*327</string>
+    <string name="aihabrasionimpact5">5. DO*31</string>
+    <string name="aihabrasionimpact6">6. DO*332</string>
+    <string name="aihabrasionimpact7">7. DO*06</string>
+    <string name="aihabrasionimpact8">8. DO*15</string>
+    <string name="aihabrasionimpact9">9. DO*351</string>
+    <string name="aihabrasionimpact10">10. DO*04</string>
+    <string name="aihabrasionimpact11">11. DO*329</string>
 
-    <string name="DO322">Increasing service lifetime. 14months</string>
+    <string name="aihimpactabrasion1">1. DO*327</string>
+    <string name="aihimpactabrasion2">2. DO*360X</string>
+    <string name="aihimpactabrasion3">3. DO*11</string>
+    <string name="aihimpactabrasion4">4. DO*329</string>
+    <string name="aihimpactabrasion5">5. DO*15</string>
+    <string name="aihimpactabrasion6">6. DO*13</string>
+    <string name="aihimpactabrasion7">7. DO*351</string>
+    <string name="aihimpactabrasion8">8. DO*06</string>
+    <string name="aihimpactabrasion9">9. DO*332</string>
+    <string name="aihimpactabrasion10">10. DO*05</string>
+    <string name="aihimpactabrasion11">11. DO*02</string>
 
-    <string name="DO22">Faster application with this wire and absence of slag</string>
+    <string name="aihabrasionheat1">1. DO*390N</string>
+    <string name="aihabrasionheat2">2. 8336EG</string>
+    <string name="aihabrasionheat3">3. DO*33</string>
+    <string name="aihabrasionheat4">4. DO*332</string>
+    <string name="aihabrasionheat5">5. DO*06</string>
+    <string name="aihabrasionheat6">6. DO*360X</string>
+    <string name="aihabrasionheat7">7. DO*15</string>
+    <string name="aihabrasionheat8">8. DO*04</string>
 
-    <string name="DO02">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+    <string name="aihimpactheat1">1. DO*360X</string>
+    <string name="aihimpactheat2">2. DO*329</string>
+    <string name="aihimpactheat3">3. DO*04</string>
+    <string name="aihimpactheat4">4. DO*60</string>
+    <string name="aihimpactheat5">5. DO*327</string>
+    <string name="aihimpactheat6">6. DO*15</string>
 
-    <string name="DO257">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+    <string name="aihabrasionimpactheat1">1. DO*360X</string>
+    <string name="aihabrasionimpactheat2">2. DO*04</string>
+    <string name="aihabrasionimpactheat3">3. DO*60</string>
+    <string name="aihabrasionimpactheat4">4. DO*327</string>
+    <string name="aihabrasionimpactheat5">5. DO*06</string>
+    <string name="aihabrasionimpactheat6">6. DO*329</string>
+    <string name="aihabrasionimpactheat7">7. DO*332</string>
+    <string name="aihabrasionimpactheat8">8. DO*15</string>
+    <string name="aihabrasionimpactheat9">9. 8336EG</string>
+    <string name="aihabrasionimpactheat10">10. DO*390N</string>
 
-    <string name="CAVITEC">Longer service life and higher equipment efficiency. Cavitec has the best comparison results to any other alloy.</string>
+    <string name="aiccorrosion1">1. DO*22</string>
+    <string name="aiccorrosion2">2. DO*80</string>
+    <string name="aiccorrosion3">3. DO*60</string>
+    <string name="aiccorrosion4">4. DO*70</string>
+    <string name="aiccorrosion5">5. DO*02</string>
+    <string name="aiccorrosion6">6. CAVITEC</string>
+    <string name="aiccorrosion7">7. DO*04</string>
 
-    <string name="DO80">Longer service lifetime, at least 3 years</string>
+    <string name="aicabrasioncorrosion1">1. DO*411</string>
+    <string name="aicabrasioncorrosion2">2. DO*11</string>
+    <string name="aicabrasioncorrosion3">3. DO*33</string>
+    <string name="aicabrasioncorrosion4">4. DO*390N</string>
+    <string name="aicabrasioncorrosion5">5. 8336EG</string>
+    <string name="aicabrasioncorrosion6">6. DO*31</string>
+    <string name="aicabrasioncorrosion7">7. DO*332</string>
+    <string name="aicabrasioncorrosion8">8. DO*70</string>
+    <string name="aicabrasioncorrosion9">9. DO*04</string>
 
-    <string name="DO04">Life time increased up to 4 times</string>
+    <string name="aicimpactcorrosion1">1. CAVITEC</string>
+    <string name="aicimpactcorrosion2">2. DO*02</string>
+    <string name="aicimpactcorrosion3">3. DO*05</string>
+    <string name="aicimpactcorrosion4">4. DO*04</string>
 
-    <string name="DO05">Increasing service lifetime. Very long, not finish yet.</string>
+    <string name="aicabrasionimpactcorrosion1">1. DO*11</string>
+    <string name="aicabrasionimpactcorrosion2">2. 8336EG</string>
+    <string name="aicabrasionimpactcorrosion3">3. DO*390N</string>
+    <string name="aicabrasionimpactcorrosion4">4. DO*31</string>
+    <string name="aicabrasionimpactcorrosion5">5. DO*360X</string>
+    <string name="aicabrasionimpactcorrosion6">6. DO*60</string>
+    <string name="aicabrasionimpactcorrosion7">7. DO*04</string>
 
-    <string name="DO02cavitation">Service lifetime : 4-5 months and quicker repair</string>
+    <string name="ahcheatcorrosion1">1. DO*84</string>
+    <string name="ahcheatcorrosion2">2. DO*80</string>
+    <string name="ahcheatcorrosion3">3. DO*04</string>
+    <string name="ahcheatcorrosion4">4. DO*360X</string>
+    <string name="ahcheatcorrosion5">5. DO*22</string>
+    <string name="ahcheatcorrosion6">6. DO*411</string>
+
+    <string name="ahcabrasionheatcorrosion1">1. DO*33</string>
+    <string name="ahcabrasionheatcorrosion2">2. DO*390N</string>
+    <string name="ahcabrasionheatcorrosion3">3. 8336EG</string>
+    <string name="ahcabrasionheatcorrosion4">4. DO*70</string>
+    <string name="ahcabrasionheatcorrosion5">5. DO*04</string>
+    <string name="ahcabrasionheatcorrosion6">6. DO*360X</string>
+
+    <string name="hicheatimpactcorrosion1">1. DO*360X</string>
+    <string name="hicheatimpactcorrosion2">2. DO*04</string>
+    <string name="hicheatimpactcorrosion3">3. DO*80</string>
+    <string name="hicheatimpactcorrosion4">4. DO*332</string>
+    <string name="hicheatimpactcorrosion5">5. 8336EG</string>
+
+    <string name="DO390N1">Plug of Atox Mill. Cement industry.Base metal: unalloyed steel Dimensions: 140mm (inside) x 155mm (length)</string>
+    <string name="DO390N2">Erosion-abrasion</string>
+    <string name="DO390N3">Exchangeable solution. The shells can be turn 90º after wearing so at least 4 times longer lifetime</string>
+
+    <string name="EG83361">Air guiding ring of a Vertical Roller Mill. Cement industry Base metal: structural steel (S355JRG2) Dimensions: 520x350 mm</string>
+    <string name="EG83362">Erosion</string>
+    <string name="EG83363">2,5 times better service lifetime and easy assembling and disassembling of wear protection plates</string>
+
+    <string name="DO481">Separator blades in cement industry Base metal: low alloyed hardening steel (16MnCr5) Dimensions: 1940x180 mm</string>
+    <string name="DO482">Erosion and abrasion</string>
+    <string name="DO483">Increasing lifetime, from 730 days with previous solution to 1095 days with current solution</string>
+
+    <string name="DO111">Fan blade of a primary air blower, in cement industry.Base metal: structural steel Dimensions: Ø1600x120mm</string>
+    <string name="DO112">Erosion</string>
+    <string name="DO113">Reducing welding time (around 65%) . Increasing life time up to 3 times</string>
+
+    <string name="DO331">Roller of a refuse disposal boiler in thermal power plant. Base metal: structural steel. Dimensions: Ø=400mm L=1200mm</string>
+    <string name="DO332">Erosion / abrasion at low preasure, especially in flanges</string>
+    <string name="DO333">Increasing lifetime more that 5 times compared to Hardox</string>
+
+    <string name="DO3221">Concrete pump pipe. Base metal:structural steel</string>
+    <string name="DO3222">Erosion and abrasion inside the pipe</string>
+    <string name="DO3223">Increasing service lifetime. 14months</string>
+
+    <string name="DO221">Kiln tyre of a cement kiln Base metal: low alloy cast steel (GS 30 Mn 5). Dimensions: Ø 6500x1400x500mm Chamfer dimensions: 1200x170x250mm</string>
+    <string name="DO222">Mechanical fatigue due to extreme working conditions</string>
+    <string name="DO223">Faster application with this wire and absence of slag</string>
+
+    <string name="DO021">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+    <string name="DO022">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+    <string name="DO023">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+
+    <string name="DO2571">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+    <string name="DO2572">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+    <string name="DO2573">Good weldabilty, excellent mechanical properties and high deposition rate </string>
+
+    <string name="CAVITEC1">Pelton buckets of Pelton turbine in a hydroelectrical power plant. Base metal: low alloyed cast steel (410 NiMo).</string>
+    <string name="CAVITEC2">Severe cavitation and erosion because of suspension solids in the water used to move the buckets.</string>
+    <string name="CAVITEC3">Longer service life and higher equipment efficiency. Cavitec has the best comparison results to any other alloy.</string>
+
+    <string name="DO801">Inlet parts of a refiner cycrotube in pulp and paper industry. Base metal: austenitic stainless steel Dimensions: 300x500mm</string>
+    <string name="DO802">Cavitation</string>
+    <string name="DO803">Longer service lifetime, at least 3 years</string>
+
+    <string name="DO041">Blades of water propeller of a water treatment plant. Base metal: cast iron</string>
+    <string name="DO042">Cavitation and erosion because of water with suspension solids</string>
+    <string name="DO043">Life time increased up to 4 times</string>
+
+    <string name="DO051">Rotor of a circulation pump in a thermal power plant. Base metal: high alloyed cast steel (GX 10 Cr 13/GX 12 Cr14).</string>
+    <string name="DO052">Increasing service lifetime. Very long, not finish yet.</string>
+    <string name="DO053">Increasing service lifetime. Very long, not finish yet.</string>
+
+    <string name="DO02cavitation1">Hydropulper rotor for pulp and paper industry. Base metal: AISI 316. Dimensions: Ø1500mm</string>
+    <string name="DO02cavitation2">Severe wear due to the water with pulp and some other materials.</string>
+    <string name="DO02cavitation3">Service lifetime : 4&#8211;5 months and quicker repair</string>
+
+    <string name="DO80frictionrubbing1">Forming Tool of a a Hydraulic press Base metal: duplex steel</string>
+    <string name="DO80frictionrubbing2">Due to high pressure and adhesion the tool for producing fittings shows high wear</string>
+    <string name="DO80frictionrubbing3">Insensitive to adhesive wear even in the absence of lubrication - low coefficient of friction with metallic friction.</string>
+
+    <string name="DO701">Chisel of a roll stand for steel rail production Base metal: Unalloyed heat treatable steel</string>
+    <string name="DO702">High pressure and temperature (up to 1100ºC) cause wear in the chisels due to high friction</string>
+    <string name="DO703">Smoother surface of the chisels Longer lifetime up to 3 times Less shrinking of the surface</string>
+
+    <string name="DO601">Stop of a lathe. Cold working tool steel Base metal: NC6, NC11</string>
+    <string name="DO602">Friction and impacts caused by the rings during loading. Uneven contact surface causes vibrations that reduce the loss of required dimension</string>
+    <string name="DO603">Increasing of lifetime more than 100%</string>
+
+    <string name="DO3291">Looping rolls of wire drawing and rolling Base metal: Austenitic manganese steel</string>
+    <string name="DO3292">Friction at high temperature caused by the rollers which prevent the wire from being tense</string>
+    <string name="DO3293">Increasing of lifetime from 15 days till 90 days</string>
+
+    <string name="DO061">Drive roller stand. Iron and steel industry. Base metal: F114 Dimensions: Ø337mm x 710mm</string>
+    <string name="DO062">Friction metal to metal at 250ºC</string>
+    <string name="DO063">Increasing service lifetime and production</string>
+
+    <string name="DO360X1">Forming tool in a hydraulic press. Forging Base meta: Superduplex</string>
+    <string name="DO360X2">Friction metal to metal due to high pressure of the tool</string>
+    <string name="DO360X3">Less sensitive to wearness even wihtout lubrication</string>
+
+    <string name="DO04FrictionRubbing1">Bar straighening guide Base metal: Structural steel</string>
+    <string name="DO04FrictionRubbing2">Friction metal to metal due to the pressure caused from the cylinder to the bars</string>
+    <string name="DO04FrictionRubbing3">Increasing of lifetime from 25 days till 35 days</string>
+
+    <string name="aihabrasiondo481">Hammer mill (talc)</string>
+    <string name="aihabrasiondo482">High abrasion with very low impact (almost without impact) due to milling of talc</string>
+    <string name="aihabrasiondo483">Extend life up to 2&#8211;3 times more (From 2 days up to 9 days)</string>
+
+    <string name="aihabrasiondo390n1">Worm screew (ceramics). Base metal: Hardox</string>
+    <string name="aihabrasiondo390n2">High abrasion due to ceramic transport (bricks and clay)</string>
+    <string name="aihabrasiondo390n3">Extend life time up to 5&#8211;6 times more</string>
+
+    <string name="aihabrasion8336eg1">Worn screew (minerals). Base metal: low alloy steel, heat treated</string>
+    <string name="aihabrasion8336eg2">High abrasion due to mineral transport (thenardita)</string>
+    <string name="aihabrasion8336eg3">Extend life time up to 4 times more. Inmediate application, avoiding long trip for the new screw and belower price.</string>
+
+    <string name="aihabrasiondo111">Blade of kneading machine (clay). Base metal: low alloy steel</string>
+    <string name="aihabrasiondo112">High abrasion due to mix of clay and pyrite</string>
+    <string name="aihabrasiondo113">Higher deposit speed, less welding time, less time repair of the kneading machine. Longer life time up to 3 times</string>
+
+    <string name="aihabrasiondo331">Worm screw (sand). Base metal: strengthen low alloy steel</string>
+    <string name="aihabrasiondo332">High abrasion combined with high temperature (corrosive environment)</string>
+    <string name="aihabrasiondo333">Extend life time from 4 months to 12 months and not necessary to change the endless screw</string>
+
+    <string name="aihabrasiondo301">Worm screw. Base metal : low alloy steel</string>
+    <string name="aihabrasiondo302">High abrasion due to transport of cement</string>
+    <string name="aihabrasiondo303">Higher abrasion resistance, improving the life time for a very long time</string>
+
+    <string name="aihabrasiondo3221">Screw for fuel feeding, wood chips and animal substances. Base metal : low alloy steel</string>
+    <string name="aihabrasiondo3222">High abrasion due to transport of different elements</string>
+    <string name="aihabrasiondo3223">Higher abrasion resistance, improving the lifelong time up to 18 months</string>
+
+    <string name="aihabrasiondo311">Biomass transport screew. Base metal: low alloy steel</string>
+    <string name="aihabrasiondo312">High abrasion due to transport of bark</string>
+    <string name="aihabrasiondo313">Improving the lifelongtime up to 24 months</string>
+
+    <string name="aihabrasiondo061">Roll in cooling area, Steel mill. Base metal: Low alloy steel GS-52</string>
+    <string name="aihabrasiondo062">High abrasion plus friction</string>
+    <string name="aihabrasiondo063">Higher abrasion resistance, improving the life time from 60 to to 180 days</string>
+
+    <string name="aihabrasiondo360x1">a</string>
+    <string name="aihabrasiondo360x2">b</string>
+    <string name="aihabrasiondo360x3">c</string>
+
+    <string name="aihabrasiondo151">Transport screw (cement). Base metal: low alloy heat treatable steel. Dimensions: Ø=300mm L= 3000mm</string>
+    <string name="aihabrasiondo152">High abrasion due to tansport of cement</string>
+    <string name="aihabrasiondo153">Significant extension of life time and easy to machine</string>
+
+    <string name="aihabrasiondo131">Roller for grinding of glass recycled. Base metal: low alloy steel (St37)</string>
+    <string name="aihabrasiondo132">High abrasion plus high pressure</string>
+    <string name="aihabrasiondo133">Very good resistance to high abrasion plus impact, without cracks</string>
+
+    <string name="aihimpactdo051">Hammer crusher rotor (with swinging hammers). Base metal: low alloy cast hardening steel. Dimensions: Ø=800mm t=80 mm. Weight: 1000kg</string>
+    <string name="aihimpactdo052">High impact and abrasion due to the action between the swinging hammers and the anvil, to chop the metal goods (200&#8211;300 g of wear per ton of scrap produced)</string>
+    <string name="aihimpactdo053">Increasing life time (previous: 120 days ; Castolin solution: 210 days)</string>
+
+    <string name="aihimpactdo021">Cone holder of a crusher for quarrying sand and gravel. Base metal: low alloyed cast steel (Ø110/880x435 mm)</string>
+    <string name="aihimpactdo022">Impact and high pressure</string>
+    <string name="aihimpactdo023">Increasing lifetime, from 365 days with previous solution to 550 days with Castolin solution. Cheaper than changing.</string>
+
+    <string name="aihimpactdo3101">Driving wheel for an excavator in an open cast mining. Base metal: Unalloyed heat treatable steel. Dimensions: Ø2000mm t=450 mm</string>
+    <string name="aihimpactdo3102">High impact and abrasion especially on the teeth fo the driving wheel</string>
+    <string name="aihimpactdo3103">Increasing life time and better cost/benefit rate. Cheaper than replacement. DO*310 provides homogeneous and crack free deposits</string>
+
+    <string name="aihimpactdo3271">Hammers of a secondary crusher in cement industry. Base metal: Austenitic manganase steel (14%Mn-2%Mo). Dimensions: 420x350x140 mm</string>
+    <string name="aihimpactdo3272">Impact and some abrasion because the hammers have to crush the limestone</string>
+    <string name="aihimpactdo3273">Increasing service lifetime 50%. 3 years service lifetime</string>
+
+    <string name="aihimpactdo151">Crusher impeller of impact crusher. Open cast mining. Base metal: structural steel (Ø1000x340mm)</string>
+    <string name="aihimpactdo152">Impact due to reduction of stones from 60mm to 0,5&#8211;30mm</string>
+    <string name="aihimpactdo153">Increasing lifetime from 300 days with competitor solution to 600 days with Castolin solution</string>
+
+    <string name="aihimpactdo3511">Elbow´s for waste material in glass industry Base metal: St37</string>
+    <string name="aihimpactdo3512">Impact and abrasion due to fall down of refused glass bottles</string>
+    <string name="aihimpactdo3513">Decreasing period of time for removing the elbow, excellent weldability and high deposition speed</string>
+
+    <string name="aihimpactdo131">Bar hammer of a secondary crusher in brick and clay works. Base metal: low alloyed cast hardening steel Dimensions: 510x60x30mm</string>
+    <string name="aihimpactdo132">Impact</string>
+    <string name="aihimpactdo133">27 hour of operating time and no need to stop the crusher during shifts. This means 800% increasing lifetime</string>
+
+    <string name="aihimpactdo3321">Hammer of a braking press for manufacture of animal feeds.Base metal: structural steel</string>
+    <string name="aihimpactdo3322">Impact under high pression, to reduce the size of animal bones</string>
+    <string name="aihimpactdo3323">Similiar lifetime but a much lower price and no rick of spalling</string>
+
+    <string name="aihheatdo841">Die of a forging press Base metal: Low alloyed heat tretable steel</string>
+    <string name="aihheatdo842">Fatigue and friction at high temperature</string>
+    <string name="aihheatdo843">Deposition time has halved, mechanical properties has improved and die´s life has been extended</string>
+
+    <string name="aihheatdo801">Campling jaw of forging machine Base metal: Hot working tool steel (1.2714)</string>
+    <string name="aihheatdo802">High temperature and impact while the glowing forging is fixed by the jaws</string>
+    <string name="aihheatdo803">Excellent resistant against heat and impact. Double lifetime compared with the typical solution</string>
+
+    <string name="aihheatdo041">Roller continuos casting plant Base metal: low alloyed heat treatable steel</string>
+    <string name="aihheatdo042">Hot temperature and pressure of the billet cause rapid wear of the rollers</string>
+    <string name="aihheatdo043">Anual saving costs, longer lifetime up to 5 times more</string>
+
+    <string name="aihheatdo701">Chisel of a rollstand. Iron and steels works. Base metal: unalloyed heattreatable steel. Dimensions: 700x80x80mm</string>
+    <string name="aihheatdo702">High temperature and pressure because the chisels guide the hot billet (1000ºC) through the right position of the rollstand</string>
+    <string name="aihheatdo703">3 times longer service lifetime, less shrinkage and better quality of the rails because the smooth surface of the rails</string>
+
+    <string name="aihheatdo601">Bottom plate of the coke-cross over machine (iron and stell works) Base Metal: structural steel</string>
+    <string name="aihheatdo602">Abrasive wear is caused by coke falling onto the bottom plate</string>
+    <string name="aihheatdo603">Cheaper base metal coated with DO*60. 3 times longer lifetime of these plates</string>
+
+    <string name="aihheatdo221">Retort of a roller hardening furnace. Base metal: Ni alloy Dimensions: 3x0,5m</string>
+    <string name="aihheatdo222">Repair of a crack exposed to thermal fatigue</string>
+    <string name="aihheatdo223">To avoid replacement of the expensive retort</string>
+
+    <string name="aihabrasionimpact8336eg1">Blade of rotor cutting alfalfa Base metal: Low alloy heattretable steel (Hardox 400)</string>
+    <string name="aihabrasionimpact8336eg2">The rotor has a spiral with several blades that collect the alfafa leading abrasion wear but also small impacts due to the stones from the ground</string>
+    <string name="aihabrasionimpact8336eg3">2 years in service (double lifetime). Avoid disassembling and changing the blades.</string>
+
+    <string name="aihabrasionimpactdo481">Hammer of a mixer in a compost plant. Base metal: Low alloy heattretable steel (Hardox 400)</string>
+    <string name="aihabrasionimpactdo482">Several abrasion and some impacts on the blades that mix the wooden products such as trees, brunches, soil and sand.</string>
+    <string name="aihabrasionimpactdo483">Longer life service from 6 to 13 months.</string>
+
+    <string name="aihabrasionimpactdo390n1">Hammer of a secondary crusher in a cement plant. Base metal: Low alloyed heat treatable steel (38NCD4)</string>
+    <string name="aihabrasionimpactdo390n2">The hammers of the crusher has to crush the limestone into small pieces (20 to 80 mm) so they are subjected to severe abrasion combined with impact.</string>
+    <string name="aihabrasionimpactdo390n3">Double life service compared with the competitor´s application from 180 to 360 days)</string>
+
+    <string name="aihabrasionimpactdo3271">Cutting tools - Tires grinding machine Base metal: Unalloyed steel (St37)</string>
+    <string name="aihabrasionimpactdo3272">Sever abrasion combined with high impact and friction (heat)</string>
+    <string name="aihabrasionimpactdo3273">The plant can grind close to 1.000 tons each 3 weeks compared with the previous 770 tons each three weeks. Better weldability</string>
+
+    <string name="aihabrasionimpactdo311">Head piece of a tunnel cutter. Base metal: structural steel</string>
+    <string name="aihabrasionimpactdo312">Different Impact and abrasion depending on the ground zone worked.</string>
+    <string name="aihabrasionimpactdo313">Lifetime increased up to 500 hours. The working time with competitor solution was 300 hours</string>
+
+    <string name="aihabrasionimpactdo3321">Hammers of a pendulum mill.Base metal: construction steel</string>
+    <string name="aihabrasionimpactdo3322">Hammers suffer from abrasion and impact, balanced at 50%</string>
+    <string name="aihabrasionimpactdo3323">Longer life time, from 5 months up to 30 months</string>
+
+    <string name="aihabrasionimpactdo061">Rotor and cutting tools. Base metal: Heat treatable steel</string>
+    <string name="aihabrasionimpactdo062">Abrasion and impact from secondary grinding of Tires (rubber pieces 80mm size)</string>
+    <string name="aihabrasionimpactdo063">Life time increase up to 3 times</string>
+
+    <string name="aihabrasionimpactdo151">Screew for ground extraction. Base metal: low alloyed case hardening steel</string>
+    <string name="aihabrasionimpactdo152">High abrasion and impact due to ground extraction, mainly in the blades</string>
+    <string name="aihabrasionimpactdo153">Cost savings coming from longer life time, possible to do several coatings and cheap base material.</string>
+
+    <string name="aihabrasionimpactdo3511">Rotor of tree handling waste.</string>
+    <string name="aihabrasionimpactdo3512">High abrasion due to handle of tree waste</string>
+    <string name="aihabrasionimpactdo3513">Much better welding job and much lower production cost.</string>
+
+    <string name="aihabrasionimpactdo041">Shaft of a crushing machine for refuse recycling. Base metal: low alloyed heat treatable steel. Weight: 800kg</string>
+    <string name="aihabrasionimpactdo042">Abrasion at high pressure and some impacts mainly in the edges of the knives because they have to crush the animal bones</string>
+    <string name="aihabrasionimpactdo043">Cheaper repair compared with the substitution of the shaft. Saving more than 300.000€</string>
+
+    <string name="aihabrasionimpactdo3291">Cutting blade in a rolling mill Base metal: low alloy heat treated iron (180x105x50mm and 160x97x35mm)</string>
+    <string name="aihabrasionimpactdo3292">Abrasion and impact due to the pass and cutting of corrugated steel (8&#8211;32mm)</string>
+    <string name="aihabrasionimpactdo3293">Longer life time (from 7 to 90 days)</string>
+
+    <string name="aihimpactabrasiondo3271">Comb chipper Base metal: St37</string>
+    <string name="aihimpactabrasiondo3272">High impact combined with moderate abrasion due to the passage of logs</string>
+    <string name="aihimpactabrasiondo3273">The application was made in 2011. In 2015 still in service without being worn</string>
+
+    <string name="aihimpactabrasiondo360x1">a</string>
+    <string name="aihimpactabrasiondo360x2">b</string>
+    <string name="aihimpactabrasiondo360x3">c</string>
+
+    <string name="aihimpactabrasiondo111">Drill tip of a drifter por civil engineer. Base metal: Low alloyed heat tretable steel</string>
+    <string name="aihimpactabrasiondo112">High impact combined with abrasion due to different grounds. (clay, sand, stones,rock…..)</string>
+    <string name="aihimpactabrasiondo113">2 times-3 times longer life and if necessary on site repair at a very high speed.</string>
+
+    <string name="aihimpactabrasiondo3291">Upper and lower finishing rollers of a Kieserling polishing machine. Base metal: 42CrMo4</string>
+    <string name="aihimpactabrasiondo3292">Impact and abrasion because of continuouss pass of 12m bars</string>
+    <string name="aihimpactabrasiondo3293">Increasing service lifetime up to 2 times</string>
+
+    <string name="aihimpactabrasiondo151">Toggle of a feed hopper in the manufacture of basic chemicals Base metal: S235 Structural steel Dimensions: 1000x630 mm</string>
+    <string name="aihimpactabrasiondo152">The toggle suffers from impact and abrasion because the aggregates and blocks of limestone fall down in the hopper from 1m height and evacuates through the chute evacuation.</string>
+    <string name="aihimpactabrasiondo153">Increasing the llifetime</string>
+
+    <string name="aihimpactabrasiondo131">Grape of crane Base metal: St52</string>
+    <string name="aihimpactabrasiondo132">This grape suffers from high impact and abrasion due to the load and unload of the cobble-stones</string>
+    <string name="aihimpactabrasiondo133">Increasing the lifetime and easy to weld in position</string>
+
+    <string name="aihimpactabrasiondo3511">Crushing teeth in a Waste crusher machine.</string>
+    <string name="aihimpactabrasiondo3512">High impact plus abrasion</string>
+    <string name="aihimpactabrasiondo3513">Very good weldability, high deposition rate and very low dilution</string>
+
+    <string name="aihimpactabrasiondo061">Break teeth of a mobile shredder. Refuse recycling. Base metal: low alloyed cast steel Dimensions: 300x80mm</string>
+    <string name="aihimpactabrasiondo062">High impact and abrasion because the teetht have to crush the scrap</string>
+    <string name="aihimpactabrasiondo063">Life increasing from 250 to 300 hours</string>
+
+    <string name="aihimpactabrasiondo3321">Mixer blades for brick and clay tile production. Base metal: carbon steel</string>
+    <string name="aihimpactabrasiondo3322">Impact and abrasion while mixing clay</string>
+    <string name="aihimpactabrasiondo3323">Increasing life time of pieces</string>
+
+    <string name="aihimpactabrasiondo051">Entrance bars to the cooling bed. Base metal: non-alloyed structural steel (1.0577). Dimensions: 1950x40 mm</string>
+    <string name="aihimpactabrasiondo052">Impact and abrasion because of the transport of billet.</string>
+    <string name="aihimpactabrasiondo053">Double service lifetime (up to customer´s target: 365 days)</string>
+
+    <string name="aihimpactabrasiondo021">Discs of a primary crusher (cement industry). Base metal: austenitic manganese steel</string>
+    <string name="aihimpactabrasiondo022">Impact and abrasion.</string>
+    <string name="aihimpactabrasiondo023">Service lifetime increase up to 3 times.</string>
+
+    <string name="aihabrasionheatdo390n1">Oven outlet closure plate in a cement furnace. Base metal: high alloyed cast steel (GX 40 CrNiSi 25 20). Dimensiones: 500x300x100mm</string>
+    <string name="aihabrasionheatdo390n2">Abrasion and high temperature</string>
+    <string name="aihabrasionheatdo390n3">At least 4 years lifetime. Parts still there</string>
+
+    <string name="aihabrasionheat8336eg1">Transport screw for extrusion of polymers with ceramic components. Base metal: Alloyed steel</string>
+    <string name="aihabrasionheat8336eg2">Abrasion and temperature</string>
+    <string name="aihabrasionheat8336eg3">Longer life time. Up to 3 times compared to DO*06</string>
+
+    <string name="aihabrasionheatdo331">Transport screw. Iron and steel industry. Base metal: heat resistant steel Dimensions: Ø70x1000mm</string>
+    <string name="aihabrasionheatdo332">High abrasion at high temperature over the whole screw</string>
+    <string name="aihabrasionheatdo333">Higher hardness with just 2 layers, faster and cheaper production. Longer life time.</string>
+
+    <string name="aihabrasionheatdo3321">Chain conveyor in cement industry. Base metal: austenitic manganese steel</string>
+    <string name="aihabrasionheatdo3322">Abrasion and heat on the surface of chain</string>
+    <string name="aihabrasionheatdo3323">Longer service lifetime, thicker layers possible, better quality</string>
+
+    <string name="aihabrasionheatdo061">Support plate just before the entrance of box number 2 in railway manufacturing line. Base metal: cast non-alloy steel</string>
+    <string name="aihabrasionheatdo062">High abrasion and firction at high temperature</string>
+    <string name="aihabrasionheatdo063">Still 8 years service with very litle wear.</string>
+
+    <string name="aihabrasionheatdo360x1">a</string>
+    <string name="aihabrasionheatdo360x2">b</string>
+    <string name="aihabrasionheatdo360x3">c</string>
+
+    <string name="aihabrasionheatdo151">Mixer arm of a mixer for production of asphalt. Base metal: low alloyed cast steel Dimensions: 750x20x16mm (32 units)</string>
+    <string name="aihabrasionheatdo152">High pressure abrasion at 250ºC</string>
+    <string name="aihabrasionheatdo153">Less arms purchased, reduction costs of the wearing parts and down time reduced</string>
+
+    <string name="aihabrasionheatdo041">Roller of continuos casting plant. Base metal: low alloyed cast hardening steel. Dimensions: Ø110x530mm</string>
+    <string name="aihabrasionheatdo042">Abrasion at high temperature because these rolls lead the vertical track into the horizontal drawing machine</string>
+    <string name="aihabrasionheatdo043">Good abrasion and temperature resistance</string>
+
+    <string name="aihimpactheatdo360x1">a</string>
+    <string name="aihimpactheatdo360x2">b</string>
+    <string name="aihimpactheatdo360x3">c</string>
+
+    <string name="aihimpactheatdo3291">Cutting blade of crimped wire (from 8 to 32mm). Wire drawing and rolling industry. Base metal: low alloyed heat treatable steel. Dimensions: 180x108x50mm and 160x97x35mm</string>
+    <string name="aihimpactheatdo3292">The cramped wires are cutted at 500&#8211;600ºC sot the blades reach around 200ºC. Main wear phenomena: Impact and heat. Others: corrosion, abrasion and thermal fatigue</string>
+    <string name="aihimpactheatdo3293">Lifetime of 4 weeks and faster deposition rate</string>
+
+    <string name="aihimpactheatdo041">Punch of a hammer press in hot forge. Base metal: St 52. Dimensions: Ø 200mm</string>
+    <string name="aihimpactheatdo042">Impact and heat because these punches to produce hot forge flat steel and finally perforate them.</string>
+    <string name="aihimpactheatdo043">Longer lifetime so the maintenance cost are reduced with no reduction of quality</string>
+
+    <string name="aihimpactheatdo601">Bottom plate of a coke-cross over machine. Base metal: structural steel. Dimensions: 960x600x30mm</string>
+    <string name="aihimpactheatdo602">The hot coke falls on the bottom plate suffering from impact and heat.</string>
+    <string name="aihimpactheatdo603">Longer lifetime (180 days with Castolin solution) and cheaper base material</string>
+
+    <string name="aihimpactheatdo3271">52 cooller braker hammers of a clinker machine Base metal: unalloyed cast steel Dimensions: 230x350x160mm</string>
+    <string name="aihimpactheatdo3272">Impact heat because the hammers have to reduce the clinker size.</string>
+    <string name="aihimpactheatdo3273">Increasing lifetime (6 months). 58HRC after 1 layer</string>
+
+    <string name="aihimpactheatdo151">Ash crusher roll in thermal power plant. Base metal: low alloyed cast steel/cast steel Dimensions: Ø152mm x 2000mm</string>
+    <string name="aihimpactheatdo152">Impact heat in both rollers and teeth because they have to crush the large lumps of ash.</string>
+    <string name="aihimpactheatdo153">On-site solution, increasing service lifetime and easy build-up of edges.</string>
+
+    <string name="aihabrasionimpactheatdo360x1">a</string>
+    <string name="aihabrasionimpactheatdo360x2">b</string>
+    <string name="aihabrasionimpactheatdo360x3">c</string>
+
+    <string name="aihabrasionimpactheatdo041">Press die of a forging press. Base metal: low alloyed heat treatable steel. Dimensions: Ø300x100</string>
+    <string name="aihabrasionimpactheatdo042">High thermal stress, impact and abrasion</string>
+    <string name="aihabrasionimpactheatdo043">High resistance against friction, deforming and impact. The ductile weld material steady without any tendency for cracking on corners and edges</string>
+
+    <string name="aihabrasionimpactheatdo601">Break of an automatic lathe. Base metal: Cold working tool steel (NC6, NC11). Dimensions: Ø73 / 180x74mm</string>
+    <string name="aihabrasionimpactheatdo602">Abrasion, impact at high temperature because this part has to support a ring forging during loading and the turning operation</string>
+    <string name="aihabrasionimpactheatdo603">At least 100% increasing lifetime. Castolin lifetime: 42 days</string>
+
+    <string name="aihabrasionimpactheatdo3271">Comb of a chipper from wooden factory. Base metal: St37</string>
+    <string name="aihabrasionimpactheatdo3272">High pressure, some impacts and heat because the comb has to reduce the size of the wood into chips</string>
+    <string name="aihabrasionimpactheatdo3273">At least four years from Castolin solution and the combs are still in service</string>
+
+    <string name="aihabrasionimpactheatdo061">Blades shreder for ties recycing</string>
+    <string name="aihabrasionimpactheatdo062">High abrasion, medium impact and low heat</string>
+    <string name="aihabrasionimpactheatdo063">Increasing servive lifetime. Possibility to repair and consecuently, cost reduction.</string>
+
+    <string name="aihabrasionimpactheatdo3291">Pusher/centering guide of a roll wagon. Base metal: low alloyed steel Dimensions: 5*50/50*500 mm</string>
+    <string name="aihabrasionimpactheatdo3292">Abrasion at high temperature (~ 500ºC) and impact</string>
+    <string name="aihabrasionimpactheatdo3293">Excellent weldability, easy machining and 52HRC</string>
+
+    <string name="aihabrasionimpactheatdo3321">Crusher shaft of brick crashing machine. Base metal: structural steel Dimensions: Ø350 x450 mm</string>
+    <string name="aihabrasionimpactheatdo3322">Abrasion, impact at 40&#8211;50ºC because the crusher has to crash the bad quality bricks from production line.</string>
+    <string name="aihabrasionimpactheatdo3323">Increasing service lifetime</string>
+
+    <string name="aihabrasionimpactheatdo151">Descaling Ramp in a hot strip rolling mill. Base metal: Low alloyed steel Dimensions: 1350x1500x200mm</string>
+    <string name="aihabrasionimpactheatdo152">Abrasion at high temperature and impact because the slab passes trough the ramp and due to a blasting high pressure water.</string>
+    <string name="aihabrasionimpactheatdo153">Easy welding an repetitive procedure without cracking risk. Increasing life time up to 2 times nowadays. Part still in service.</string>
+
+    <string name="aihabrasionimpactheat8336eg1">Discs of a clinker crushing roller in a cement plant. Base metal: Alloyed steel Dimensions: Ø490x150mm</string>
+    <string name="aihabrasionimpactheat8336eg2">These roller are outside the cooler and they suffer from abrasion, impact and heat at moderate pressure</string>
+    <string name="aihabrasionimpactheat8336eg3">Double life time</string>
+
+    <string name="aihabrasionimpactheatdo390n1">Handle shield in the middle rows of a hammer mill in a thermal power plant. Base metal : St37&#8211;2. Dimensions: 5x50/50x500 mm</string>
+    <string name="aihabrasionimpactheatdo390n2">Abrasion, impact at high temperature (300&#8211;400ºC)</string>
+    <string name="aihabrasionimpactheatdo390n3">Maintenance cost savings because the service life time has been increased 700%</string>
+
+    <string name="aiccorrosiondo221">Tromel of a falling clinker between the furnace and the cooler. Base metal: austenitic stainless steel (16Mo3 + inox 304L)</string>
+    <string name="aiccorrosiondo222">High corrosion and thermal fatigue of metal base and joinings</string>
+    <string name="aiccorrosiondo223">Good resistance to corrosion, oxidation. Excellent resistance to thermal shocks. Very high impact strength. Low heat input for low dilution. Maximised weld metal recovery. Faster deposition rate for reduced labour costs.</string>
+
+    <string name="aiccorrosiondo801">Protecting steel plate of a chute in a waste incineration. Base metal: St 52.3 Canal dimensions: L=3000mm W= 700mm Walls dimensions: L=2600mm H=1000mm</string>
+    <string name="aiccorrosiondo802">Corrosion and some abrasion</string>
+    <string name="aiccorrosiondo803">This cobalt alloy layers improve corrosion resistant on that exigent environment</string>
+
+    <string name="aiccorrosiondo601">Shaft of a fan in a pulp a paper plant. Base metal: low alloyed heat treatable steel</string>
+    <string name="aiccorrosiondo602">Corrosion</string>
+    <string name="aiccorrosiondo603">Highest Protection against corrosion. Customer annual savings close to 400.000€</string>
+
+    <string name="aiccorrosiondo701">Worm screw of a plastic injector Base metal: Low alloy cast steel</string>
+    <string name="aiccorrosiondo702">Corrosion</string>
+    <string name="aiccorrosiondo703">The reclaiming operation was performed in record time (15 minutes for a screw of 1,600 x 50 mm) The bead and finish aspect are unsurpassable, with less grinding time.</string>
+
+    <string name="aiccorrosiondo021">Zinc deposit for galvanization. Base metal: Stainless steel 316L. Dimensions: 2870 x 1161 mm</string>
+    <string name="aiccorrosiondo022">Corrosion because of zinc inside the deposit</string>
+    <string name="aiccorrosiondo023">The cracks have not apeared again from first application 8 months ago.</string>
+
+    <string name="aiccorrosioncavitec1">Double-seat valve on a by-pass pipeline of a boiler room. Base metal: Unalloyed cast steel</string>
+    <string name="aiccorrosioncavitec2">Corrosion / Cavitation</string>
+    <string name="aiccorrosioncavitec3">Protection against corrosion and cavitation</string>
+
+    <string name="aiccorrosiondo041">Worm screw of a pulp and paper press Base metal: structural steel</string>
+    <string name="aiccorrosiondo042">Corrosion</string>
+    <string name="aiccorrosiondo043">Both DO*04 and DO*13 ensure high safety against cracks. The lifetime can be increased from 5 weeks up to 25 weeks</string>
+
+    <string name="aicabrasioncorrosiondo4111">Mix and feed screw of wet nickel with lime. Base metal: stainless steel 316L. Dimensions: Ø 320 x 2880 mm</string>
+    <string name="aicabrasioncorrosiondo4112">Abrasion and corrosion because of transport and mix of these materials. The damp affects the nickel matrix so sulphuric acids are formed affecting the screw</string>
+    <string name="aicabrasioncorrosiondo4113">Increasing lifetime from 3 months (with the previous solution) up to 2 years</string>
+
+    <string name="aicabrasioncorrosiondo111">Excavator teeth of an excavator ship for quarrying sand and gravel. Base metal: unalloyed cast steel. Dimenions: 100x240 mm</string>
+    <string name="aicabrasioncorrosiondo112">Abrasion and corrosion due to combination of sand and water on the 30 teeth of the drill crown.</string>
+    <string name="aicabrasioncorrosiondo113">Increasing lifetime to 32 hours, so it has increased 8 times.</string>
+
+    <string name="aicabrasioncorrosiondo331">Nozzle vane feedings of a feeder coal boiler. Base metal: AISI 310 Dimensions: 8mm thickness</string>
+    <string name="aicabrasioncorrosiondo332">Abrasion and corrosion due to continuous pass of heat coal (400&#8211;500ºC)</string>
+    <string name="aicabrasioncorrosiondo333">Increasing service lifetime. Up to three times until today. Still in service</string>
+
+    <string name="aicabrasioncorrosiondo390n1">Pulper press Base metal: austenitic stainless steel. Dimensions: Ø1000 mm</string>
+    <string name="aicabrasioncorrosiondo390n2">Abrassion and corrosion</string>
+    <string name="aicabrasioncorrosiondo390n3">At least double service lifetime</string>
+
+    <string name="aicabrasioncorrosion8336eg1">Sector 5 screw-propeller of a dehydration press of solid urban waste</string>
+    <string name="aicabrasioncorrosion8336eg2">Abrasion at high pressure plus corrosion</string>
+    <string name="aicabrasioncorrosion8336eg3">3 times Increasing service life</string>
+
+    <string name="aicabrasioncorrosiondo311">Press fats. Waste recycling Base metal: low alloyed cast steel Dimensions: Ø248mm x 210mm</string>
+    <string name="aicabrasioncorrosiondo312">Abrasion and corrosion because of crashing of animal wastes, mainly in the final part and the edges</string>
+    <string name="aicabrasioncorrosiondo313">Excellent abrasion resistant after 1 layer with 68 HRC. Cheaper solution and longer life, close to 5.000h</string>
+
+    <string name="aicabrasioncorrosiondo3321">Screw of bark storage in manufacture of wood Base metal: unalloyed heat treatable steel. Dimensions: Ø 700 x 9500 mm</string>
+    <string name="aicabrasioncorrosiondo3322">Abrasion and corrosion due to the contact with bark and environmental conditions</string>
+    <string name="aicabrasioncorrosiondo3323">Better corrosion resistance. Longer time in service</string>
+
+    <string name="aicabrasioncorrosiondo701">Worm screw of a plastic injector in manufacture of rubber products like soles of shoes. Base metal: low alloyed cast steel. Screw dimensions : 1600x50mm</string>
+    <string name="aicabrasioncorrosiondo702">Abrasion and corrosion at moderate temperature due to injection of rubber</string>
+    <string name="aicabrasioncorrosiondo703">Record time of application and better finish aspect</string>
+
+    <string name="aicabrasioncorrosiondo041">Screw conveyor feeder to dehydrate the wood shavings. Base metal: authentic stainless steel (AISI 316). Dimensions Ø 120/350 x 2000 mm</string>
+    <string name="aicabrasioncorrosiondo042">Abrasion and corrosion at high pressure</string>
+    <string name="aicabrasioncorrosiondo043">Resistance to pressure, low friction coefficient, mirror finish and deposit with minimum cracking</string>
+
+    <string name="aicimpactcorrosioncavitec1">Pelton buckets of Pelton turbine in a hydroelectric power plant. Base metal: low alloyed cast steel (410 NiMo)</string>
+    <string name="aicimpactcorrosioncavitec2">Severe cavitation and erosion because of suspension solids in the water used to move the buckets</string>
+    <string name="aicimpactcorrosioncavitec3">Longer service life and higher equipment efficiency. Cavitec has the best comparison results to any other alloy.</string>
+
+    <string name="aicimpactcorrosiondo021">Hydropulper rotor for pulp and paper industry. Base metal: AISI 316. Dimensions: Ø1500mm</string>
+    <string name="aicimpactcorrosiondo022">Severe wear due to the water with pulp and some other materials.</string>
+    <string name="aicimpactcorrosiondo023">Service lifetime : 4&#8211;5 months and quicker repair.</string>
+
+    <string name="aicimpactcorrosiondo051">Fan of a circulation pump in a thermal power plant. Base metal: high alloyed cast steel (GX 10 Cr 13/GX 12 Cr14)</string>
+    <string name="aicimpactcorrosiondo052">Cavitation</string>
+    <string name="aicimpactcorrosiondo053">Increasing service lifetime. Very long, not finish jet.</string>
+
+    <string name="aicimpactcorrosiondo041">Blades of water propeller of a water treatment plant. Base metal: cast iron</string>
+    <string name="aicimpactcorrosiondo042">Cavitation and erosion because of water with suspension solids</string>
+    <string name="aicimpactcorrosiondo043">Life time increased up to 4 times</string>
+
+    <string name="aicabrasionimpactcorrosiondo111">Worm screw. Base metal: CrNi alloy (SMO 254) Dimensions: Ø190x174mm</string>
+    <string name="aicabrasionimpactcorrosiondo112">Abrasion and some impacts in very corrosive atmosphere (gases which contain sulphur acids)</string>
+    <string name="aicabrasionimpactcorrosiondo113">Increasing service lifetime from six month to over 2 years</string>
+
+    <string name="aicabrasionimpactcorrosion8336eg1">95 hammers of a primary crusher for waste and recycling.</string>
+    <string name="aicabrasionimpactcorrosion8336eg2">Abrasion and impact in corrosive environment</string>
+    <string name="aicabrasionimpactcorrosion8336eg3">Increasing lifetime, up to 22 days. Ecotest available</string>
+
+    <string name="aicabrasionimpactcorrosiondo390n1">Rolling guide under the heating oven for iron and steel production. Base metal: low alloyed heat treatable steel (ASTM 140). Dimensions: 20x50x6000mm</string>
+    <string name="aicabrasionimpactcorrosiondo390n2">Impact abrasion and uniform corrosion because these rolling guides have to support the hot steel bars</string>
+    <string name="aicabrasionimpactcorrosiondo390n3">Increasing service lifetime (400%)</string>
+
+    <string name="aicabrasionimpactcorrosiondo311">Mixing propeller in manufacture of ceramic goods. Base metal: structural steel. Dimensions: Ø 1000 mm</string>
+    <string name="aicabrasionimpactcorrosiondo312">Abrasion and corrosion due to the mixture of clay and sand at high rotational speed</string>
+    <string name="aicabrasionimpactcorrosiondo313">A considerable increase of part life. From 60 days (with previous solution) to 380 days</string>
+
+    <string name="aicabrasionimpactcorrosiondo360x1">a</string>
+    <string name="aicabrasionimpactcorrosiondo360x2">b</string>
+    <string name="aicabrasionimpactcorrosiondo360x3">c</string>
+
+    <string name="aicabrasionimpactcorrosiondo601">Circular knife for manufacture of animal feeds. Base metal: low alloyed heat treatable steel</string>
+    <string name="aicabrasionimpactcorrosiondo602">Abrasion impact and corrosion because the knife has to cut the animal bones</string>
+    <string name="aicabrasionimpactcorrosiondo603">Increasing lifetime and posibility of machining</string>
+
+    <string name="aicabrasionimpactcorrosiondo041">Press die (forging press) Base metal: low alloyed heat treatable steel. Dimensions: Ø 300mm t=100mm Weight: 25kg</string>
+    <string name="aicabrasionimpactcorrosiondo042">Abrasion with high press. Some impacts and corrosion during working process.</string>
+    <string name="aicabrasionimpactcorrosiondo043">Longer production, less repairs, general cost reduction.</string>
+
+    <string name="ahccorrosionheatdo841">Baffle plate of a steam turbine. Base metal: nickel alloy (Hastelloy C). Dimensions: Ø1500x300mm</string>
+    <string name="ahccorrosionheatdo842">Corrosion and heat because the air passing through the intake guides contains H2S</string>
+    <string name="ahccorrosionheatdo843">Quicker repair and without any deformation. Increasing of lifetime (50% more)</string>
+
+    <string name="ahccorrosionheatdo801">Protection steel plate of a furnace cooling ring in waste incinerator. Base metal: St 52.3. Dimensions: 670x8mm, development: 6000mm</string>
+    <string name="ahccorrosionheatdo802">Corrosion caused by the hot gases, containing aggressive vapours from chlorine and sulphur</string>
+    <string name="ahccorrosionheatdo803">Avoid having cracks in the protection plate and resistance to corrosion and abrasion</string>
+
+    <string name="ahccorrosionheatdo041">Roller in continous casting plant. Base metal: low alloyed heat treatable steel. Dimensions: Ø200&#8211;400 x 420mm</string>
+    <string name="ahccorrosionheatdo042">The hot and oxided billets contact the water cooled drived rollers causing corrosion and heat.</string>
+    <string name="ahccorrosionheatdo043">400000 T of production compared with 80000 T of previous solution</string>
+
+    <string name="ahccorrosionheatdo360x1">a</string>
+    <string name="ahccorrosionheatdo360x2">b</string>
+    <string name="ahccorrosionheatdo360x3">c</string>
+
+    <string name="ahccorrosionheatdo221">Retort of a hardening furnace of casting metals. Base metal: nickel alloy. Dimensions: 4500x1500mm</string>
+    <string name="ahccorrosionheatdo222">Large cracked in the retort</string>
+    <string name="ahccorrosionheatdo223">Saving a lot of money and time because Castolin solution avoid buying a new retort</string>
+
+    <string name="ahccorrosionheatdo4111">Transport screw of a feeder of metal goods. Base metal: unalloyed steel/ low alloyed steel (SS 2353/316L). Dimensions: Ø320x2880 mm</string>
+    <string name="ahccorrosionheatdo4112">The screw mix nickel with lime and transport it to the owen at 450&#8211;900ºC so it suffers from corrosion, heat and abrasion.</string>
+    <string name="ahccorrosionheatdo4113">The lifetime has increased from 3 months up to 2 years</string>
+
+    <string name="ahcabrasionheatcorrosiondo331">Transport screw of a sand recycler in a waste incineration Base metal: low alloyed hardened steel</string>
+    <string name="ahcabrasionheatcorrosiondo332">Abrasion, corrosion at high temperature</string>
+    <string name="ahcabrasionheatcorrosiondo333">Longer lifetime. From 4 months (with the previous solution) to 12 months (3x)</string>
+
+    <string name="ahcabrasionheatcorrosiondo390n1">Blade of an ash mixer in a thermal power plant. Base metal: austenitic stainless stell (X2CrNi18&#8211;8/X2CrNiMo19&#8211;12&#8211;3), similar to 308 and 316</string>
+    <string name="ahcabrasionheatcorrosiondo390n2">Abrasion and corrosion due to the silicum content in ash mixed with water from lignite coal burned</string>
+    <string name="ahcabrasionheatcorrosiondo390n3">Longer lifetime from 3 months (with previous solution) to 12 months</string>
+
+    <string name="ahcabrasionheatcorrosion8336eg1">Blades for oxygenation sludge treatment. Base metal: 20Mn5</string>
+    <string name="ahcabrasionheatcorrosion8336eg2">Abrasion, corrosion and temperature because the blades move the water</string>
+    <string name="ahcabrasionheatcorrosion8336eg3">Faster deposition of beads, less time, cost reductions.</string>
+
+    <string name="ahcabrasionheatcorrosiondo701">Wedge of a safety valve in thermal power plant. Base metal: low alloyed heat treatable steel (P91). Weight: 0,2kg</string>
+    <string name="ahcabrasionheatcorrosiondo702">High press 100 atm.. High temperature 550ºC. Corrosion and wear caused by steam.</string>
+    <string name="ahcabrasionheatcorrosiondo703">Fast and efficient process ensuring high quality deposit and better performance in service.</string>
+
+    <string name="ahcabrasionheatcorrosiondo041">Furnace outer rolls for continuos cast slab casting. Iron and steel works. Base metal: low alloyed cast steel (21CrMoV5.11) Dimensions: Ø140x900mm</string>
+    <string name="ahcabrasionheatcorrosiondo042">Abrasion, heat (500&#8211;700ºC) and corrosion</string>
+    <string name="ahcabrasionheatcorrosiondo043">Life extension, reduction of manufacturing costs, repetitive solution. Savings close to 300.000€ per year. Ecotest available.</string>
+
+    <string name="ahcabrasionheatcorrosiondo360x1">a</string>
+    <string name="ahcabrasionheatcorrosiondo360x2">b</string>
+    <string name="ahcabrasionheatcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo360x1">a</string>
+    <string name="hicheatimpactcorrosiondo360x2">b</string>
+    <string name="hicheatimpactcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo041">Forging die. Hammer forging. Base metal: hot working tool steel (1.2714) Dimensiones: 900x500x280 mm</string>
+    <string name="hicheatimpactcorrosiondo042">Hard impacts, thermal cycles and shocks in a corrosive ambient. The temperature of the die is around 500ºC. The dies forges boron steel for agriculture</string>
+    <string name="hicheatimpactcorrosiondo043">Productivity has been increased 70%.</string>
+
+    <string name="hicheatimpactcorrosiondo801">Protective steel plate of a chute in waste incineration Base metal: St 52.3 Dimensions: 3000x700mm and 2000x2600x1000mmProtective steel plate of a chute in waste incineration Base metal: St 52.3 Dimensions: 3000x700mm and 2000x2600x1000mm</string>
+    <string name="hicheatimpactcorrosiondo802">Impact heat and corrosion because the waste is shot on the plates of the chute in order to feed the combustion furnace</string>
+    <string name="hicheatimpactcorrosiondo803">Increasing lifetime</string>
+
+    <string name="hicheatimpactcorrosiondo3321">Wear plates of a cement crusher. Base metal: Austenitic manganese steel (13%Mn 2,25%Cr) Weight: 65kg</string>
+    <string name="hicheatimpactcorrosiondo3322">Impact and corrosion at around 80ºC</string>
+    <string name="hicheatimpactcorrosiondo3323">Low time to complete the job and excellent results in service</string>
+
+    <string name="hicheatimpactcorrosion8336eg1">Fuller plate of a clinker cooler. Base metal: austenitic stainless steel Dimensions: 300x417mm</string>
+    <string name="hicheatimpactcorrosion8336eg2">Impact heat and corrosion</string>
+    <string name="hicheatimpactcorrosion8336eg3">One year in service</string>
 
     <string name="title_activity_test">test</string>
-    <string name="title_activity_abrasion_impact_corrosion">AbrasionImpactCorrosion</string>
+    <string name="title_activity_aih1">ABRASION / IMPACT / HEAT</string>
+    <string name="title_activity_aic1">ABRASION / IMPACT / CORROSION</string>
+    <string name="title_activity_ahc1">ABRASION / HEAT / CORROSION</string>
+    <string name="title_activity_hic1">HEAT / IMPACT / CORROSION</string>
     <string name="title_activity_selections">Choose a phenomenon:</string>
-    <string name="title_activity_aih">Make a selection:</string>
+    <string name="title_activity_feedback">Request Form</string>
     <string name="title_activity_erosion">EROSION</string>
     <string name="title_activity_DO390N">DO*390N</string>
     <string name="title_activity_EG8336">8336EG</string>
@@ -96,13 +807,147 @@
     <string name="title_activity_DO04">DO*04</string>
     <string name="title_activity_DO05">DO*05</string>
     <string name="title_activity_DO02cavitation">DO*02</string>
-    <string name="title_activity_read_me">EnDOtec®</string>
-    <string name="read_me_description">It is usual that an observed worn part involves the combination of several individual wear mechanisms. Simple solutions become insuficient and the practical solution lies with experience,a broad product range and partnership.\n\n
-THIS IS A TRUE CASTOLIN EUTECTIC COMPETENCE\n\n
-This makes the wear mechanism considerably more complex and difficult to understand. Sometimes 2, 3 or even 4 different wear mechanisms can be operating, which render the simple solutions insufficient. However, the primary wear mechanism must be established.\n\n
-1. Analyse and identify the primary wear factor involved\n
-2. Analyse and identify the secondary and tertiary wear factors\n
-3. Use this guide to have a first selection of the Endotec wires oriented to your application requirements.\n\n
-If needed consult your technical department for confirmation and further help in welding procedure</string>
+    <string name="title_activity_read_me">EnDOtec Easy Selector</string>
     <string name="title_activity_test_app">testApp</string>
+    <string name="title_activity_friction_and_rubbing">Friction and Rubbing</string>
+    <string name="title_activity_do80frictionrubbing">DO*80</string>
+    <string name="title_activity_do70">DO*70</string>
+    <string name="title_activity_do60">DO*60</string>
+    <string name="title_activity_do329">DO*329</string>
+    <string name="title_activity_do06">DO*06</string>
+    <string name="title_activity_do360x">DO*360X</string>
+    <string name="title_activity_do04frictionrubbing">DO*04</string>
+    <string name="title_activity_aihabrasion">ABRASION</string>
+    <string name="title_activity_aihimpact">IMPACT</string>
+    <string name="title_activity_aihheat">HEAT</string>
+    <string name="title_activity_aihabrasionimpact">ABRASION + Impact</string>
+    <string name="title_activity_aihimpactabrasion">IMPACT + Abrasion</string>
+    <string name="title_activity_aihabrasionheat">ABRASION + HEAT</string>
+    <string name="title_activity_aihimpactheat">IMPACT + HEAT</string>
+    <string name="title_activity_aihabrasionimpactheat">ABRASION + IMPACT + HEAT</string>
+    <string name="title_activity_aiccorrosion">CORROSION</string>
+    <string name="title_activity_aicabrasioncorrosion">ABRASION + CORROSION</string>
+    <string name="title_activity_aicimpactcorrosion">IMPACT + CORROSION</string>
+    <string name="title_activity_aicabrasionimpactcorrosion">ABRASION + IMPACT + CORROSION</string>
+    <string name="title_activity_ahcheatcorrosion">HEAT + CORROSION</string>
+    <string name="title_activity_ahcabrasionheatcorrosion">ABRASION + HEAT + CORROSION</string>
+    <string name="title_activity_hicheatimpactcorrosion">HEAT + IMPACT + CORROSION</string>
+    <string name="title_activity_aihabrasiondo48">DO*48</string>
+    <string name="title_activity_aihabrasiondo390n">DO*390N</string>
+    <string name="title_activity_aihabrasion8336eg">8336EG</string>
+    <string name="title_activity_aihabrasiondo11">DO*11</string>
+    <string name="title_activity_aihabrasiondo33">DO*33</string>
+    <string name="title_activity_aihabrasiondo30">DO*30</string>
+    <string name="title_activity_aihabrasiondo322">DO*322</string>
+    <string name="title_activity_aihabrasiondo31">DO*31</string>
+    <string name="title_activity_aihabrasiondo06">DO*06</string>
+    <string name="title_activity_aihabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihabrasiondo15">DO*15</string>
+    <string name="title_activity_aihabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactdo05">DO*05</string>
+    <string name="title_activity_aihimpactdo02">DO*02</string>
+    <string name="title_activity_aihimpactdo310">DO*310</string>
+    <string name="title_activity_aihimpactdo327">DO*327</string>
+    <string name="title_activity_aihimpactdo15">DO*15</string>
+    <string name="title_activity_aihimpactdo351">DO*351</string>
+    <string name="title_activity_aihimpactdo13">DO*13</string>
+    <string name="title_activity_aihimpactdo332">DO*332</string>
+    <string name="title_activity_aihheatdo84">DO*84</string>
+    <string name="title_activity_aihheatdo80">DO*80</string>
+    <string name="title_activity_aihheatdo04">DO*04</string>
+    <string name="title_activity_aihheatdo360x">DO*360X</string>
+    <string name="title_activity_aihheatdo70">DO*70</string>
+    <string name="title_activity_aihheatdo60">DO*60</string>
+    <string name="title_activity_aihheatdo22">DO*22</string>
+    <string name="title_activity_aihabrasionimpact8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactdo48">DO*48</string>
+    <string name="title_activity_aihabrasionimpactdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionimpactdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactdo31">DO*31</string>
+    <string name="title_activity_aihabrasionimpactdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactdo351">DO*351</string>
+    <string name="title_activity_aihabrasionimpactdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactdo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo327">DO*327</string>
+    <string name="title_activity_aihimpactabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihimpactabrasiondo11">DO*11</string>
+    <string name="title_activity_aihimpactabrasiondo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo15">DO*15</string>
+    <string name="title_activity_aihimpactabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactabrasiondo351">DO*351</string>
+    <string name="title_activity_aihimpactabrasiondo06">DO*06</string>
+    <string name="title_activity_aihimpactabrasiondo332">DO*332</string>
+    <string name="title_activity_aihimpactabrasiondo05">DO*05</string>
+    <string name="title_activity_aihimpactabrasiondo02">DO*02</string>
+    <string name="title_activity_aihabrasionheatdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionheatdo33">DO*33</string>
+    <string name="title_activity_aihabrasionheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihabrasionimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihabrasionimpactheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactheatdo390n">DO*390N</string>
+    <string name="title_activity_aiccorrosiondo22">DO*22</string>
+    <string name="title_activity_aiccorrosiondo80">DO*80</string>
+    <string name="title_activity_aiccorrosiondo60">DO*60</string>
+    <string name="title_activity_aiccorrosiondo70">DO*70</string>
+    <string name="title_activity_aiccorrosiondo02">DO*02</string>
+    <string name="title_activity_aiccorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aiccorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasioncorrosiondo411">DO*411</string>
+    <string name="title_activity_aicabrasioncorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasioncorrosiondo33">DO*33</string>
+    <string name="title_activity_aicabrasioncorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasioncorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasioncorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasioncorrosiondo332">DO*332</string>
+    <string name="title_activity_aicabrasioncorrosiondo70">DO*70</string>
+    <string name="title_activity_aicabrasioncorrosiondo04">DO*04</string>
+    <string name="title_activity_aicimpactcorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aicimpactcorrosiondo02">DO*02</string>
+    <string name="title_activity_aicimpactcorrosiondo05">DO*05</string>
+    <string name="title_activity_aicimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasionimpactcorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo60">DO*60</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo84">DO*84</string>
+    <string name="title_activity_ahccorrosionheatdo80">DO*80</string>
+    <string name="title_activity_ahccorrosionheatdo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo360x">DO*360X</string>
+    <string name="title_activity_ahccorrosionheatdo22">DO*22</string>
+    <string name="title_activity_ahccorrosionheatdo411">DO*411</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo33">DO*33</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_ahcabrasionheatcorrosion8336eg">8336EG</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo70">DO*70</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_hicheatimpactcorrosiondo80">DO*80</string>
+    <string name="title_activity_hicheatimpactcorrosiondo332">DO*332</string>
+    <string name="title_activity_hicheatimpactcorrosion8336eg">8336EG</string>
+
 </resources>

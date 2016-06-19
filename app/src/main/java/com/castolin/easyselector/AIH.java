@@ -2,6 +2,7 @@ package com.castolin.easyselector;
 
 import android.app.ListFragment;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -29,6 +30,11 @@ public class AIH extends AppCompatActivity {
         setContentView(R.layout.activity_aih);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarBottom.setTitle(getString(R.string.title_activity_aih1));
+        toolbarBottom.setTitleTextColor(Color.RED);
+
         lv=(ListView)findViewById(R.id.android_list);
         MyAdapter myAdapter=new MyAdapter(this,R.layout.list_view_items,selectionList);
         lv.setAdapter(myAdapter);
@@ -42,6 +48,53 @@ public class AIH extends AppCompatActivity {
         selectionList.add(new Item(getString(R.string.AIH8), R.drawable.arrow));
 
 
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //When clicked, open the new listview
+                if (position == 0) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this,AIHAbrasion.class);
+                    startActivity(intent);
+                }
+                else if (position == 1) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHImpact.class);
+                    startActivity(intent);
+                }
+                else if (position == 2) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHHeat.class);
+                    startActivity(intent);
+                }
+                else if (position == 3) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHAbrasionImpact.class);
+                    startActivity(intent);
+                }
+                else if (position == 4) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHImpactAbrasion.class);
+                    startActivity(intent);
+                }
+                else if (position == 5) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHAbrasionHeat.class);
+                    startActivity(intent);
+                }
+                else if (position == 6) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHImpactHeat.class);
+                    startActivity(intent);
+                }
+                else if (position == 7) {
+                    //code specific to 1st list item
+                    Intent intent = new Intent(AIH.this, AIHAbrasionImpactHeat.class);
+                    startActivity(intent);
+                }
+
+            }
+        });
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
     }

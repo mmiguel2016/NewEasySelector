@@ -1,5 +1,6 @@
 package com.castolin.easyselector;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -27,6 +28,11 @@ public class MechanicalFatigue extends AppCompatActivity {
         setContentView(R.layout.activity_mechanical_fatigue);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_2nd);
+        toolbarBottom.setTitle(getString(R.string.title_activity_mechanical_fatigue));
+        toolbarBottom.setTitleTextColor(Color.RED);
+
         lv=(ListView)findViewById(R.id.android_list);
         MyAdapter myAdapter=new MyAdapter(this,R.layout.list_view_items,selectionList);
         lv.setAdapter(myAdapter);
