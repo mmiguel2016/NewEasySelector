@@ -263,8 +263,8 @@ If needed consult your technical department for confirmation and further help in
     <string name="DO222">Mechanical fatigue due to extreme working conditions</string>
     <string name="DO223">Faster application with this wire and absence of slag</string>
 
-    <string name="DO021">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
-    <string name="DO022">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
+    <string name="DO021">Crankshaft of an engine in the automotive industry. Base metal: low alloyed heat treatable steel</string>
+    <string name="DO022">Mechanical fatigue</string>
     <string name="DO023">Longer life time, less risks of cracking (hydrogen cracks or residual stress in the HAZ)</string>
 
     <string name="DO2571">Good weldabilty, excellent mechanical properties and high deposition rate </string>
