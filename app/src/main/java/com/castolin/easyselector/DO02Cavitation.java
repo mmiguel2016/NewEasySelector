@@ -19,6 +19,11 @@ import java.util.List;
  */
 public class DO02Cavitation extends AppCompatActivity {
 
+    ExpandableListAdapter listAdapter;
+    ExpandableListView expListView;
+    List<String> listDataHeader;
+    HashMap<String, List<String>> listDataChild;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +50,45 @@ public class DO02Cavitation extends AppCompatActivity {
             }
         });
 
+        // get the listview
+        expListView = (ExpandableListView) findViewById(R.id.lvExp);
+
+        // preparing list data
+        prepareListData();
+
+        listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
+
+        // setting list adapter
+        expListView.setAdapter(listAdapter);
+    }
+
+    /*
+     * Preparing the list data
+     */
+    private void prepareListData() {
+        listDataHeader = new ArrayList<String>();
+        listDataChild = new HashMap<String, List<String>>();
+
+        // Adding child data
+        listDataHeader.add(getString(R.string.application1));
+        listDataHeader.add(getString(R.string.application2));
+        listDataHeader.add(getString(R.string.application5));
+
+        // Adding child data
+        List<String> part = new ArrayList<String>();
+        part.add(getString(R.string.DO02cavitation1));
+
+
+        List<String> wear = new ArrayList<String>();
+        wear.add(getString(R.string.DO02cavitation2));
+
+        List<String> advantages = new ArrayList<String>();
+        advantages.add(getString(R.string.DO02cavitation3));
+
+        // Header, Child data
+        listDataChild.put(listDataHeader.get(0), part);
+        listDataChild.put(listDataHeader.get(1), wear);
+        listDataChild.put(listDataHeader.get(2),advantages);
     }
 
     @Override
