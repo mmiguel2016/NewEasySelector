@@ -25,6 +25,20 @@ public class ReadMe extends AppCompatActivity {
         toolbarHeader.setTitle(getString(R.string.title_activity_read_me));
         toolbarHeader.setTitleTextColor(Color.RED);
 
+        Toolbar toolbarBottom = (Toolbar) findViewById(R.id.toolbar_bottom);
+        toolbarBottom.setTitle(getString(R.string.action_technical_support));
+        toolbarBottom.setTitleTextColor(Color.WHITE);
+        toolbarBottom.setNavigationIcon(R.drawable.info);
+
+                /* Listener for the bottom toolbar */
+        toolbarBottom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ReadMe.this, Feedback.class);
+                startActivity(intent);
+            }
+        });
+
         TextView textView=(TextView) findViewById(R.id.ReadMetextView);
 
 
