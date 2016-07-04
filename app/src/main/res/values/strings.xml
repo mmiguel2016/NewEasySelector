@@ -34,7 +34,7 @@ If needed consult our technical department for confirmation and further help in 
     <string name="Selectionlist3">Abrasion/Heat/Corrosion</string>
     <string name="Selectionlist4">Heat/Impact/Corrosion</string>
     <string name="Selectionlist5">Erosion</string>
-    <string name="Selectionlist6">Mechanical Fatigue (Cavitation)</string>
+    <string name="Selectionlist6">Mechanical Fatigue</string>
     <string name="Selectionlist7">Cavitation</string>
     <string name="Selectionlist8">Friction and Rubbing</string>
 
