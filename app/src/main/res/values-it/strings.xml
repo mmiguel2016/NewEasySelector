@@ -1,0 +1,952 @@
+<resources>
+    <string name="app_name">EnDOtec Castolin</string>  d
+    <string name="action_settings">Impostazioni</string>  
+    <string name="intro">INIZIO</string>
+    <string name="readme">Leggimi</string> 
+    <string name="backButton">indietro</string>
+    <string name="action_advantages">Vantaggi:</string>
+    <string name="action_part">Parte:</string>
+    <string name="action_wear">Usura:</string>
+    <string name="action_technical_support">Richiedere informazioni aggiuntive</string>
+    <string name="selections_title">Scegli un fenomeno:</string>
+    <string name="NameOfCustomer">Il suo nome completo qui:</string>
+    <string name="Country">Nazione:</string>
+    <string name="Company">Società:</string>
+    <string name="Email">E-mail:</string>
+    <string name="PhoneNumber">Telefono:</string>
+    <string name="Description">Descrizione:</string>
+    <string name="SendFeedback">Inviare</string>
+    <string name="AllFieldsCompulsory">Tutti i campi sono obbligatori.\n</string>
+    <string name="EmailClient">Scegli un client e-mail :</string>
+    <string name="EmailTechnicalSupport">Richiesta di supporto tecnico da EnDOtec EASYselector App</string>
+
+    <string name="read_me_description">\nGeneralmente un particolare usurato è soggetto a differenti meccanismi di usura. Una soluzione semplice risulta insufficiente e una soluzione pratica è legata all’esperienza, ad un ampia gamma di prodotti e alla collaborazione.\n\n
+Questa è la vera competenza Castolin\n\n
+Questo rende i meccanismi di usura considerevolmente complessi e difficili da capire. Spesso posso verificarsi 2, 3 o anche 4 differenti processi di usura, che rendono la soluzione semplice insufficiente. Tuttavia, il meccanismo di usura principale dev’essere compreso.\n\n
+Come utilizzare questa applicazione:\n
+1. Analizzare e identificare il principale fattore di usura.\n
+2. Analizzare e identificare il secondario e terziario elemento di usura.\n
+3. Usare questa guida per ottenere una prima scelta del filo Endotec per l’applicazione richiesta.\n\n   
+Se necessario consultare l’ufficio tecnico per una conferma e assistenza nella procedura di saldatura</string>
+
+    <string name="Selectionlist1">Abrasione/Urti/Calore</string> 
+    <string name="Selectionlist2">Abrasione/Urti/Corrosione</string>
+    <string name="Selectionlist3">Abrasione/Calore/Corrosione</string>
+    <string name="Selectionlist4">Calore/Urti/Corrosione</string>
+    <string name="Selectionlist5">Erosione</string>
+    <string name="Selectionlist6">Fatica</string>
+    <string name="Selectionlist7">Cavitazione</string>
+    <string name="Selectionlist8">Attrito</string>
+
+    <string name="AIH1">Abrasione</string>
+    <string name="AIH2">Urti</string>
+    <string name="AIH3">Calore</string>
+    <string name="AIH4">ABRASIONE + Urti</string>
+    <string name="AIH5">URTI + Abrasione</string>
+    <string name="AIH6">Abrasione + Calore</string>
+    <string name="AIH7">Urti + Calore</string>
+    <string name="AIH8">Abrasione + Urti + Calore</string>
+
+    <string name="AIC1">Abrasione</string>
+    <string name="AIC2">Urti</string>
+    <string name="AIC3">Corrosione</string>
+    <string name="AIC4">ABRASIONE + Urti</string>
+    <string name="AIC5">URTI + Abrasione</string>
+    <string name="AIC6">Abrasione + Corrosione</string>
+    <string name="AIC7">Urti + Corrosione</string>
+    <string name="AIC8">Abrasione + Urti + Corrosione</string>
+
+    <string name="AHC1">Abrasione</string>
+    <string name="AHC2">Calore</string>
+    <string name="AHC3">Corrosione</string>
+    <string name="AHC4">Abrasione + Calore</string>
+    <string name="AHC5">Abrasione + Corrosione</string>
+    <string name="AHC6">Calore + Corrosione</string>
+    <string name="AHC7">Abrasione + Calore + Corrosione</string>
+
+    <string name="HIC1">Calore</string>
+    <string name="HIC2">Urti</string>
+    <string name="HIC3">Corrosione</string>
+    <string name="HIC4">Calore + Urti</string>
+    <string name="HIC5">Calore + Corrosione</string>
+    <string name="HIC6">Urti + Corrosione</string>
+    <string name="HIC7">Calore + Urti + Corrosione</string>
+
+    <string name="erosion1">1. DO*390N</string> 
+    <string name="erosion2">2. 8336EG</string>
+    <string name="erosion3">3. DO*48</string>
+    <string name="erosion4">4. DO*11</string>
+    <string name="erosion5">5. DO*33</string>
+    <string name="erosion6">6. DO*322</string>
+
+    <string name="application1">Parte:</string>
+    <string name="application2">Usura:</string>
+    <string name="application3">Soluzione Tipica:</string>
+    <string name="application4">Soluzione Avanzata:</string>
+    <string name="application5">Vantaggi:</string>
+
+    <string name="mechanical1">1. DO*22</string>
+    <string name="mechanical2">2. DO*02</string>
+    <string name="mechanical3">3. DO*257</string>
+
+    <string name="cavitation1">1. CAVITEC</string>
+    <string name="cavitation2">2. DO*80</string>
+    <string name="cavitation3">3. DO*04</string>
+    <string name="cavitation4">4. DO*05</string>
+    <string name="cavitation5">5. DO*02</string>
+
+    <string name="frictionrubbing1">1. DO*80</string>
+    <string name="frictionrubbing2">2. DO*70</string>
+    <string name="frictionrubbing3">3. DO*60</string>
+    <string name="frictionrubbing4">4. DO*329</string>
+    <string name="frictionrubbing5">5. DO*06</string>
+    <string name="frictionrubbing6">6. DO*360X</string>
+    <string name="frictionrubbing7">7. DO*04</string>
+
+    <string name="aihabrasion1">1. DO*48</string>
+    <string name="aihabrasion2">2. DO*390N</string>
+    <string name="aihabrasion3">3. 8336EG</string>
+    <string name="aihabrasion4">4. DO*11</string>
+    <string name="aihabrasion5">5. DO*33</string>
+    <string name="aihabrasion6">6. DO*30</string>
+    <string name="aihabrasion7">7. DO*322</string>
+    <string name="aihabrasion8">8. DO*31</string>
+    <string name="aihabrasion9">9. DO*06</string>
+    <string name="aihabrasion10">10. DO*360X</string>
+    <string name="aihabrasion11">11. DO*15</string>
+    <string name="aihabrasion12">12. DO*13</string>
+
+    <string name="aihimpact1">1. DO*05</string>
+    <string name="aihimpact2">2. DO*02</string>
+    <string name="aihimpact3">3. DO*310</string>
+    <string name="aihimpact4">4. DO*327</string>
+    <string name="aihimpact5">5. DO*15</string>
+    <string name="aihimpact6">6. DO*351</string>
+    <string name="aihimpact7">7. DO*13</string>
+    <string name="aihimpact8">8. DO*332</string>
+
+    <string name="aihheat1">1. DO*84</string>
+    <string name="aihheat2">2. DO*80</string>
+    <string name="aihheat3">3. DO*04</string>
+    <string name="aihheat4">4. DO*360X</string>
+    <string name="aihheat5">5. DO*70</string>
+    <string name="aihheat6">6. DO*60</string>
+    <string name="aihheat7">7. DO*22</string>
+
+    <string name="aihabrasionimpact1">1. 8336EG</string>
+    <string name="aihabrasionimpact2">2. DO*48</string>
+    <string name="aihabrasionimpact3">3. DO*390N</string>
+    <string name="aihabrasionimpact4">4. DO*327</string>
+    <string name="aihabrasionimpact5">5. DO*31</string>
+    <string name="aihabrasionimpact6">6. DO*332</string>
+    <string name="aihabrasionimpact7">7. DO*06</string>
+    <string name="aihabrasionimpact8">8. DO*15</string>
+    <string name="aihabrasionimpact9">9. DO*351</string>
+    <string name="aihabrasionimpact10">10. DO*04</string>
+    <string name="aihabrasionimpact11">11. DO*329</string>
+
+    <string name="aihimpactabrasion1">1. DO*327</string>
+    <string name="aihimpactabrasion2">2. DO*360X</string>
+    <string name="aihimpactabrasion3">3. DO*11</string>
+    <string name="aihimpactabrasion4">4. DO*329</string>
+    <string name="aihimpactabrasion5">5. DO*15</string>
+    <string name="aihimpactabrasion6">6. DO*13</string>
+    <string name="aihimpactabrasion7">7. DO*351</string>
+    <string name="aihimpactabrasion8">8. DO*06</string>
+    <string name="aihimpactabrasion9">9. DO*332</string>
+    <string name="aihimpactabrasion10">10. DO*05</string>
+    <string name="aihimpactabrasion11">11. DO*02</string>
+
+    <string name="aihabrasionheat1">1. DO*390N</string>
+    <string name="aihabrasionheat2">2. 8336EG</string>
+    <string name="aihabrasionheat3">3. DO*33</string>
+    <string name="aihabrasionheat4">4. DO*332</string>
+    <string name="aihabrasionheat5">5. DO*06</string>
+    <string name="aihabrasionheat6">6. DO*360X</string>
+    <string name="aihabrasionheat7">7. DO*15</string>
+    <string name="aihabrasionheat8">8. DO*04</string>
+
+    <string name="aihimpactheat1">1. DO*360X</string>
+    <string name="aihimpactheat2">2. DO*329</string>
+    <string name="aihimpactheat3">3. DO*04</string>
+    <string name="aihimpactheat4">4. DO*60</string>
+    <string name="aihimpactheat5">5. DO*327</string>
+    <string name="aihimpactheat6">6. DO*15</string>
+
+    <string name="aihabrasionimpactheat1">1. DO*360X</string>
+    <string name="aihabrasionimpactheat2">2. DO*04</string>
+    <string name="aihabrasionimpactheat3">3. DO*60</string>
+    <string name="aihabrasionimpactheat4">4. DO*327</string>
+    <string name="aihabrasionimpactheat5">5. DO*06</string>
+    <string name="aihabrasionimpactheat6">6. DO*329</string>
+    <string name="aihabrasionimpactheat7">7. DO*332</string>
+    <string name="aihabrasionimpactheat8">8. DO*15</string>
+    <string name="aihabrasionimpactheat9">9. 8336EG</string>
+    <string name="aihabrasionimpactheat10">10. DO*390N</string>
+
+    <string name="aiccorrosion1">1. DO*22</string>
+    <string name="aiccorrosion2">2. DO*80</string>
+    <string name="aiccorrosion3">3. DO*60</string>
+    <string name="aiccorrosion4">4. DO*70</string>
+    <string name="aiccorrosion5">5. DO*02</string>
+    <string name="aiccorrosion6">6. CAVITEC</string>
+    <string name="aiccorrosion7">7. DO*04</string>
+
+    <string name="aicabrasioncorrosion1">1. DO*411</string>
+    <string name="aicabrasioncorrosion2">2. DO*11</string>
+    <string name="aicabrasioncorrosion3">3. DO*33</string>
+    <string name="aicabrasioncorrosion4">4. DO*390N</string>
+    <string name="aicabrasioncorrosion5">5. 8336EG</string>
+    <string name="aicabrasioncorrosion6">6. DO*31</string>
+    <string name="aicabrasioncorrosion7">7. DO*332</string>
+    <string name="aicabrasioncorrosion8">8. DO*70</string>
+    <string name="aicabrasioncorrosion9">9. DO*04</string>
+
+    <string name="aicimpactcorrosion1">1. CAVITEC</string>
+    <string name="aicimpactcorrosion2">2. DO*02</string>
+    <string name="aicimpactcorrosion3">3. DO*05</string>
+    <string name="aicimpactcorrosion4">4. DO*04</string>
+
+    <string name="aicabrasionimpactcorrosion1">1. DO*11</string>
+    <string name="aicabrasionimpactcorrosion2">2. 8336EG</string>
+    <string name="aicabrasionimpactcorrosion3">3. DO*390N</string>
+    <string name="aicabrasionimpactcorrosion4">4. DO*31</string>
+    <string name="aicabrasionimpactcorrosion5">5. DO*360X</string>
+    <string name="aicabrasionimpactcorrosion6">6. DO*60</string>
+    <string name="aicabrasionimpactcorrosion7">7. DO*04</string>
+
+    <string name="ahcheatcorrosion1">1. DO*84</string>
+    <string name="ahcheatcorrosion2">2. DO*80</string>
+    <string name="ahcheatcorrosion3">3. DO*04</string>
+    <string name="ahcheatcorrosion4">4. DO*360X</string>
+    <string name="ahcheatcorrosion5">5. DO*22</string>
+    <string name="ahcheatcorrosion6">6. DO*411</string>
+
+    <string name="ahcabrasionheatcorrosion1">1. DO*33</string>
+    <string name="ahcabrasionheatcorrosion2">2. DO*390N</string>
+    <string name="ahcabrasionheatcorrosion3">3. 8336EG</string>
+    <string name="ahcabrasionheatcorrosion4">4. DO*70</string>
+    <string name="ahcabrasionheatcorrosion5">5. DO*04</string>
+    <string name="ahcabrasionheatcorrosion6">6. DO*360X</string>
+
+    <string name="hicheatimpactcorrosion1">1. DO*360X</string>
+    <string name="hicheatimpactcorrosion2">2. DO*04</string>
+    <string name="hicheatimpactcorrosion3">3. DO*80</string>
+    <string name="hicheatimpactcorrosion4">4. DO*332</string>
+    <string name="hicheatimpactcorrosion5">5. 8336EG</string>
+
+    <string name="DO390N1">Spina di mulino Atox . Industria del cemento. Metallo Base: acciaio non legato. Dimensioni: 140mm  x 155mm</string>
+    <string name="DO390N2">Erosione-abrasione</string>
+    <string name="DO390N3">Soluzione intercambiabile: ruotare di 90° dopo l\'usura - durata 4 volte maggiore</string>
+
+    <string name="EG83361">Anello di un mulino verticale a cilindri - industria del cemento metallo base: acciaio strutturale (S355JRG2). Dimensioni: 520x350 mm</string>
+    <string name="EG83362">Erosione</string>
+    <string name="EG83363">Migliorata di 2,5 volte la vita di servizio e di più facile montaggio e smontaggio di piastre di protezione di usura</string>
+
+    <string name="DO481">lame di separatore nel settore del cemento metallo base: acciaio debolmente legato (16MnCr5). Dimensioni: 1940x180 mm</string>
+    <string name="DO482">Erosione e abrasione</string>
+    <string name="DO483">Aumentare la vita di servizio da 730 giorni con la soluzione precedente a 1095 giorni con soluzione attuale</string>
+
+    <string name="DO111">Pala di un ventilatore di aria primaria nel settore del cemento. Metallo Base: Acciaio Strutturale Dimensioni: Ø1600x120mm</string>
+    <string name="DO112">Erosione</string>
+    <string name="DO113">Riduzione dei tempi di saldatura  (circa 65%). Incremento della vita di servizio (3x)</string>
+
+    <string name="DO331">Rullo di una caldaia smaltimento dei rifiuti in centrale termica. Metallo Base: Acciaio Strutturale. Dimensione: Ø=400mm L=1200mm</string>
+    <string name="DO332">Erosione/abrasione basse pressioni, specialmente nelle flange</string>
+    <string name="DO333">Incremento della vita di servizio di 5 volte rapportato alla soluzione con Hardox</string>
+
+    <string name="DO3221">Tubo di pompa per calcestruzzo. Metallo Base: Acciaio Strutturale</string>
+    <string name="DO3222">Erosione e abrasione all\'interno della tubazione</string>
+    <string name="DO3223">Incremento vita di servizio. 14 mesi</string>
+
+    <string name="DO221">Anello fornace di cementificio. Metallo Base: acciaio basso legato (GS 30 Mn 5). Dimensioni: Ø 6500x1400x500mm. Dimensioni cianfrino: 1200x170x250mm</string>
+    <string name="DO222">Fatica meccanica dovuta alle condizioni di lavoro estreme</string>
+    <string name="DO223">Soluzione più veloce e assenza di scoria</string>
+
+    <string name="DO021">Albero a Camme (industria automobilistica). Metallo Base: acciaio basso legato da trattamento termico</string>
+    <string name="DO022">Fatica meccanica</string>
+    <string name="DO023">Vita di servizio più lunga, minori rischi di rottura (cricche da idrogeno o stress residui nella HAZ)</string>
+
+    <string name="DO2571">Forno di cementificio. Riparazione delle cricche. Metallo Base: St35</string>
+    <string name="DO2572">Fatica meccanica e termica</string>
+    <string name="DO2573">Buona saldabilità, eccellenti proprietà meccaniche e alta velocità di deposizione</string>
+
+    <string name="CAVITEC1">Benne Pelton di turbina Pelton in una centrale idroelettrica. Metallo Base: acciaio (410 NiMo)</string>
+    <string name="CAVITEC2">Cavitazione grave ed erosione a causa dei solidi sospesi nell\'acqua utilizzata per spostare i secchi</string>
+    <string name="CAVITEC3">Maggiore durata e maggiore efficienza attrezzature. CaVitec ha i migliori risultati rispetto a qualsiasi altra lega.</string>
+
+    <string name="DO801">Parti ingresso di un raffinatore della pasta di legno e della carta. Metallo Base: acciaio inossidabile austenitico. Dimensioni: 300x500mm</string>
+    <string name="DO802">Cavitazione</string>
+    <string name="DO803">Maggiore durata del pezzo, fino a 3 anni</string>
+
+    <string name="DO041">Lame di un\'elica di un impianto di trattamento delle acque. Metalli comuni: ghisa</string>
+    <string name="DO042">Cavitazione ed Erosione a causa dei solidi sospesi nell\'acqua</string>
+    <string name="DO043">Maggiore durata del pezzo, fino 4 volte</string>
+
+    <string name="DO051">Rotore di una pompa di circolazione in una centrale termoelettrica. Metallo Base: acciaio fuso (GX 10 Cr13 / GX 12 CR14)</string>
+    <string name="DO052">Cavitazione</string>
+    <string name="DO053">Maggiore durata del servizio. Molto lungo - non ancora terminato</string>
+
+    <string name="DO02cavitation1">Spappolatore idrico per l\'industria della carta. Metallo base: AISI 316. Dimensioni: Ø1500mm</string>
+    <string name="DO02cavitation2">Usura grave causata dall\'acqua con polpa e altri materiali.</string>
+    <string name="DO02cavitation3">Durata di servizio: 4-5 mesi - rapida riparazione</string>
+
+    <string name="DO80frictionrubbing1">Utensile di una pressa. Metallo Base: Acciaio Duplex</string>
+    <string name="DO80frictionrubbing2">A causa della forte pressione e l\'adesione, l\'utensile per produrre raccordi si usura</string>
+    <string name="DO80frictionrubbing3">Insensibile all\'attrito anche in assenza di lubrificante - basso coefficiente di attrito.</string>
+
+    <string name="DO701">Scalpello di un rullo di supporto per la produzione di acciaio ferroviario. Metallo Base: Acciaio non legato da trattamento termico</string>
+    <string name="DO702">Elevata pressione e temperatura (fino a 1100ºC) causano l\'usura negli scalpelli, a causa di attrito elevato</string>
+    <string name="DO703">Superficie dei scalpelli più regolare. Maggiore durata: fino a 3 volte. Meno restringimento della superficie</string>
+
+    <string name="DO601">Arresto di un tornio. Acciaio per utensili lavorazione a freddo metallo Base: NC6, NC11</string>
+    <string name="DO602">Attrito e impatti causati dagli anelli durante il caricamento. Superficie di contatto irregolare provoca vibrazioni che riducono la perdita della dimensione richiesta</string>
+    <string name="DO603">Incremento del tempo di vita di servizio: 100%</string>
+
+    <string name="DO3291">Rulli di trafilatura e laminazione. Metallo Base: Acciaio Austenitico al manganese</string>
+    <string name="DO3292">Attrito ad alta temperatura causata dai rulli che impediscono il filo da essere teso</string>
+    <string name="DO3293">Incremento del tempo di vita di servizio da 15 giorni a 90 gg</string>
+
+    <string name="DO061">Supporto per rullo. Siderurgia. Metallo base: F114. Dimensioni: Ø337mm x 710mm</string>
+    <string name="DO062">Attrito metallo su metallo a 250ºC</string>
+    <string name="DO063">Incremento del tempo di vita di servizio e della produttività</string>
+
+    <string name="DO360X1">Utensile di fromatura in una pressa idraulica. Forgiatura. Metallo Base: Superduplex</string>
+    <string name="DO360X2">Attrito metallo/metallo per le elevate pressioni dell\'utensile</string>
+    <string name="DO360X3">Meno sensibile all\'usura anche senza lubrificante</string>
+
+    <string name="DO04FrictionRubbing1">Guida di raddrizzamento barre. Metallo Base: Acciaio Strutturale</string>
+    <string name="DO04FrictionRubbing2">Attrito metallo su metallo a causa della pressione esercitata dal cilindro alle barre</string>
+    <string name="DO04FrictionRubbing3">Incremento del tempo di vita di servizio da 25 giorni a 35 gg</string>
+
+    <string name="aihabrasiondo481">Mulino a martelli (talco)</string>
+    <string name="aihabrasiondo482">Elevata abrasione con basso angolo di Impatto dovuto alla frantumazione del talco</string>
+    <string name="aihabrasiondo483">Estensione della vita di servizio di 2-3 volte(da 2 gg a 9gg)</string>
+
+    <string name="aihabrasiondo390n1">Vite senza fine (ceramica). Metallo base: Hardox</string>
+    <string name="aihabrasiondo390n2">Elevata abrasione per il trasporto di ceramica</string>
+    <string name="aihabrasiondo390n3">Estensione della vita di servizio di 5-6 volte</string>
+
+    <string name="aihabrasion8336eg1">Vite senza fine (minerali). Metallo base: acciaio basso legato</string>
+    <string name="aihabrasion8336eg2">Elevata abrasione per il trasporto di minerali</string>
+    <string name="aihabrasion8336eg3">Estensione della vita di servizio fino a 4 volte. Applicaizone immediata, eliminando lunghi tempi per la Vite nuova</string>
+
+    <string name="aihabrasiondo111">Lame di impastatrice (argilla) Materiale base: acciaio basso legato</string>
+    <string name="aihabrasiondo112">Elevata abrasione per la presenza di argilla e pirite</string>
+    <string name="aihabrasiondo113">Processo più veloce, elevata velocità di deposizione. Estensione della vita di servizio fino a 3 volte.</string>
+
+    <string name="aihabrasiondo331">Vite senza fine (sabbia) Metallo base: acciaio basso legato indurito</string>
+    <string name="aihabrasiondo332">Elevata abrasione combinata con elevata temperatura</string>
+    <string name="aihabrasiondo333">Estensione della vita di servizio da 4 a 12 mesi e non necessariamente per sostituire il pezzo</string>
+
+    <string name="aihabrasiondo301">Vite senza fine Materiale base: acciaio basso legato</string>
+    <string name="aihabrasiondo302">Elevata abrasione per il trasporto di cemento</string>
+    <string name="aihabrasiondo303">Elevata resistenza all\'abrasione, aumentando le pretazioni e la vita di servizio</string>
+
+    <string name="aihabrasiondo3221">Vite per approvvigionamento combustibile, legno e biomassa. Materiale base: acciaio basso legato</string>
+    <string name="aihabrasiondo3222">Elevata abrasione per il trasporto di differenti sostanze</string>
+    <string name="aihabrasiondo3223">elevata resistenza all\'abrasione, aumentando la vita di servizio fino a 18 mesi</string>
+
+    <string name="aihabrasiondo311">Vite per il trasporto biomassa. Materiale base: acciaio basso legato</string>
+    <string name="aihabrasiondo312">Elevata abrasione per il trasporto di biomassa</string>
+    <string name="aihabrasiondo313">Elevata resistenza all\'abrasione, aumentando la vita di servizio fino a 24 mesi</string>
+
+    <string name="aihabrasiondo061">Rullo nella zona di raffreddamento. Materiale base acciaio basso legato GS-52</string>
+    <string name="aihabrasiondo062">Elevata abrasione più attrito</string>
+    <string name="aihabrasiondo063">Elevata resistenza all\'abrasione, aumentando la vita di servizio da 60 a 180 gg</string>
+
+    <string name="aihabrasiondo360x1">a</string>
+    <string name="aihabrasiondo360x2">b</string>
+    <string name="aihabrasiondo360x3">c</string>
+
+    <string name="aihabrasiondo151">Vite di trasporto (cemento). Metallo base: acciaio da trattamento termico. Dimensione: Ø=300mm L= 3000mm</string>
+    <string name="aihabrasiondo152">Elevata abrasione per il trasporto di cemento</string>
+    <string name="aihabrasiondo153">Significativa estensione della vita di servizio e facilità di lavorazione</string>
+
+    <string name="aihabrasiondo131">Rullo per la frantumazione del vetro reciclato. Metallo base: acciaio basso legato(St37)</string>
+    <string name="aihabrasiondo132">Elevata abrasione più pressioni</string>
+    <string name="aihabrasiondo133">Elevata resistenza all\'abrasione e all\'Impatto, senza cricche</string>
+
+    <string name="aihimpactdo051">Rullo trituratore (martelli oscillanti). metallo base: acciaio basso legato temprato. Dimensioni: Ø = 800 mm t = 80 mm. Peso: 1000kg</string>
+    <string name="aihimpactdo052">Urto e abrasione dovuta all\'azione dei martelli oscillanti per triturare i prodotti metallici (200-300 g di usura per tonnellata di rottame prodotta)</string>
+    <string name="aihimpactdo053">Incremento della vita di servizio(in precedenza: 120 giorni; soluzione Castolin: 210 giorni)</string>
+
+    <string name="aihimpactdo021">Supporto cono di un frantumatore per l\'estrazione di sabbia e ghiaia. Metallo base: acciaio basso legato (Ø110/880x435 mm)</string>
+    <string name="aihimpactdo022">Urti e alte pressioni</string>
+    <string name="aihimpactdo023">Incremento della vita di servizio da 365 gg a 550 gg con la soluzione Castolin. Più economico che sostituire il particolare</string>
+
+    <string name="aihimpactdo3101">Ruota motrice di un escavatore in una miniera a cielo aperto. metallo base: acciaio non legato. Dimensioni: Ø2000mm t=450 mm</string>
+    <string name="aihimpactdo3102">Urti e abrasione, specialmente sui denti della ruota</string>
+    <string name="aihimpactdo3103">Incremento della vita di servizio e miglior rapporto costi / benefici. Più economico che sostituire il particolare. DO*310 permette un deposito omogeneo e privo di cricche.</string>
+
+    <string name="aihimpactdo3271">Martelli di un frantumatore secondario (industria del cemento). Metallo Base: Acciaio Austenitico al Mn (14%Mn-2%Mo). Dimensioni: 420x350x140 mm</string>
+    <string name="aihimpactdo3272">Urti e abrasione: frantumazione della calce</string>
+    <string name="aihimpactdo3273">Incremento della vita di servizio del 50%. (3 anni di servizio)</string>
+
+    <string name="aihimpactdo151">girante di un frantumatore. (Estrazione a cielo aperto) Metallo Base: Acciaio Strutturale (Ø1000x340mm)</string>
+    <string name="aihimpactdo152">Urti: frantumazione delle pietre da 60mm a 0,5-30mm</string>
+    <string name="aihimpactdo153">Incremento della vita di servizio da 300 gg con la soluzione del competitor a 600 gg con la soluzione Castolin</string>
+
+    <string name="aihimpactdo3511">Curva per materiali di scarto (industria del vetro) Metallo Base: St37</string>
+    <string name="aihimpactdo3512">Urti e abrasione</string>
+    <string name="aihimpactdo3513">Riduzione del tempo di Rimozione della curva, Eccellente saldabilità e elevata velocità di deposizione</string>
+
+    <string name="aihimpactdo131">Martelli di un frantumatore secondario (lavorazione dell\'argila e dei mattoni). Metallo Base: Acciaio Basso legato temprato. Dimensioni: 510x60x30mm</string>
+    <string name="aihimpactdo132">Urti</string>
+    <string name="aihimpactdo133">27 h di servizio (senza bisogno di fermare il franutmatore durante i turni): incremento del 800% del tempo di vita di servizio</string>
+
+    <string name="aihimpactdo3321">Martello di una pressa per la produzione di mangime per animali. Metallo Base: Acciaio strutturale</string>
+    <string name="aihimpactdo3322">Urti ad elevate pressione: frantumazione delle ossa animali</string>
+    <string name="aihimpactdo3323">Tempo di vita di servizio similare ma risparmio sui costi e nessun rischio di scheggiatura</string>
+
+    <string name="aihheatdo841">Stampo di una pressa di forgiatura. Metallo Base: acciaio basso legato da trattamento termico</string>
+    <string name="aihheatdo842">Fatica e attrito ad alta temperatura</string>
+    <string name="aihheatdo843">Tempo di deposizione si è dimezzato, le proprietà meccaniche è migliorata e la vita dello Stampo si è allungata</string>
+
+    <string name="aihheatdo801">Ganasce della forgia. Metallo Base: Acciaio da lavorazione a caldo (1.2714)</string>
+    <string name="aihheatdo802">Temperatura elevata e l\'Impatto mentre il pezzo forgiato incandescente è fissato dalle ganasce</string>
+    <string name="aihheatdo803">Eccellente resistenza contro il calore e gli urti. Raddopiato il tempo di vita di servizio rispetto alla soluzione tipica.</string>
+
+    <string name="aihheatdo041">Rullo - impianto di colata continua. Metallo Base: Acciaio Basso legato da trattamento termico</string>
+    <string name="aihheatdo042">Temperatura e pressione della billetta provocano una rapida usura dei rulli</string>
+    <string name="aihheatdo043">Risparmio sui costi, incremento della vita di servizio del pezzo fino a 5 volte</string>
+
+    <string name="aihheatdo701">Scalpello di una gabbia di laminazione. Acciaieria. Metallo Base: Acciaio non legato da trattamento termico. Dimensioni: 700x80x80mm</string>
+    <string name="aihheatdo702">Alta temperatura e pressione, in quanto le scalpelli guidano la billetta calda (1000° C) attraverso la giusta posizione della gabbia</string>
+    <string name="aihheatdo703">Incremento della vita di servizio (3x), meno deformazioni e una migliore qualità delle rotaie: superficie liscia</string>
+
+    <string name="aihheatdo601">Piastra inferiore della macchina di passaggio coke (Acciaieria). Metallo Base: acciaio strutturale</string>
+    <string name="aihheatdo602">Usura abrasiva causata dal coke</string>
+    <string name="aihheatdo603">Metallo base più economico rivestito con DO * 60. durata delle piastre: 3 volte maggiore</string>
+
+    <string name="aihheatdo221">Forno a rulli di tempra. Metallo base: lega di Ni. Dimensioni: 3 x 0,5 m</string>
+    <string name="aihheatdo222">Riparazione di una crepa esposta alla fatica termica</string>
+    <string name="aihheatdo223">Evitare la Sostituzione del pezzo</string>
+
+    <string name="aihabrasionimpact8336eg1">Lame del rotore di taglio. Metallo Base: Acciaio basso legato (Hardox 400)</string>
+    <string name="aihabrasionimpact8336eg2">Il rotore ha una spirale con differenti lame che subiscono abrasione e piccoli urti dovuti alle pietre presenti nel terreno</string>
+    <string name="aihabrasionimpact8336eg3">2 anni di servizio (raddoppiato il tempo di servizio). Avoid disassembling and changing the blades.</string>
+
+    <string name="aihabrasionimpactdo481">Martello di un impianto di compostaggio. Metallo base: Acciaio basso legato (Hardox 400)</string>
+    <string name="aihabrasionimpactdo482">Abrasione con urti dovuti ai prodotti.</string>
+    <string name="aihabrasionimpactdo483">Incremento della vita di servizio da 6 a 13 mesi.</string>
+
+    <string name="aihabrasionimpactdo390n1">Martello in impainto produzione cemento. Metallo base: Acciao basso legato da trattamento termico (38NCD4)</string>
+    <string name="aihabrasionimpactdo390n2">I martelli del frantoio deve schiacciare calcare in piccoli pezzi (20 a 80 mm) in modo che siano sottoposti ad abrasione severa combinata con Impatto.</string>
+    <string name="aihabrasionimpactdo390n3">Incremento del servizio rispetto ai prodotti della concorrenza da 180 to 360 giorni.</string>
+
+    <string name="aihabrasionimpactdo3271">Utensili da taglio - macchina per pneumatici. Metallo Base: Unalloyed steel (St37)</string>
+    <string name="aihabrasionimpactdo3272">Abrasione con urti (calore)</string>
+    <string name="aihabrasionimpactdo3273">L\'impianto più lavorare 1.000 tons ogni 3 setimane contro le precedenti 770 tons / 3 settimane. Better weldability</string>
+
+    <string name="aihabrasionimpactdo311">Testa di fresa per tunnel. Metallo di Base: acciaio strutturale</string>
+    <string name="aihabrasionimpactdo312">Abrasione e urti in funzione della tipologia di terreno</string>
+    <string name="aihabrasionimpactdo313">Incremente del tempo di servizio fino a 500 h (contro le 300 h con il filo della concorrenza)</string>
+
+    <string name="aihabrasionimpactdo3321">Martello di un mulino a pendolo. Metallo base: acciaio da costruzione</string>
+    <string name="aihabrasionimpactdo3322">Abrasione e urti (50%)</string>
+    <string name="aihabrasionimpactdo3323">Incremento della vita di servizio, da 5 mesi fino a 30 mesi</string>
+
+    <string name="aihabrasionimpactdo061">Rotore e utensili da taglio. Metallo Base: Acciaio da trattamento termico</string>
+    <string name="aihabrasionimpactdo062">Abrasione e urti</string>
+    <string name="aihabrasionimpactdo063">Incremento della vita di servizio  (3x)</string>
+
+    <string name="aihabrasionimpactdo151">Vite per carotaggio. Metallo baso: acciaio basso legato da trattamento termico</string>
+    <string name="aihabrasionimpactdo152">Elevata abrasione e urti</string>
+    <string name="aihabrasionimpactdo153">Riduzione dei costi ed incremento della vita di servizio: più riporti su materiali base più economici.</string>
+
+    <string name="aihabrasionimpactdo3511">Rotore per la movimentazione degli scarti degli alberi.</string>
+    <string name="aihabrasionimpactdo3512">Elevata abrasione</string>
+    <string name="aihabrasionimpactdo3513">Miglior saldabilità e minori costi.</string>
+
+    <string name="aihabrasionimpactdo041">Albero di una macchina di frantumazione per il riciclaggio di rifiuti. metallo base: acciaio basso legato da trattamento termico. Peso: 800kg</string>
+    <string name="aihabrasionimpactdo042">Abrasione ad alta pressione e urti, principalmente nei bordi dei coltelli perché devono schiacciare le ossa di animali</string>
+    <string name="aihabrasionimpactdo043">Più economico rispetto riparazione con la Sostituzione dell\'albero. Risparmiando più di 300.000 €</string>
+
+    <string name="aihabrasionimpactdo3291">Lama da taglio di laminatoio. Metallo Base: Acciaio basso trattato termicamente (180x105x50mm e 160x97x35mm)</string>
+    <string name="aihabrasionimpactdo3292">Abrasione e l\'Impatto dovuto al passaggio ed il taglio di acciaio ondulato (8-32mm)</string>
+    <string name="aihabrasionimpactdo3293">Aumento della vita di servizio (da 7 a 90 giorni)</string>
+
+    <string name="aihimpactabrasiondo3271">Cippatrice. Metallo Base: St37</string>
+    <string name="aihimpactabrasiondo3272">Urti elevati combinati con abrasione moderata</string>
+    <string name="aihimpactabrasiondo3273">Questa applicazione è stata effettuata nel 2011. Nel 2015 il particolare è ancora in servizio.</string>
+
+    <string name="aihimpactabrasiondo360x1">a</string>
+    <string name="aihimpactabrasiondo360x2">b</string>
+    <string name="aihimpactabrasiondo360x3">c</string>
+
+    <string name="aihimpactabrasiondo111">Punta di perforatore (ingegneria civile). Metallo base: acciaio basso legato da trattamento termico</string>
+    <string name="aihimpactabrasiondo112">Urti elevati più abrasione (sabbia, rocce...)</string>
+    <string name="aihimpactabrasiondo113">incremento della vita di servizio di 2 - 3 volte. Soluzione più rapida.</string>
+
+    <string name="aihimpactabrasiondo3291">Rulli sup. e inf. di finitura di una macchina di lucidatura Kieserling. Metallo Base: 42CrMo4</string>
+    <string name="aihimpactabrasiondo3292">Urti e abrasione (passaggio di barra da 12m)</string>
+    <string name="aihimpactabrasiondo3293">Incremento della vita di servizio fino a 2 volte.</string>
+
+    <string name="aihimpactabrasiondo151">Leva di una tramoggia di alimentazione (chimica di base). Metallo Base: S235. Dimensioni: 1000x630 mm</string>
+    <string name="aihimpactabrasiondo152">Urti e abrasioneimpact and abrasion because: blocchi di calcare cadono nella tramoggia da altezza di 1m e svivolano rapidamente attraverso lo scivolo.</string>
+    <string name="aihimpactabrasiondo153">Incremento della vita di servizio.</string>
+
+    <string name="aihimpactabrasiondo131">Benna della gru Metallo Base: St52</string>
+    <string name="aihimpactabrasiondo132">La benna della gru viene compromessa da elevati impatti e abrasione causati dal carico e scarico dei ciottoli</string>
+    <string name="aihimpactabrasiondo133">Incremento della vita di servizio e facile saldabilità in posizione</string>
+
+    <string name="aihimpactabrasiondo3511">Denti di un trituratore di rifiuti</string>
+    <string name="aihimpactabrasiondo3512">Urti e Abrasione</string>
+    <string name="aihimpactabrasiondo3513">Eccezionale saldabilità, elevata velocità di deposizione, bassa diluizione</string>
+
+    <string name="aihimpactabrasiondo061">Denti di un trituratore mobile. Industria dei rifiuti. Metallo Base: acciaio basso legato. Dimensioni: 300x80mm</string>
+    <string name="aihimpactabrasiondo062">Urti e Abrasione</string>
+    <string name="aihimpactabrasiondo063">Incremento del tempo di vita da 250 a 300 ore</string>
+
+    <string name="aihimpactabrasiondo3321">Lame di un miscelatore nella produzione di mattoni. Metallo Base: acciaio al carbonio</string>
+    <string name="aihimpactabrasiondo3322">Urti e abrasione</string>
+    <string name="aihimpactabrasiondo3323">Incremento della vita di servizio del pezzo</string>
+
+    <string name="aihimpactabrasiondo051">Barre di ingresso nella sezione di raffreddamento. Metallo Base: acciaio non legato (1.0577). Dimensioni: 1950x40 mm</string>
+    <string name="aihimpactabrasiondo052">Urti e abrasione</string>
+    <string name="aihimpactabrasiondo053">Vita di servizio raddoppiata (sino al target del cliente: 365 giorni)</string>
+
+    <string name="aihimpactabrasiondo021">Dischi del frantumatore primario (industria del cemento). Metallo Base: acciaio austenitico al manganese</string>
+    <string name="aihimpactabrasiondo022">Urti e abrasione</string>
+    <string name="aihimpactabrasiondo023">Vita di servizio incrementata fino a 3 volte</string>
+
+    <string name="aihabrasionheatdo390n1">Piastra di chiusura presa in un forno cemento. Metallo Base: Acciaio alto legato (GX 40 CrNiSi 25 20). Dimensioni: 500x300x100mm</string>
+    <string name="aihabrasionheatdo390n2">Abrasione e Alte temperature</string>
+    <string name="aihabrasionheatdo390n3">Min. 4 anni di servizio (ancora in servizio)</string>
+
+    <string name="aihabrasionheat8336eg1">Vite di trasporto per l\'estrusione di polimeri con componenti ceramici. Metallo Base: acciaio legato</string>
+    <string name="aihabrasionheat8336eg2">Abrasione e Alte temperature</string>
+    <string name="aihabrasionheat8336eg3">Aumentata la vita di servizio, fino a 3 volte in rapporto al DO*06</string>
+
+    <string name="aihabrasionheatdo331">Vite di trasporto: industria dell\'acciaio. Metallo base: Acciaio resistente al calore. Dimensioni: Ø70x1000mm</string>
+    <string name="aihabrasionheatdo332">Elevata abrasione e elevate temperature</string>
+    <string name="aihabrasionheatdo333">Elevata durezza dopo solo 2 layers, soluzione più veleoce ed economica. Incremento vita di servizio</string>
+
+    <string name="aihabrasionheatdo3321">Catena trasportatrice industria del cemento. Metallo base: acciaio inox al manganese</string>
+    <string name="aihabrasionheatdo3322">Abrasione e Alte temperature</string>
+    <string name="aihabrasionheatdo3323">Incremento della vita di servizio. Elevata qualità</string>
+    <string name="aihabrasionheatdo061">Piastra di supporto in entrata della linea 2 nella produzione ferroviaria. Metallo Base: acciaio fuso</string>
+    <string name="aihabrasionheatdo062">Elevata abrasione e alte temperature</string>
+    <string name="aihabrasionheatdo063">Dopo 8 anni di servizio: leggera usura</string>
+
+    <string name="aihabrasionheatdo360x1">a</string>
+    <string name="aihabrasionheatdo360x2">b</string>
+    <string name="aihabrasionheatdo360x3">c</string>
+
+    <string name="aihabrasionheatdo151">Braccio di mescolatore per la produzione di asfalto. Metallo base: Acciaio basso legato. Dimansioni: 750x20x16mm (32 units)</string>
+    <string name="aihabrasionheatdo152">Abrasione ad elevate pressioni a 250ºC</string>
+    <string name="aihabrasionheatdo153">Riduzione dei costi e dei tempi di fermo macchina</string>
+
+    <string name="aihabrasionheatdo041">Rulli di colata continua. Metallo Base: Acciaio basso legato. Dimansioni: Ø110x530mm</string>
+    <string name="aihabrasionheatdo042">Abrasione ad alta temperatura: rulli che guidano la colata nella trafila orizzontale</string>
+    <string name="aihabrasionheatdo043">Eccellente resistenza all\'abrasione e alla temperatura</string>
+
+    <string name="aihimpactheatdo360x1">a</string>
+    <string name="aihimpactheatdo360x2">b</string>
+    <string name="aihimpactheatdo360x3">c</string>
+
+    <string name="aihimpactheatdo3291">Lama di taglio di un filo (da 8 a 32 mm).Trafilatura. Metallo Base: acciaio basso legato da trattamento termico. Dimensioni: 180x108x50mm e 160x97x35mm</string>
+    <string name="aihimpactheatdo3292">I fili sono tagliati a 500-600°C quindi le lame raggiungono una temperatura di circa 200°C. Principali cause di usura: urti e calore. Altri: corrosione, abrasione e fatica termica </string>
+    <string name="aihimpactheatdo3293">Vita di servizion più lunga che permette di ridurre i costi di manutenzione senza ridurre la qualità</string>
+
+    <string name="aihimpactheatdo041">Pressa nella forgiatura. Metallo Base: St 52. Dimensioni: Ø 200mm</string>
+    <string name="aihimpactheatdo042">Urti e calore perché la pressa produce piastre in acciaio che vengono perforate</string>
+    <string name="aihimpactheatdo043">Vita di servizio di quattro settimane e maggiore velocità di deposizione</string>
+
+    <string name="aihimpactheatdo601">Piastra inferiore della macchina di passaggio coke (Acciaieria). Metallo Base: acciaio strutturale. Dimensioni: 960x600x30mm</string>
+    <string name="aihimpactheatdo602">Il coke caldo cade sulla piastra inferiore soffrendo degli urti e del calore</string>
+    <string name="aihimpactheatdo603">Vita di servizio più lunga (180 giorni con la soluzione Castolin) e materiale di base più economico</string>
+
+    <string name="aihimpactheatdo3271">52 martelli in una macchina per clinker. Metallo Base: acciaio non legato. Dimensioni: 230x350x160mm</string>
+    <string name="aihimpactheatdo3272">Urti e calore</string>
+    <string name="aihimpactheatdo3273">Vita di servizio più lunga (6 mesi). 58HRC dopo una passata</string>
+
+    <string name="aihimpactheatdo151">Rullo di polverizzazione in impianto di produzione di energia. Metallo Base: acciaio basso legato. Dimensioni: Ø152mm x 2000mm </string>
+    <string name="aihimpactheatdo152">Urti e calore nei rulli e nei denti</string>
+    <string name="aihimpactheatdo153">Soluzione in situ, incremento della vita di servizio e lavorazione dei bordi</string>
+
+    <string name="aihabrasionimpactheatdo360x1">a</string>
+    <string name="aihabrasionimpactheatdo360x2">b</string>
+    <string name="aihabrasionimpactheatdo360x3">c</string>
+
+    <string name="aihabrasionimpactheatdo041">Stampo di una pressa di forgiatura. Metallo di base: acciaio basso legato da trattamento termico. Dimensioni: Ø300x100</string>
+    <string name="aihabrasionimpactheatdo042">Elevati stress termici, Impatto e abrasione</string>
+    <string name="aihabrasionimpactheatdo043">Elevata resistenza contro l\'attrito, deformazione e Impatto. Il materiale d\'apporto duttile è privo di cricche su angoli e spigoli</string>
+
+    <string name="aihabrasionimpactheatdo601">Tornio automatico. Metalli di base: acciaio per utensili da lavorazione a freddo (NC6, NC11). Dimensioni: Ø73 / 180x74mm</string>
+    <string name="aihabrasionimpactheatdo602">Abrasione, Impatto a temperatura elevata poiché questa parte deve sostenere un anello forgiatura durante il carico e l\'operazione di tornitura</string>
+    <string name="aihabrasionimpactheatdo603">Incremento della vita di servizio almeno 100%. Castolin: 42 giorni</string>
+
+    <string name="aihabrasionimpactheatdo3271">Cippatrice - fabbrica del legno. Matello base: St37</string>
+    <string name="aihabrasionimpactheatdo3272">Elevate pressione, urti e calore - il pezzo deve ridurre le dimensioni del legno in trucioli</string>
+    <string name="aihabrasionimpactheatdo3273">Almeno quattro anni dalla soluzione Castolin - macchinario ancora in servizio</string>
+
+    <string name="aihabrasionimpactheatdo061">Lame di trituratore per pneumatici (riciclaggio)</string>
+    <string name="aihabrasionimpactheatdo062">Elevata abrasione, urti e calore</string>
+    <string name="aihabrasionimpactheatdo063">Incremento della vita di servizio del pezzo. Possibilità di riparare il pezzo e conseguente riduzione dei costi.</string>
+
+    <string name="aihabrasionimpactheatdo3291">Dispositivo di spinta / centraggio di un rullo. Metallo di base: acciaio basso legato. Dimensioni: 5 * 50/50 * 500 mm</string>
+    <string name="aihabrasionimpactheatdo3292">Abrasione ad alta temperatura (~ 500ºC) e urti</string>
+    <string name="aihabrasionimpactheatdo3293">Eccellente sladabilità, facilità di lavorazione e 52HRC</string>
+
+    <string name="aihabrasionimpactheatdo3321">Albero di frantoio per la frantumazione dei mattone. metalli comuni: strutture in acciaio. Dimensioni: Ø350 x 450 mm</string>
+    <string name="aihabrasionimpactheatdo3322">Abrasione, Impatto a 40-50ºC: il macinatore deve frnatumare i mattoni di cattiva qualità dalla linea di produzione.</string>
+    <string name="aihabrasionimpactheatdo3323">Incremento del tempo di vita</string>
+
+    <string name="aihabrasionimpactheatdo151">Rampa di decalcificazione in un laminatoio a caldo. Metallo di base: Acciaio debolmente legato. Dimensioni: 1350x1500x200mm</string>
+    <string name="aihabrasionimpactheatdo152">Abrasione ad alta temperatura e urti - le lastre passano sulla rampa e vengono sabbiate ad alta pressione.</string>
+    <string name="aihabrasionimpactheatdo153">Facile saldatura con una procedura ripetitiva senza rischio di cricche. Aumenta il tempo di vita fino a 2 volte. Parte ancora in servizio.</string>
+
+    <string name="aihabrasionimpactheat8336eg1">Dischi di frantumazione del clinker in un impianto di cemento. Metalli di base: acciaio legato. Dimensioni: Ø490x150mm</string>
+    <string name="aihabrasionimpactheat8336eg2">Questi rulli sono al di fuori del radiatore e soffrono da abrasioni, urti e calore a pressione moderata</string>
+    <string name="aihabrasionimpactheat8336eg3">Tempo di vita di servizio raddoppiato</string>
+
+    <string name="aihabrasionimpactheatdo390n1">Mulino a martelli in una centrale termoelettrica. Metalli di base: St37-2. Dimensioni: 5x50 / 50x500 mm</string>
+    <string name="aihabrasionimpactheatdo390n2">Abrasione, urti e temperature elevate (300-400ºC)</string>
+    <string name="aihabrasionimpactheatdo390n3">Riduzione dei costi di manutenzione, perché il tempo di durata è stato aumentato a 700%</string>
+
+    <string name="aiccorrosiondo221">Vaglio di caduta clinker tra il forno e il radiatore. Metallo base: acciaio inossidabile austenitico (16Mo3 + inox 304L)</string>
+    <string name="aiccorrosiondo222">Alta corrosione e fatica termica di metalli e giunti</string>
+    <string name="aiccorrosiondo223">Buona resistenza alla corrosione e ossidazione. Ottima resistenza agli shock termici. resistenza elevata agli urti. Basso apporto di calore e bassa diluizione. Velocità di deposizione elevata per ridurre i costi di manodopera.</string>
+
+    <string name="aiccorrosiondo801">Lamiera di protezione in acciaio di uno scivolo in un inceneritore di rifiuti. Metalli base: St 52.3. Dimensioni: L = 3.000 mm W = 700 mm Pareti dimensioni: L = 2.600 mm H = 1.000 mm</string>
+    <string name="aiccorrosiondo802">Corrosione e abrasione</string>
+    <string name="aiccorrosiondo803">La lega di cobalto migliora la resistenza alla corrosione in questo ambiente</string>
+
+    <string name="aiccorrosiondo601">Albero di un ventilatore in un impianto pr la carta. Metallo base: acciaio basso legato da trattamento termico</string>
+    <string name="aiccorrosiondo602">Corrosione</string>
+    ***************<string name="aiccorrosiondo603">***************Highest Protection against corrosion. Customer annual savings close to 400.000€</string>
+
+    <string name="aiccorrosiondo701">Vite senza fine di un iniettore di plastica. Metallo Base: Acciaio debolmente legato</string>
+    <string name="aiccorrosiondo702">Corrosione</string>
+    <string name="aiccorrosiondo703">L\'operazione di bonifica è stata eseguita a tempo di record (15 minuti per una Vite di 1.600 x 50 mm) Il tallone e l\'aspetto finito sono insuperabili, con meno tempo di lavorazione meccanica.</string>
+
+    <string name="aiccorrosiondo021">Deposito di zinco di galvanizzazione. Metallo base: Acciaio inossidabile 316L. Dimensioni: 2870 x 1161 mm "</string>
+    <string name="aiccorrosiondo022">Corrosione per la presenza di zinco</string>
+    <string name="aiccorrosiondo023">Le crepe non sono apparse ancora una volta dalla prima applicazione 8 mesi fa.</string>
+
+    <string name="aiccorrosioncavitec1">Valvola su una conduttura di by-pass di una caldaia. Metalli: acciaio fuso non legato</string>
+    <string name="aiccorrosioncavitec2">Corrosione / Cavitazione</string>
+    <string name="aiccorrosioncavitec3">Protetto contro corrosione e cavitazione</string>
+
+    <string name="aiccorrosiondo041">Vite senza fine - industria del legno e della carta Metalli base:  acciaio strutturale</string>
+    <string name="aiccorrosiondo042">Corrosione</string>
+    <string name="aiccorrosiondo043">Entrambi DO * 04 e DO * 13 garantiscono un\'elevata sicurezza contro le cricche. La durata può essere aumentata da 5 settimane fino a 25 settimane</string>
+
+    <string name="aicabrasioncorrosiondo4111">Vite mescolatrice e di trasporto di nichel in bagno di calce. Metallo base: inox 316L. Dimensioni: Ø 320 x 2880 mm</string>
+    <string name="aicabrasioncorrosiondo4112">Abrasione e corrosione a causa del trasporto della miscela. Si genera acido solforico in modo che attacca la vite</string>
+    <string name="aicabrasioncorrosiondo4113">Aumento della vita di servizio da 3 mesi a 2 anni.</string>
+
+    <string name="aicabrasioncorrosiondo111">Denti per escavatori di una nave escavatore per l\'estrazione di sabbia e ghiaia. Metallo di base: acciaio fuso non legato. Dimensioni: 100x240 mm</string>
+    <string name="aicabrasioncorrosiondo112">Abrasione e corrosione dovuta alla combinazione di sabbia e acqua sui 30 denti della corona trapano.</string>
+    <string name="aicabrasioncorrosiondo113">Aumento della vita utili a 32 ore, aumento di 8 volte.</string>
+
+    <string name="aicabrasioncorrosiondo331">Palette di alimentazione di caldaia a carbone. Metallo base: AISI 310. Dimensioni: 8mm spessore</string>
+    <string name="aicabrasioncorrosiondo332">Abrasione e corrosione a causa di passaggio continuo di carbone termico (400-500ºC)</string>
+    <string name="aicabrasioncorrosiondo333">Aumento della vita di servizio fino a tre volte. Ancora in servizio</string>
+
+    <string name="aicabrasioncorrosiondo390n1">Compattatore. Metallo base: Inox Austenitico. Dimansioni: Ø1000 mm</string>
+    <string name="aicabrasioncorrosiondo390n2">Abrasione e Corrosione</string>
+    <string name="aicabrasioncorrosiondo390n3">Raddopiato il tempo di servizio</string>
+
+    <string name="aicabrasioncorrosion8336eg1">Vite ad elica per il processo di disidaratazione dei rifiuti solidi urbani</string>
+    <string name="aicabrasioncorrosion8336eg2">Abrasione e Corrosione</string>
+    <string name="aicabrasioncorrosion8336eg3">Incremento del tempo utili di servizio (3 volte)</string>
+
+    <string name="aicabrasioncorrosiondo311">Pressa. Reciclaggio rifiuti. Metallo base: acciaio debolmente legato. Dimensioni: Ø248mm x 210mm</string>
+    <string name="aicabrasioncorrosiondo312">Abrasione e corrosione a causa del danneggiamento dei rifiuti animali, soprattutto nella parte finale ei bordi</string>
+    <string name="aicabrasioncorrosiondo313">Ottima resistenza all\'abrasione dopo 1 strato con 68 HRC. Soluzione più economica e una vita più lunga, vicino a 5.000h</string>
+
+    <string name="aicabrasioncorrosiondo3321">Vite di stoccaggio corteccia nella produzione del legno metallo comune: acciaio da trattamento termico. Dimensioni: Ø 700 x 9500 mm</string>
+    <string name="aicabrasioncorrosiondo3322">Abrasione e alla corrosione dovuta al contatto con la corteccia e condizioni ambientali</string>
+    <string name="aicabrasioncorrosiondo3323">Migliore resistenza alla corrosione. Aumento della vita di servizio.</string>
+
+    <string name="aicabrasioncorrosiondo701">Vite senza fine di un iniettore di plastica nella fabbricazione di prodotti in gomma come suole delle scarpe. Metallo Base: Acciao basso legato. Dimensioni: 1600x50mm</string>
+    <string name="aicabrasioncorrosiondo702">Abrasione e corrosione a temperatura moderata a causa di iniezione di gomma</string>
+    <string name="aicabrasioncorrosiondo703">Tempi rapidi e miglior finitura superficiale</string>
+
+    <string name="aicabrasioncorrosiondo041">Coclea di trasporto e disidratazione trucioli di legno. Metallo Base: Inox Austenitico (AISI 316). Dimensione: Ø 120/350 x 2000 mm</string>
+    <string name="aicabrasioncorrosiondo042">Abrasione e corrosione ad alte pressioni</string>
+    <string name="aicabrasioncorrosiondo043">Resistenza alla pressione, basso coefficiente di attrito, finitura a specchio e deposito con fessurazione minima</string>
+
+    <string name="aicimpactcorrosioncavitec1">Benne Pelton di turbina Pelton in una centrale idroelettrica. Metallo Base: acciaio (410 NiMo)</string>
+    <string name="aicimpactcorrosioncavitec2">Cavitazione grave ed erosione a causa dei solidi sospesi nell\'acqua utilizzata per spostare i secchi</string>
+    <string name="aicimpactcorrosioncavitec3">Maggiore durata e maggiore efficienza attrezzature. CaVitec ha i migliori risultati rispetto a qualsiasi altra lega.</string>
+
+    <string name="aicimpactcorrosiondo021">Spappolatore idrico per l\'industria della carta. metallo base: AISI 316. Dimensioni: Ø1500mm</string>
+    <string name="aicimpactcorrosiondo022">Usura grave causata dall\'acqua con polpa e altri materiali.</string>
+    <string name="aicimpactcorrosiondo023">Durata di servizio: 4-5 mesi - rapida riparazione</string>
+
+    <string name="aicimpactcorrosiondo051">Rotore di una pompa di circolazione in una centrale termoelettrica. Metallo Base: acciaio fuso (GX 10 Cr13 / GX 12 CR14)</string>
+    <string name="aicimpactcorrosiondo052">Cavitazione</string>
+    <string name="aicimpactcorrosiondo053">Maggiore durata del servizio. Molto lungo - non ancora terminato</string>
+
+    <string name="aicimpactcorrosiondo041">Lame di un\'elica di un impianto di trattamento delle acque. Metalli comuni: ghisa</string>
+    <string name="aicimpactcorrosiondo042">Cavitazione ed Erosione a causa dei solidi sospesi nell\'acqua</string>
+    <string name="aicimpactcorrosiondo043">Maggiore durata del pezzo, fino 4 volte</string>
+
+    <string name="aicabrasionimpactcorrosiondo111">Vite senza fine. Metallo di base: lega CrNi (SMO 254). Dimensioni: Ø190x174mm</string>
+    <string name="aicabrasionimpactcorrosiondo112">Abrasione ed urti in atmosfera molto corrosiva (gas che contengono acido solforico)</string>
+    <string name="aicabrasionimpactcorrosiondo113">Aumentare la durata del servizio da sei mesi per oltre 2 anni</string>
+
+    <string name="aicabrasionimpactcorrosion8336eg1">95 martelli di un frantoio primario per i rifiuti e il riciclaggio.</string>
+    <string name="aicabrasionimpactcorrosion8336eg2">Abrasione e urti in ambiente corrosivo</string>
+    <string name="aicabrasionimpactcorrosion8336eg3">Aumentare la durata, fino a 22 giorni. Ecotest disponibile</string>
+
+    <string name="aicabrasionimpactcorrosiondo390n1">Guida di rotolamento sotto il forno di riscaldamento per la produzione di ferro e acciaio. Metallo di base: acciaio basso legato (ASTM 140). Dimensioni: 20x50x6000mm</string>
+    <string name="aicabrasionimpactcorrosiondo390n2">Abrasione urti e alla corrosione uniforme, perché queste guide di laminazione devono sostenere le barre di acciaio a caldo</string>
+    <string name="aicabrasionimpactcorrosiondo390n3">Incremento vita di servizio (400%)</string>
+
+    <string name="aicabrasionimpactcorrosiondo311">Miscelatore nella fabbricazione di prodotti ceramici. Metallo di base acciaio strutturale. Dimensioni: Ø 1000 millimetri</string>
+    <string name="aicabrasionimpactcorrosiondo312">Abrasione e corrosione dovuta alla miscela di argilla e sabbia ad elevate velocità di rotazione</string>
+    <string name="aicabrasionimpactcorrosiondo313">Un considerevole aumento della vita di servizio. Da 60 giorni (con la soluzione precedente) a 380 giorni</string>
+
+    <string name="aicabrasionimpactcorrosiondo360x1">a</string>
+    <string name="aicabrasionimpactcorrosiondo360x2">b</string>
+    <string name="aicabrasionimpactcorrosiondo360x3">c</string>
+
+    <string name="aicabrasionimpactcorrosiondo601">Coltello circolare per la produzione di alimenti per animali. Metallo Base: Acciaio basso legato da trattamento termico</string>
+    <string name="aicabrasionimpactcorrosiondo602">Impatto abrasione e corrosione, perché il coltello deve tagliare le ossa di animali</string>
+    <string name="aicabrasionimpactcorrosiondo603">Incremento della vita di servizio e della lavorabilità</string>
+
+    <string name="aicabrasionimpactcorrosiondo041">Pressa (forgiatura). Metallo Base: Acciaio basso legato da trattamento termico. Dimensione: Ø 300mm t=100mm. Peso: 25kg</string>
+    <string name="aicabrasionimpactcorrosiondo042">Abrasione con elevata pressione. Urti e corrosione durante il processo di lavorazione.</string>
+    <string name="aicabrasionimpactcorrosiondo043">Più produzione, meno riparazioni, in generale riduzione dei costi.</string>
+
+    <string name="ahccorrosionheatdo841">Deflettore di una turbina a vapore. Metallo base: lega di nichel (Hastelloy C). Dimensioni: Ø1500x300mm</string>
+    <string name="ahccorrosionheatdo842">Corrosione ed calore perché l\'aria che passa attraverso le guide di aspirazione contiene H2S</string>
+    <string name="ahccorrosionheatdo843">Più rapido riparazione e senza alcuna deformazione. L\'aumento della durata di vita: 50%</string>
+
+    <string name="ahccorrosionheatdo801">Lamiera di acciaio di protezione di un anello di raffreddamento del forno - inceneritore di rifiuti. Metallo base: St 52.3. Dimensioni: 670x8mm, sviluppo: 6.000 mm</string>
+    <string name="ahccorrosionheatdo802">Corrosione causata dai gas caldi, contenente vapori aggressivi da cloro e zolfo</string>
+    <string name="ahccorrosionheatdo803">Evitare le fessure nella piastra di protezione e aumentare la resistenza alla corrosione e all\'abrasione</string>
+
+    <string name="ahccorrosionheatdo041">Rullo in impianto di colata continua. Metallo base: acciaio basso legato da trattamento termico. Dimensioni: 420 mm x Ø200-400</string>
+    <string name="ahccorrosionheatdo042">Le billette calde e ossidate in contatto con i rulli di trascinamento raffreddati ad acqua sviluppano corrosione e calore.</string>
+    <string name="ahccorrosionheatdo043">400000 T di produzione paragonate alle 80000 T della precedente soluzione</string>
+
+    <string name="ahccorrosionheatdo360x1">a</string>
+    <string name="ahccorrosionheatdo360x2">b</string>
+    <string name="ahccorrosionheatdo360x3">c</string>
+
+    <string name="ahccorrosionheatdo221">Forno di tempra per colata di metalli. Metallo base: lega di nichel. Dimensioni: 4500x1500m</string>
+    <string name="ahccorrosionheatdo222">Ampie cricche</string>
+    <string name="ahccorrosionheatdo223">Risparmio di un sacco di soldi e tempo: soluzione Castolin evita di acquistare un nuovo pezzo</string>
+
+    <string name="ahccorrosionheatdo4111">Vite di trasporto per  alimentazione di prodotti in metallo. Metalli base: acciaio non legato / basso legato (SS 2353/316). Dimensioni: Ø320x2880 mm</string>
+    <string name="ahccorrosionheatdo4112">La Vite trasporta nickel e calce fino al forno 450°-900°C: corrosione, calore e abrasione</string>
+    <string name="ahccorrosionheatdo4113">La vita di servizio è aumentata da 3 mesi fino a 2 anni</string>
+
+    <string name="ahcabrasionheatcorrosiondo331">Vite trasporto di un riciclatore di sabbia in un incenerimento dei rifiuti. Metallo base: acciaio legato</string>
+    <string name="ahcabrasionheatcorrosiondo332">Abrasione, della corrosione ad alta temperatura</string>
+    <string name="ahcabrasionheatcorrosiondo333">Incremento della vita di servizio.Da 4 mesi a 12 mesi (3x)</string>
+
+    <string name="ahcabrasionheatcorrosiondo390n1">Lame di mescolatore ceneri in impianto di centrale termica. Metallo base: Inox austenitico(X2CrNi18-8/X2CrNiMo19-12-3), tipo 308 e 316</string>
+    <string name="ahcabrasionheatcorrosiondo390n2">Abrasione, temperatura e corrosione (composizione ceneri)</string>
+    <string name="ahcabrasionheatcorrosiondo390n3">Incremento della vita di servizio. Da 3 mesi a 12 mesi (4x)</string>
+
+    <string name="ahcabrasionheatcorrosion8336eg1">Lame per il trattamento di ossigenazione dei fanghi. Metallo base: 20Mn5</string>
+    <string name="ahcabrasionheatcorrosion8336eg2">Abrasione, corrosione e temperatura</string>
+    <string name="ahcabrasionheatcorrosion8336eg3">procedimento più rapido, costi contenuti</string>
+
+    <string name="ahcabrasionheatcorrosiondo701">Cuneo di una valvola di sicurezza nella centrale termica. Metallo Base: Acciaio basso legato da trattamento termico (P91). peso: 0,2kg</string>
+    <string name="ahcabrasionheatcorrosiondo702">Elevate pressioni 100 atm. Alte temperatura 550ºC. Corrosione dai vapori.</string>
+    <string name="ahcabrasionheatcorrosiondo703">Processo più veloce ed efficiente che assicura elvata qualità del deposito e migliori performance in servizio.</string>
+
+    <string name="ahcabrasionheatcorrosiondo041">Rulli per colata continua. Metallo base: Acciaio basso legato (21CrMoV5.11). Dimensioni: Ø140x900mm</string>
+    <string name="ahcabrasionheatcorrosiondo042">Abrasione, calore (500-700ºC) e corrosione</string>
+    <string name="ahcabrasionheatcorrosiondo043">Incremento della durata, riduzione dei costi, soluzione ripetitiva. Risparmio 300.000€ per anno. Ecotest.</string>
+
+    <string name="ahcabrasionheatcorrosiondo360x1">a</string>
+    <string name="ahcabrasionheatcorrosiondo360x2">b</string>
+    <string name="ahcabrasionheatcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo360x1">a</string>
+    <string name="hicheatimpactcorrosiondo360x2">b</string>
+    <string name="hicheatimpactcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo041">Stampo e martello di forgiatura. Metallo Base: acciaio da lavorazione a caldo (1.2714). Dimensioni: 900x500x280 mm</string>
+    <string name="hicheatimpactcorrosiondo042">Urti e cicli termici in ambiente corrosivo. La temperatura dello stamp è di circa 500ºC. Forgiatura di acciai al boro per l\'agricoltura</string>
+    <string name="hicheatimpactcorrosiondo043">Produttività incrementadata del 70%.</string>
+
+    <string name="hicheatimpactcorrosiondo801">Piastra protettiva in un inceneritore. Metallo Base: St 52.3. Dimensioni: 3000x700mm e 2000x2600x1000mm</string>
+    <string name="hicheatimpactcorrosiondo802">Urti, calore e corrosione: i rifiuti impattano sulle piastre per alimentare il forno di combustione </string>
+    <string name="hicheatimpactcorrosiondo803">Incremento della vita di servizio</string>
+
+    <string name="hicheatimpactcorrosiondo3321">Piastre antiusura di un frantumatore per il cemento. Metallo di Base: Acciaio al Mn (13%Mn – 2.25%Cr). Peso: 65Kg</string>
+    <string name="hicheatimpactcorrosiondo3322">Urti e corrosione intoro a 80ºC</string>
+    <string name="hicheatimpactcorrosiondo3323">Riduzione dei tempi di lavoro ed eccellenti risultati di servizio</string>
+
+    <string name="hicheatimpactcorrosion8336eg1">Piastre Fuller nella produzione del clinker. Metallo Base: acciaio inox austenitico. Dimensioni: 300x417mm</string>
+    <string name="hicheatimpactcorrosion8336eg2">Urti calore e corrosione</string>
+    <string name="hicheatimpactcorrosion8336eg3">Un anno di servizio</string>
+
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_aih1">ABRASIONE / URTI / CALORE</string>
+    <string name="title_activity_aic1">ABRASIONE / URTI / CORROSIONE</string>
+    <string name="title_activity_ahc1">ABRASIONE / CALORE / CORROSIONE</string>
+    <string name="title_activity_hic1">CALORE / URTI / CORROSIONE</string>
+    <string name="title_activity_selections">Scegliere un fenomeno:</string>
+    <string name="title_activity_feedback">Modulo di richiesta</string>
+    <string name="title_activity_erosion">EROSIONE</string>
+    <string name="title_activity_DO390N">DO*390N</string>
+    <string name="title_activity_EG8336">8336EG</string>
+    <string name="title_activity_DO48">DO*48</string>
+    <string name="title_activity_DO11">DO*11</string>
+    <string name="title_activity_DO33">DO*33</string>
+    <string name="title_activity_DO322">DO*322</string>
+    <string name="title_activity_mechanical_fatigue">FATICA</string>
+    <string name="title_activity_DO22">DO*22</string>
+    <string name="title_activity_DO02">DO*02</string>
+    <string name="title_activity_DO257">DO*257</string>
+    <string name="title_activity_cavitation">CAVITAZIONE</string>
+    <string name="title_activity_CAVITEC">CAVITEC</string>
+    <string name="title_activity_DO80">DO*80</string>
+    <string name="title_activity_DO04">DO*04</string>
+    <string name="title_activity_DO05">DO*05</string>
+    <string name="title_activity_DO02cavitation">DO*02</string>
+    <string name="title_activity_read_me">EnDOtec Easy Selector</string>
+    <string name="title_activity_test_app">testApp</string>
+    <string name="title_activity_friction_and_rubbing">ATTRITO</string>
+    <string name="title_activity_do80frictionrubbing">DO*80</string>
+    <string name="title_activity_do70">DO*70</string>
+    <string name="title_activity_do60">DO*60</string>
+    <string name="title_activity_do329">DO*329</string>
+    <string name="title_activity_do06">DO*06</string>
+    <string name="title_activity_do360x">DO*360X</string>
+    <string name="title_activity_do04frictionrubbing">DO*04</string>
+    <string name="title_activity_aihabrasion">ABRASIONE</string>
+    <string name="title_activity_aihimpact">URTI</string>
+    <string name="title_activity_aihheat">CALORE</string>
+    <string name="title_activity_aihabrasionimpact">ABRASIONE + Urti</string>
+    <string name="title_activity_aihimpactabrasion">URTI + Abrasione</string>
+    <string name="title_activity_aihabrasionheat">ABRASIONE + CALORE</string>
+    <string name="title_activity_aihimpactheat">URTI + CALORE</string>
+    <string name="title_activity_aihabrasionimpactheat">ABRASIONE + URTI + CALORE</string>
+    <string name="title_activity_aiccorrosion">CORROSIONE</string>
+    <string name="title_activity_aicabrasioncorrosion">ABRASIONE + CORROSIONE</string>
+    <string name="title_activity_aicimpactcorrosion">URTI + CORROSIONE</string>
+    <string name="title_activity_aicabrasionimpactcorrosion">ABRASIONE + URTI + CORROSIONE</string>
+    <string name="title_activity_ahcheatcorrosion">CALORE + CORROSIONE</string>
+    <string name="title_activity_ahcabrasionheatcorrosion">ABRASIONE + CALORE + CORROSIONE</string>
+    <string name="title_activity_hicheatimpactcorrosion">CALORE + URTI + CORROSIONE</string>
+    <string name="title_activity_aihabrasiondo48">DO*48</string>
+    <string name="title_activity_aihabrasiondo390n">DO*390N</string>
+    <string name="title_activity_aihabrasion8336eg">8336EG</string>
+    <string name="title_activity_aihabrasiondo11">DO*11</string>
+    <string name="title_activity_aihabrasiondo33">DO*33</string>
+    <string name="title_activity_aihabrasiondo30">DO*30</string>
+    <string name="title_activity_aihabrasiondo322">DO*322</string>
+    <string name="title_activity_aihabrasiondo31">DO*31</string>
+    <string name="title_activity_aihabrasiondo06">DO*06</string>
+    <string name="title_activity_aihabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihabrasiondo15">DO*15</string>
+    <string name="title_activity_aihabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactdo05">DO*05</string>
+    <string name="title_activity_aihimpactdo02">DO*02</string>
+    <string name="title_activity_aihimpactdo310">DO*310</string>
+    <string name="title_activity_aihimpactdo327">DO*327</string>
+    <string name="title_activity_aihimpactdo15">DO*15</string>
+    <string name="title_activity_aihimpactdo351">DO*351</string>
+    <string name="title_activity_aihimpactdo13">DO*13</string>
+    <string name="title_activity_aihimpactdo332">DO*332</string>
+    <string name="title_activity_aihheatdo84">DO*84</string>
+    <string name="title_activity_aihheatdo80">DO*80</string>
+    <string name="title_activity_aihheatdo04">DO*04</string>
+    <string name="title_activity_aihheatdo360x">DO*360X</string>
+    <string name="title_activity_aihheatdo70">DO*70</string>
+    <string name="title_activity_aihheatdo60">DO*60</string>
+    <string name="title_activity_aihheatdo22">DO*22</string>
+    <string name="title_activity_aihabrasionimpact8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactdo48">DO*48</string>
+    <string name="title_activity_aihabrasionimpactdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionimpactdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactdo31">DO*31</string>
+    <string name="title_activity_aihabrasionimpactdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactdo351">DO*351</string>
+    <string name="title_activity_aihabrasionimpactdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactdo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo327">DO*327</string>
+    <string name="title_activity_aihimpactabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihimpactabrasiondo11">DO*11</string>
+    <string name="title_activity_aihimpactabrasiondo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo15">DO*15</string>
+    <string name="title_activity_aihimpactabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactabrasiondo351">DO*351</string>
+    <string name="title_activity_aihimpactabrasiondo06">DO*06</string>
+    <string name="title_activity_aihimpactabrasiondo332">DO*332</string>
+    <string name="title_activity_aihimpactabrasiondo05">DO*05</string>
+    <string name="title_activity_aihimpactabrasiondo02">DO*02</string>
+    <string name="title_activity_aihabrasionheatdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionheatdo33">DO*33</string>
+    <string name="title_activity_aihabrasionheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihabrasionimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihabrasionimpactheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactheatdo390n">DO*390N</string>
+    <string name="title_activity_aiccorrosiondo22">DO*22</string>
+    <string name="title_activity_aiccorrosiondo80">DO*80</string>
+    <string name="title_activity_aiccorrosiondo60">DO*60</string>
+    <string name="title_activity_aiccorrosiondo70">DO*70</string>
+    <string name="title_activity_aiccorrosiondo02">DO*02</string>
+    <string name="title_activity_aiccorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aiccorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasioncorrosiondo411">DO*411</string>
+    <string name="title_activity_aicabrasioncorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasioncorrosiondo33">DO*33</string>
+    <string name="title_activity_aicabrasioncorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasioncorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasioncorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasioncorrosiondo332">DO*332</string>
+    <string name="title_activity_aicabrasioncorrosiondo70">DO*70</string>
+    <string name="title_activity_aicabrasioncorrosiondo04">DO*04</string>
+    <string name="title_activity_aicimpactcorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aicimpactcorrosiondo02">DO*02</string>
+    <string name="title_activity_aicimpactcorrosiondo05">DO*05</string>
+    <string name="title_activity_aicimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasionimpactcorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo60">DO*60</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo84">DO*84</string>
+    <string name="title_activity_ahccorrosionheatdo80">DO*80</string>
+    <string name="title_activity_ahccorrosionheatdo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo360x">DO*360X</string>
+    <string name="title_activity_ahccorrosionheatdo22">DO*22</string>
+    <string name="title_activity_ahccorrosionheatdo411">DO*411</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo33">DO*33</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_ahcabrasionheatcorrosion8336eg">8336EG</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo70">DO*70</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_hicheatimpactcorrosiondo80">DO*80</string>
+    <string name="title_activity_hicheatimpactcorrosiondo332">DO*332</string>
+    <string name="title_activity_hicheatimpactcorrosion8336eg">8336EG</string>  
+
+</resources>
