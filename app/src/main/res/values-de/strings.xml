@@ -1,0 +1,953 @@
+<resources>
+    <string name="app_name">EnDOtec Castolin</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="intro">ANFANG</string>
+    <string name="readme">Bitte lesen</string>
+    <string name="backButton">zurück</string>
+    <string name="action_advantages">Vorteile:</string>
+    <string name="action_part">Teil:</string>
+    <string name="action_wear">Tragen:</string>
+    <string name="action_technical_support">Anfrage Weitere Infos</string>
+    <string name="selections_title">Wählen Sie ein Phänomen:</string>
+    <string name="NameOfCustomer">Ihr vollständiger name hier:</string>
+    <string name="Country">Land:</string>
+    <string name="Company">Unternehmen:</string>
+    <string name="Email">Email:</string>
+    <string name="PhoneNumber">Telefon:</string>
+    <string name="Description">Beschreibung:</string>
+    <string name="SendFeedback">Senden</string>
+    <string name="AllFieldsCompulsory">Alle felder sind verbindlich.\n</string>
+    <string name="EmailClient">Wählen sie eine E-Mail-Client:</string>
+    <string name="EmailTechnicalSupport">Technische Support-Anfrage von EnDOtec EASYselector App</string>
+
+    <string name="read_me_description">\nEs ist üblich, dass ein abgenutztes Teil unterschiedlichen Arten von Verschleiß ausgesetzt war. Einfache Lösungen reichen nicht aus und die praktische Lösung hängt von der Erfahrung, einer breiten. Produktpalette und Kooperationen ab.\n\n
+DAS IST DIE WAHRE CASTOLIN EUTECTIC KOMPETENZ\n\n
+Das macht die Verschleißmechanismen wesentlich komplexer und schwer verständlich. Manchmal kommen 2, 3 sogar 4 Arten des Verschleißes zusammen; da sind einfache Lösungen nicht ausreichend. Trotzdem muss die vorherrschende Verschleißart festgestellt werden.\n\n
+Wie diese app nutzen :\n
+1. Analyse und Identifizierung des primären Verschleißfaktors.\n
+2. Analyse und Identifizierung des sekundären und tertiären Verschleißfaktors.\n
+3. Verwenden Sie dieses Handbuch um eine erste Auswahl an EnDOtec-Drähten für die Anforderung Ihrer Anwendung zu haben.\n\n
+Falls notwendig, kontaktiern Sie bitte Ihre technische Abteilung zur Bestätigung bzw. zur weiteren Hilfe bezüglich des Schweißvorgangs.</string>
+
+    <string name="Selectionlist1">Abrasion/Schläge/Hitze</string>
+    <string name="Selectionlist2">Abrasion/Schläge/Korrosion</string>
+    <string name="Selectionlist3">Abrasion/Hitze/Korrosion</string>
+    <string name="Selectionlist4">Hitze/Schläge/Korrosion</string>
+    <string name="Selectionlist5">Erosion</string>
+    <string name="Selectionlist6">Mechanische Ermüdung</string>
+    <string name="Selectionlist7">Cavitation</string>
+    <string name="Selectionlist8">Reibung und Schmirgel</string>
+
+    <string name="AIH1">Abrasion</string>
+    <string name="AIH2">Schläge</string>
+    <string name="AIH3">Hitze</string>
+    <string name="AIH4">ABRASION + Schläge</string>
+    <string name="AIH5">SCHLÄGE + Abrasion</string>
+    <string name="AIH6">Abrasion + Hitze</string>
+    <string name="AIH7">Schläge + Hitze</string>
+    <string name="AIH8">Abrasion + Schläge + Hitze</string>
+
+    <string name="AIC1">Abrasion</string>
+    <string name="AIC2">Schläge</string>
+    <string name="AIC3">Korrosion</string>
+    <string name="AIC4">ABRASION + Schläge</string>
+    <string name="AIC5">SCHLÄGE + Abrasion</string>
+    <string name="AIC6">Abrasion + Korrosion</string>
+    <string name="AIC7">Schläge + Korrosion</string>
+    <string name="AIC8">Abrasion + Schläge + Korrosion</string>
+
+    <string name="AHC1">Abrasion</string>
+    <string name="AHC2">Hitze</string>
+    <string name="AHC3">Korrosion</string>
+    <string name="AHC4">Abrasion + Hitze</string>
+    <string name="AHC5">Abrasion + Korrosion</string>
+    <string name="AHC6">Hitze + Korrosion</string>
+    <string name="AHC7">Abrasion + Hitze + Korrosion</string>
+
+    <string name="HIC1">Hitze</string>
+    <string name="HIC2">Schläge</string>
+    <string name="HIC3">Korrosion</string>
+    <string name="HIC4">Hitze + Schläge</string>
+    <string name="HIC5">Hitze + Korrosion</string>
+    <string name="HIC6">Schläge + Korrosion</string>
+    <string name="HIC7">Hitze + Schläge + Korrosion</string>
+
+    <string name="erosion1">1. DO*390N</string>
+    <string name="erosion2">2. 8336EG</string>
+    <string name="erosion3">3. DO*48</string>
+    <string name="erosion4">4. DO*11</string>
+    <string name="erosion5">5. DO*33</string>
+    <string name="erosion6">6. DO*322</string>
+
+    <string name="application1">Teil:</string>
+    <string name="application2">Tragen:</string>
+    <string name="application3">Typische Lösungen:</string>
+    <string name="application4">Erweiterte Lösungen:</string>
+    <string name="application5">Vorteile:</string>
+
+    <string name="mechanical1">1. DO*22</string>
+    <string name="mechanical2">2. DO*02</string>
+    <string name="mechanical3">3. DO*257</string>
+
+    <string name="cavitation1">1. CAVITEC</string>
+    <string name="cavitation2">2. DO*80</string>
+    <string name="cavitation3">3. DO*04</string>
+    <string name="cavitation4">4. DO*05</string>
+    <string name="cavitation5">5. DO*02</string>
+
+    <string name="frictionrubbing1">1. DO*80</string>
+    <string name="frictionrubbing2">2. DO*70</string>
+    <string name="frictionrubbing3">3. DO*60</string>
+    <string name="frictionrubbing4">4. DO*329</string>
+    <string name="frictionrubbing5">5. DO*06</string>
+    <string name="frictionrubbing6">6. DO*360X</string>
+    <string name="frictionrubbing7">7. DO*04</string>
+
+    <string name="aihabrasion1">1. DO*48</string>
+    <string name="aihabrasion2">2. DO*390N</string>
+    <string name="aihabrasion3">3. 8336EG</string>
+    <string name="aihabrasion4">4. DO*11</string>
+    <string name="aihabrasion5">5. DO*33</string>
+    <string name="aihabrasion6">6. DO*30</string>
+    <string name="aihabrasion7">7. DO*322</string>
+    <string name="aihabrasion8">8. DO*31</string>
+    <string name="aihabrasion9">9. DO*06</string>
+    <string name="aihabrasion10">10. DO*360X</string>
+    <string name="aihabrasion11">11. DO*15</string>
+    <string name="aihabrasion12">12. DO*13</string>
+
+    <string name="aihimpact1">1. DO*05</string>
+    <string name="aihimpact2">2. DO*02</string>
+    <string name="aihimpact3">3. DO*310</string>
+    <string name="aihimpact4">4. DO*327</string>
+    <string name="aihimpact5">5. DO*15</string>
+    <string name="aihimpact6">6. DO*351</string>
+    <string name="aihimpact7">7. DO*13</string>
+    <string name="aihimpact8">8. DO*332</string>
+
+    <string name="aihheat1">1. DO*84</string>
+    <string name="aihheat2">2. DO*80</string>
+    <string name="aihheat3">3. DO*04</string>
+    <string name="aihheat4">4. DO*360X</string>
+    <string name="aihheat5">5. DO*70</string>
+    <string name="aihheat6">6. DO*60</string>
+    <string name="aihheat7">7. DO*22</string>
+
+    <string name="aihabrasionimpact1">1. 8336EG</string>
+    <string name="aihabrasionimpact2">2. DO*48</string>
+    <string name="aihabrasionimpact3">3. DO*390N</string>
+    <string name="aihabrasionimpact4">4. DO*327</string>
+    <string name="aihabrasionimpact5">5. DO*31</string>
+    <string name="aihabrasionimpact6">6. DO*332</string>
+    <string name="aihabrasionimpact7">7. DO*06</string>
+    <string name="aihabrasionimpact8">8. DO*15</string>
+    <string name="aihabrasionimpact9">9. DO*351</string>
+    <string name="aihabrasionimpact10">10. DO*04</string>
+    <string name="aihabrasionimpact11">11. DO*329</string>
+
+    <string name="aihimpactabrasion1">1. DO*327</string>
+    <string name="aihimpactabrasion2">2. DO*360X</string>
+    <string name="aihimpactabrasion3">3. DO*11</string>
+    <string name="aihimpactabrasion4">4. DO*329</string>
+    <string name="aihimpactabrasion5">5. DO*15</string>
+    <string name="aihimpactabrasion6">6. DO*13</string>
+    <string name="aihimpactabrasion7">7. DO*351</string>
+    <string name="aihimpactabrasion8">8. DO*06</string>
+    <string name="aihimpactabrasion9">9. DO*332</string>
+    <string name="aihimpactabrasion10">10. DO*05</string>
+    <string name="aihimpactabrasion11">11. DO*02</string>
+
+    <string name="aihabrasionheat1">1. DO*390N</string>
+    <string name="aihabrasionheat2">2. 8336EG</string>
+    <string name="aihabrasionheat3">3. DO*33</string>
+    <string name="aihabrasionheat4">4. DO*332</string>
+    <string name="aihabrasionheat5">5. DO*06</string>
+    <string name="aihabrasionheat6">6. DO*360X</string>
+    <string name="aihabrasionheat7">7. DO*15</string>
+    <string name="aihabrasionheat8">8. DO*04</string>
+
+    <string name="aihimpactheat1">1. DO*360X</string>
+    <string name="aihimpactheat2">2. DO*329</string>
+    <string name="aihimpactheat3">3. DO*04</string>
+    <string name="aihimpactheat4">4. DO*60</string>
+    <string name="aihimpactheat5">5. DO*327</string>
+    <string name="aihimpactheat6">6. DO*15</string>
+
+    <string name="aihabrasionimpactheat1">1. DO*360X</string>
+    <string name="aihabrasionimpactheat2">2. DO*04</string>
+    <string name="aihabrasionimpactheat3">3. DO*60</string>
+    <string name="aihabrasionimpactheat4">4. DO*327</string>
+    <string name="aihabrasionimpactheat5">5. DO*06</string>
+    <string name="aihabrasionimpactheat6">6. DO*329</string>
+    <string name="aihabrasionimpactheat7">7. DO*332</string>
+    <string name="aihabrasionimpactheat8">8. DO*15</string>
+    <string name="aihabrasionimpactheat9">9. 8336EG</string>
+    <string name="aihabrasionimpactheat10">10. DO*390N</string>
+
+    <string name="aiccorrosion1">1. DO*22</string>
+    <string name="aiccorrosion2">2. DO*80</string>
+    <string name="aiccorrosion3">3. DO*60</string>
+    <string name="aiccorrosion4">4. DO*70</string>
+    <string name="aiccorrosion5">5. DO*02</string>
+    <string name="aiccorrosion6">6. CAVITEC</string>
+    <string name="aiccorrosion7">7. DO*04</string>
+
+    <string name="aicabrasioncorrosion1">1. DO*411</string>
+    <string name="aicabrasioncorrosion2">2. DO*11</string>
+    <string name="aicabrasioncorrosion3">3. DO*33</string>
+    <string name="aicabrasioncorrosion4">4. DO*390N</string>
+    <string name="aicabrasioncorrosion5">5. 8336EG</string>
+    <string name="aicabrasioncorrosion6">6. DO*31</string>
+    <string name="aicabrasioncorrosion7">7. DO*332</string>
+    <string name="aicabrasioncorrosion8">8. DO*70</string>
+    <string name="aicabrasioncorrosion9">9. DO*04</string>
+
+    <string name="aicimpactcorrosion1">1. CAVITEC</string>
+    <string name="aicimpactcorrosion2">2. DO*02</string>
+    <string name="aicimpactcorrosion3">3. DO*05</string>
+    <string name="aicimpactcorrosion4">4. DO*04</string>
+
+    <string name="aicabrasionimpactcorrosion1">1. DO*11</string>
+    <string name="aicabrasionimpactcorrosion2">2. 8336EG</string>
+    <string name="aicabrasionimpactcorrosion3">3. DO*390N</string>
+    <string name="aicabrasionimpactcorrosion4">4. DO*31</string>
+    <string name="aicabrasionimpactcorrosion5">5. DO*360X</string>
+    <string name="aicabrasionimpactcorrosion6">6. DO*60</string>
+    <string name="aicabrasionimpactcorrosion7">7. DO*04</string>
+
+    <string name="ahcheatcorrosion1">1. DO*84</string>
+    <string name="ahcheatcorrosion2">2. DO*80</string>
+    <string name="ahcheatcorrosion3">3. DO*04</string>
+    <string name="ahcheatcorrosion4">4. DO*360X</string>
+    <string name="ahcheatcorrosion5">5. DO*22</string>
+    <string name="ahcheatcorrosion6">6. DO*411</string>
+
+    <string name="ahcabrasionheatcorrosion1">1. DO*33</string>
+    <string name="ahcabrasionheatcorrosion2">2. DO*390N</string>
+    <string name="ahcabrasionheatcorrosion3">3. 8336EG</string>
+    <string name="ahcabrasionheatcorrosion4">4. DO*70</string>
+    <string name="ahcabrasionheatcorrosion5">5. DO*04</string>
+    <string name="ahcabrasionheatcorrosion6">6. DO*360X</string>
+
+    <string name="hicheatimpactcorrosion1">1. DO*360X</string>
+    <string name="hicheatimpactcorrosion2">2. DO*04</string>
+    <string name="hicheatimpactcorrosion3">3. DO*80</string>
+    <string name="hicheatimpactcorrosion4">4. DO*332</string>
+    <string name="hicheatimpactcorrosion5">5. 8336EG</string>
+
+    <string name="DO390N1">Einsatz einer Atox-Mühle. Zementindustrie. Grundwerkstoff: unlegierter Stahl. Maße: 140 mm (innen) x 155 mm (Länge).</string>
+    <string name="DO390N2">Erosion-Abrasion.</string>
+    <string name="DO390N3">Austauschbare Lösung. Die Schalen können nach Verschleiß um 90° gedreht werden, damit mindestens 4-fach längere Standzeit.</string>
+
+    <string name="EG83361">Luftleitring einer Walzenschüsselmühle. Zementindustrie. Grundwerkstoff: Baustahl (S355JRG2). Maße: 520x350 mm.</string>
+    <string name="EG83362">Erosion.</string>
+    <string name="EG83363">Um das 2,5-Fache verlängerte Standzeit sowie einfache Montage und Demontage der Verschleißschutzplatten.</string>
+
+    <string name="DO481">Trennbleche in der Zementindustrie. Grundwerkstoff: niedriglegierter härtbarer Stahl (16MnCr5). Maße: 1940x180 mm.</string>
+    <string name="DO482">Erosion und Abrasion.</string>
+    <string name="DO483">Verlängerung der Standzeit von 730 Tagen bei der bisherigen Lösung auf 1.095 Tage mit jetziger Lösung.</string>
+
+    <string name="DO111">Lüfterflügel eines Primärluftgebläses in der Zementindustrie. Grundwerkstoff: Baustahl Maße: Ø 1600x120 mm.</string>
+    <string name="DO112">Erosion.</string>
+    <string name="DO113">Verringerung der Schweißzeit (ca. 65 %). Verlängerung der Standzeit bis zum 3-Fachen.</string>
+
+    <string name="DO331">Walze eines Müllverbrennungskessels in Wärmekraftwerk. Grundwerkstoff: Baustahl. Maße: Ø = 400 mm L = 1200 mm.</string>
+    <string name="DO332">Erosion / Abrasion bei niedrigem Druck, speziell in Flanschen.</string>
+    <string name="DO333">Verlängerung der Standzeit um mehr als das 5-Fache gegenüber Hardox.</string>
+
+    <string name="DO3221">Betonpumpenrohr. Grundwerkstoff: Baustahl.</string>
+    <string name="DO3222">Erosion und Abrasion im Rohr.</string>
+    <string name="DO3223">Verlängerung der Standzeit. 14 Monate.</string>
+
+    <string name="DO221">Umreifung eines Zementofens. Grundwerkstoff: niedriglegierter Gussstahl (GS 30 Mn 5). Maße: Ø 6500x1400x500 mm. Fugenmaße: 1200x170x250 mm.</string>
+    <string name="DO222">Mechanische Ermüdung durch extreme Betriebsbedingungen.</string>
+    <string name="DO223">Schnellerer Auftrag mit diesem Draht und Schlackefreiheit.</string>
+
+    <string name="DO021">Kurbelwelle eines Motors in der Automobilindustrie. Grundwerkstoff: niedriglegierter vergütbarer Stahl.</string>
+    <string name="DO022">Mechanische Ermüdung.</string>
+    <string name="DO023">Längere Standzeit, geringere Rissgefahr (H2-Rissbildung oder Eigenspannung in der WEZ).</string>
+
+    <string name="DO2571">Satelliten in einem Zementofen. Rissreparatur. Grundwerkstoff: St35.</string>
+    <string name="DO2572">Thermische und mechanische Ermüdung.</string>
+    <string name="DO2573">Gute Schweißbarkeit, hervorragende mechanische Eigenschaften und high Abschmelzleistung.</string>
+
+    <string name="CAVITEC1">Pelton-Schaufeln einer Pelton-Turbine in einem Wasserkraftwerk. Grundwerkstoff: niedriglegierter Gussstahl (410 NiMo).</string>
+    <string name="CAVITEC2">Starke Kavitation und Erosion wegen Schwebstoffen in dem die Turbine durchströmenden Wasser.</string>
+    <string name="CAVITEC3">Längere Standzeit und höhere Effizienz der Anlage. Cavitec hat die besten Ergebnisse im Vergleich mit jeder anderen Legierung.</string>
+
+    <string name="DO801">Einlaufteile eines Refiner-Cycrotube in der Zellstoff- und Papierindustrie. Grundwerkstoff: austenitischer Edelstahl. Maße: 300x500 mm.</string>
+    <string name="DO802">Kavitation.</string>
+    <string name="DO803">Längere Standzeit, mindestens 3 Jahre.</string>
+
+    <string name="DO041">Flügel eines Wasserpropellers einer Wasseraufbereitungsanlage. Grundwerkstoff: Gusseisen.</string>
+    <string name="DO042">Kavitation und Erosion durch Wasser mit Schwebstoffen.</string>
+    <string name="DO043">Verlängerung der Standzeit bis zum 4-Fachen.</string>
+
+    <string name="DO051">Laufrad einer Umwälzpumpe in einem Wärmekraftwerk. Grundwerkstoff: hochlegierter Gussstahl (GX 10 Cr 13/GX 12 Cr14).</string>
+    <string name="DO052">Kavitation.</string>
+    <string name="DO053">Verlängerung der Standzeit.</string>
+
+    <string name="DO02cavitation1">Hydropulper-Rotor für die Zellstoff- und Papierindustrie. Grundwerkstoff: AISI 316. Maße: Ø 1500mm.</string>
+    <string name="DO02cavitation2">Starker Verschleiß durch Zellstoff und einige andere Stoffe im Wasser.</string>
+    <string name="DO02cavitation3">Standzeit: 4 - 5 Monate und schnellere Reparatur.</string>
+
+    <string name="DO80frictionrubbing1">Formwerkzeug einer hydraulischen Presse. Grundwerkstoff: Duplex-Stahl.</string>
+    <string name="DO80frictionrubbing2">Aufgrund von hohem Druck und Adhäsion unterliegt das Werkzeug zur Fertigung von Fittings starkem Verschleiß.</string>
+    <string name="DO80frictionrubbing3">Unempfindlich gegen Adhäsionsverschleiß selbst ohne Schmierung – niedriger Reibungskoeffizient gegenüber metallischen Werkstoffen.</string>
+
+    <string name="DO701">Meißel eines Walzgerüsts für die Stahlschienenfertigung. Grundwerkstoff: Unlegierter vergütbarer Stahl.</string>
+    <string name="DO702">Hoher Druck und hohe Temperatur (bis 1100 °C) führen durch die starke Reibung zu Verschleiß an den Meißeln.</string>
+    <string name="DO703">Glattere Oberfläche der Meißen. Bis zu 3-fach längere Standzeit. Geringere Schrumpfung der Oberfläche.</string>
+
+    <string name="DO601">Endanschlag einer Drehbank. Kaltarbeitswerkzeugstahl. Grundwerkstoff: NC6, NC11.</string>
+    <string name="DO602">Reibung und Stöße beim Einlegen der Ringe. Ungleichmäßige Kontaktfläche verursacht Vibrationen, so dass das Soll-Maß nicht eingehalten wird.</string>
+    <string name="DO603">Verlängerung der Standzeit um über 100 %.</string>
+
+    <string name="DO3291">Schlingenwalzen beim Drahziehen und - walzen. Grundwerkstoff: Austenitischer Manganstahl.</string>
+    <string name="DO3292">Reibung bei hoher Temperatur, hervorgerufen durch die Rollen, wodurch das Spannen des Drahtes verhindert wird.</string>
+    <string name="DO3293">Verlängerung der Standzeit von 15 Tagen auf 90 Tage.</string>
+
+    <string name="DO061">Antriebswalzengerüst. Eisen- und Stahlindustrie. Grundwerkstoff: F114. Maße: Ø 337mm x 710 mm.</string>
+    <string name="DO062">Metall/Metall-Reibung bei 250 ºC.</string>
+    <string name="DO063">Verlängerung von Standzeit und Produktion.</string>
+
+    <string name="DO360X1">Formwerkzeug in einer hydraulischen Presse. Schmieden. Grundwerkstoff: Superduplex.</string>
+    <string name="DO360X2">Metall/Metall-Reibung durch den hohen Druck des Werkzeugs.</string>
+    <string name="DO360X3">Weniger verschleißempfindlich selbst ohne Schmierung.</string>
+
+    <string name="DO04FrictionRubbing1">Schienenrichtführung. Grundwerkstoff: Baustahl.</string>
+    <string name="DO04FrictionRubbing2">Metall/Metall-Reibung durch den Druck des Zylinders auf die Schienen.</string>
+    <string name="DO04FrictionRubbing3">Verlängerung der Standzeit von 25 Tagen auf 35 Tage.</string>
+
+    <string name="aihabrasiondo481">Hammermühle (Talkum).</string>
+    <string name="aihabrasiondo482">Starke Abrasion bei sehr geringer (fast keiner) Stoßbeanspruchung durch Mahlen von Talkum.</string>
+    <string name="aihabrasiondo483">Verlängerung der Standzeit bis zum 2- bis 3-Fachen (von 2 Tagen auf bis zu 9 Tage).</string>
+
+    <string name="aihabrasiondo390n1">Schnecke (Keramik). Grundwerkstoff: Hardox.</string>
+    <string name="aihabrasiondo390n2">Starke Abrasion durch Keramikförderung (Ziegelsteine und Ton).</string>
+    <string name="aihabrasiondo390n3">Verlängerung der Standzeit bis zum 5- bis 6-Fachen.</string>
+
+    <string name="aihabrasion8336eg1">Schnecke (Mineralien) Grundwerkstoff: niedriglegierter Stahl, vergütet.</string>
+    <string name="aihabrasion8336eg2">Starke Abrasion durch Mineralienförderung.</string>
+    <string name="aihabrasion8336eg3">Verlängerung der Standzeit bis zum 4-Fachen Sofortige Anwendung, keine lange Verzögerungen für die neue Schnecke bei geringerem Preis.</string>
+
+    <string name="aihabrasiondo111">Schaufel einer Knetmaschine (Ton). Grundwerkstoff: niedriglegierter Stahl.</string>
+    <string name="aihabrasiondo112">Starke Abrasion durch Mischung von Ton und Pyrit.</string>
+    <string name="aihabrasiondo113"> Höhere Abschmelzleistung, kürzere Schweißdauer, weniger Reparaturaufwand für den Kneter. Verlängerung der Standzeit bis zum 3-Fachen.</string>
+
+    <string name="aihabrasiondo331">Schnecke (Sand). Grundwerkstoff: verstärkter niedriglegierter Stahl.</string>
+    <string name="aihabrasiondo332">Starke Abrasion in Kombination mit hoher Temperatur (korrosive Umgebung).</string>
+    <string name="aihabrasiondo333">Verlängerung der Standzeit von 4 auf 12 Monate und Auswechseln der Endlosschnecke entfällt.</string>
+
+    <string name="aihabrasiondo301">Schnecke. Grundwerkstoff: niedriglegierter Stahl.</string>
+    <string name="aihabrasiondo302">Starke Abrasion durch Zementförderung.</string>
+    <string name="aihabrasiondo303">Höhere Abrasionsbeständigkeit, sehr große Standzeitverlängerung.</string>
+
+    <string name="aihabrasiondo3221">Schnecke für Bennstoffaufgabe, Holzspäne und tierische Stoffe. Grundwerkstoff: niedriglegierter Stahl.</string>
+    <string name="aihabrasiondo3222">Starke Abrasion durch Förderung verschiedener Elemente.</string>
+    <string name="aihabrasiondo3223">Höhere Abrasionsbeständigkeit, Verlängerung der Standzeit um bis zu 18 Monate.</string>
+
+    <string name="aihabrasiondo311">Biomasse-Förderschnecke. Grundwerkstoff: niedriglegierter Stahl.</string>
+    <string name="aihabrasiondo312">Starke Abrasion durch Förderung von Baumrinde.</string>
+    <string name="aihabrasiondo313">Verlängerung der Standzeit um bis zu 24 Monate.</string>
+
+    <string name="aihabrasiondo061">Walze in der Kühlzone, Stahlwerk Grundwerkstoff: Niedriglegierter Stahl GS-52.</string>
+    <string name="aihabrasiondo062">Starke Abrasion plus Reibung.</string>
+    <string name="aihabrasiondo063">Höhere Abrasionsbeständigkeit, Verlängerung der Standzeit um 60 bis 180 Tage</string>
+
+    <string name="aihabrasiondo360x1">a</string>
+    <string name="aihabrasiondo360x2">b</string>
+    <string name="aihabrasiondo360x3">c</string>
+
+    <string name="aihabrasiondo151">Förderschnecke (Zement). Grundwerkstoff: niedriglegierter vergütbarer Stahl. Maße: Ø=300mm L= 3000mm.</string>
+    <string name="aihabrasiondo152">Starke Abrasion durch Zementförderung.</string>
+    <string name="aihabrasiondo153">Erhebliche Verlängerung der Standzeit und gute Bearbeitbarkeit.</string>
+
+    <string name="aihabrasiondo131">Walze zum Mahlen von recyceltem Glas. Grundwerkstoff: niedriglegierter Stahl (S235).</string>
+    <string name="aihabrasiondo132">Starke Abrasion plus hoher Druck.</string>
+    <string name="aihabrasiondo133">Sehr gute Beständigkeit gegen starke Abrasion plus Stoß, ohne Rissbildung.</string>
+
+    <string name="aihimpactdo051">Hammbrecher-Rotor (mit Pendelschlägern). Grundwerkstoff: niedriglegierter härtbarer Stahl Maße: Ø = 800 mm t = 80 mm. Gewicht: 1000 kg.</string>
+    <string name="aihimpactdo052">Hohe Stoß- und Abrasionsbelastung durch die zwischen Pendelschlägern und dem Amboss wirkenden Kräfte beim Zerkleinern der Metall-Aufgabeguts (200 - 300 g Verschleiß je Tonne erzeugten Schrotts).</string>
+    <string name="aihimpactdo053">Verlängerung der Standzeit (vorher: 120 Tage; Castolin-Lösung: 210 Tage).</string>
+
+    <string name="aihimpactdo021">Kegelhalterung eines Brechers zur Gewinnung von Sand und Kies. Grundwerkstoff: niedriglegierter Gussstahl (Ø 110/880x435 mm).</string>
+    <string name="aihimpactdo022">Stoß und hoher Druck.</string>
+    <string name="aihimpactdo023">Verlängerung der Standzeit von 365 Tagen bei der bisherigen Lösung auf 550 Tage mit Castolin-Lösung Billiger als Austausch.</string>
+
+    <string name="aihimpactdo3101">Antriebsrad eines Baggers in einem Tagebau. Grundwerkstoff: Niedriglegierter vergütbarer Stahl. Maße: Ø 2000 mm t = 450 mm.</string>
+    <string name="aihimpactdo3102">Hohe Stoß- und Abrasionsbeanspruchung speziell der Zähne des Antriebsrads.</string>
+    <string name="aihimpactdo3103">Verlängerung der Laufzeit und besseres Kosten/Nutzen-Verhältnis. Billiger als Austausch. DO*310 ergibt homogene und rissfreie Auftragungen.</string>
+
+    <string name="aihimpactdo3271">Schläger eines Brechers für die Nachzerkleinerung in der Zementindustrie. Grundwerkstoff: Austenitischer Manganstahl (14 % Mn - 2 % Mo). Maße: 420x350x140 mm.</string>
+    <string name="aihimpactdo3272">Stoß- und etwas Abrasionsbeanspruchung, da die Schläger den Kalkstein zerkleinern müssen.</string>
+    <string name="aihimpactdo3273">Verlängerung der Standzeit um 50 %. 3 Jahre Standzeit.</string>
+
+    <string name="aihimpactdo151">Brecherlaufrad eines Prallbrechers Tagebau. Grundwerkstoff: Baustahl (Ø 1000x340 mm).</string>
+    <string name="aihimpactdo152">Stoßbeanspruchung infolge des Zerkleinerns der Steine von 60 mm auf 0,5 - 30 mm.</string>
+    <string name="aihimpactdo153">Verlängerung der Standzeit von 300 Tagen bei der bisherigen Lösung auf 600 Tage mit Castolin-Lösung.</string>
+
+    <string name="aihimpactdo3511">Rohrbogen für Abfall in der Glasindustrie. Grundwerkstoff: S235.</string>
+    <string name="aihimpactdo3512">Stoß- und Abrasionsbeanspruchung durch herabfallende Recycling-Glasflaschen.</string>
+    <string name="aihimpactdo3513">Kürzere Ausbauzeit des Rohrbogens, sehr gute Schweißbarkeit und hohe Abschmelzleistung.</string>
+
+    <string name="aihimpactdo131">Stabschläger eines Brechers für die Nachzerkleinerung in einer Ziegelei. Grundwerkstoff: niedriglegierter Einsatzstahl. Maße: 510x60x30 mm.</string>
+    <string name="aihimpactdo132">Stoß</string>
+    <string name="aihimpactdo133">27 Stunden Betriebsdauer und Brecher muss während der Schichten nicht abgeschaltet werden. Das bedeutet eine um 800 % verlängerte Standzeit.</string>
+
+    <string name="aihimpactdo3321">Schlagorgan eines Spezialbrechers zur Herstellung von Tierfutter. Grundwerkstoff: Baustahl.</string>
+    <string name="aihimpactdo3322">Stoßbeanspruchung unter hohem Druck beim Zerkleinern von Tierknochen.</string>
+    <string name="aihimpactdo3323">Ähnliche Standzeit, jedoch wesentlich geringerer Preis und kein Ausbruchrisiko.</string>
+
+    <string name="aihheatdo841">Presswerkzeug einer Schmiedepresse. Grundwerkstoff: Niedriglegierter vergütbarer Stahl.</string>
+    <string name="aihheatdo842">Ermüdung und Reibung bei hoher Temperatur.</string>
+    <string name="aihheatdo843">Die Ausführungszeit für das Auftragschweißen hat sich halbiert, die mechanischen Eigenschaften sind besser und die Standzeit des Gesenks hat sich verlängert.</string>
+
+    <string name="aihheatdo801">Spannbacken einer Schmiedemaschine. Grundwerkstoff: Warmarbeitswerkzeugstahl (1.2714).</string>
+    <string name="aihheatdo802">Hohe Temperatur und Stoßbelastung, während das glühende Schmiedestück durch die Spannbacken fixiert ist.</string>
+    <string name="aihheatdo803">Hervorragende Beständigkeit gegen Hitze und Stoß. Doppelte Standzeit gegenüber der typischen Lösung.</string>
+
+    <string name="aihheatdo041">Treibrolle in Stranggießanlage. Grundwerkstoff: niedriglegierter vergütbarer Stahl.</string>
+    <string name="aihheatdo042">Hohe Temperatur und Druckbelastung durch den Gießstrang führen zu schnellem Verschleiß der Treibrollen.</string>
+    <string name="aihheatdo043">Jährliche Kosteneinsparungen, bis zu 5-fach verlängerte Standzeit.</string>
+
+    <string name="aihheatdo701">Meißel eines Walzblocks. Eisen- und Stahwerk. Grundwerkstoff: unlegierter vergütbarer Stahl. Maße: 700x80x80 mm.</string>
+    <string name="aihheatdo702">Hohe Temperatur und Druckbelastung, da die Meißel den heißen Strang (1000 °C) in der richtigen Position durch den Walzblock führen.</string>
+    <string name="aihheatdo703">Verdreifachte Standzeit, weniger Schrumpfung und bessere Qualität der Schienen wegen der glatteren Schienenoberfläche.</string>
+
+    <string name="aihheatdo601">Bodenplatte einer Koks-Crossover-Maschine (Eisen- und Stahlwerk). Grundwerkstoff: Baustahl.</string>
+    <string name="aihheatdo602">Abrasiver Verschleiß durch das auf die Bodenplatte fallende Koks.</string>
+    <string name="aihheatdo603">Preisgünstigerer Grundwerkstoff beschichtet mit DO*60. Verdreifachte Standzeit dieser Platten.</string>
+
+    <string name="aihheatdo221">Retorte eines Walzenhärteofens. Grundwerkstoff: Ni-Legierung. Maße: 3x0,5 m.</string>
+    <string name="aihheatdo222">Reparatur eines durch thermische Wechselbeanspruchung verursachten Risses.</string>
+    <string name="aihheatdo223">Austausch der teuren Retorte entfällt.</string>
+
+    <string name="aihabrasionimpact8336eg1">Messerscheibe einer Rotorschneidmaschine für Luzerne. Grundwerkstoff: Niedriglegierter vergütbarer Stahl (Hardox 400).</string>
+    <string name="aihabrasionimpact8336eg2">Der Rotor setzt sich aus mehreren Blättern zusammen, die die Luzerne aufsammeln; dies führt zu Abrasionsverschleiß, aber auch zu kleinen Stößen durch die Steine vom Boden.</string>
+    <string name="aihabrasionimpact8336eg3">2 Jahre in Betrieb (doppelte Standzeit). Demontage und Auswechseln der Blätter entfallen.</string>
+
+    <string name="aihabrasionimpactdo481">Schläger eines Mischers in einer Kompostieranlage. Grundwerkstoff: Niedriglegierter vergütbarer Stahl (Hardox 400).</string>
+    <string name="aihabrasionimpactdo482">Abrasion und gelegentlich Stoßbelastung der Flügel, die das Holz wie Bäume und Zweige sowie Erde und Sand mischen.</string>
+    <string name="aihabrasionimpactdo483">Verlängerung der Standzeit von 6 auf 13 Monate.</string>
+
+    <string name="aihabrasionimpactdo390n1">Schläger eines Brechers für die Nachzerkleinerung in einem Zementwerk. Grundwerkstoff: Grundwerkstoff: niedriglegierter vergütbarer Stahl (38NCD4).</string>
+    <string name="aihabrasionimpactdo390n2">Die Schläger des Brechers müssen den Kalkstein in kleine Stücke (20 bis 80 mm) brechen, wodurch sie starker Abrasion in Kombination mit Stoßbelastung ausgesetzt sind.</string>
+    <string name="aihabrasionimpactdo390n3">Doppelte Standzeit gegenüber der Auftragung des Wettbewerbers (von 180 auf 360 Tage).</string>
+
+    <string name="aihabrasionimpactdo3271">Schneidwerkzeuge – Reifenmahlanlage. Grundwerkstoff: Unlegierter Stahl (S235).</string>
+    <string name="aihabrasionimpactdo3272">Starke Abrasion in Kombination mit hoher Stoßbelastung und starker Reibung (Hitze).</string>
+    <string name="aihabrasionimpactdo3273">Die Anlage kann alle 3 Wochen fast 1.000 Tonnen mahlen; davor waren es im gleichen Zeitraum 770 Tonnen. Bessere Schweißbarkeit.</string>
+
+    <string name="aihabrasionimpactdo311">Bohrkopf einer Tunnelvortriebsmaschine. Grundwerkstoff: Baustahl.</string>
+    <string name="aihabrasionimpactdo312">Unterschiedliche Stoß- und Abrasionsbelastung je nach der bearbeiteten Bodenzone.</string>
+    <string name="aihabrasionimpactdo313">Standzeit auf 500 Stunden verlängert. Bei der Lösung des Wettbewerbers betrug die Standzeit 300 Stunden.</string>
+
+    <string name="aihabrasionimpactdo3321">Schläger einer Pendelmühle. Grundwerkstoff: Baustahl.</string>
+    <string name="aihabrasionimpactdo3322">Schläger werden durch Abrasion und Stoßbelastung (je 50 %) beansprucht.</string>
+    <string name="aihabrasionimpactdo3323">Verlängerung der Standzeit von 5 auf 30 Monate.</string>
+
+    <string name="aihabrasionimpactdo061">Rotor und Schneidwerkzeuge. Grundwerkstoff: Vergütbarer Stahl.</string>
+    <string name="aihabrasionimpactdo062">Abrasion und Stoßbelastung durch Nachmahlen der Reifen (80 mm große Kautschukstücke).</string>
+    <string name="aihabrasionimpactdo063">Verlängerung der Standzeit bis zum 3-Fachen.</string>
+
+    <string name="aihabrasionimpactdo151">Schnecke zur Bodenextraktion. Grundwerkstoff: niedriglegierter Einsatzstahl.</string>
+    <string name="aihabrasionimpactdo152">Hohe Abrasion und Stoßbelastung durch Bodenextraktion, hauptsächlich an der Wendel.</string>
+    <string name="aihabrasionimpactdo153">Kosteneinsparungen durch längere Standzeit, die Möglichkeit, mehrere Beschichtungen aufzutragen sowie billigen Grundwerkstoff.</string>
+
+    <string name="aihabrasionimpactdo3511">Rotor einer Baumabfallbehandlungsanlage.</string>
+    <string name="aihabrasionimpactdo3512">Starke Abrasion durch das Fördern von Baumabfällen.</string>
+    <string name="aihabrasionimpactdo3513">Wesentlich bessere Ausführung und deutlich geringere Produktionskosten.</string>
+
+    <string name="aihabrasionimpactdo041">Welle einer Zerkleinerungsanlage für das Recycling von Tierabfällen. Grundwerkstoff: niedriglegierter vergütbarer Stahl. Gewicht: 800 kg.</string>
+    <string name="aihabrasionimpactdo042">Abrasion bei hohem Druck und etwas Stoßbelastung hauptsächlich an den Schneiden der Messer, da diese die Tierknochen zerkleinern müssen.</string>
+    <string name="aihabrasionimpactdo043">Reparatur billiger als Austausch der Welle. Einsparung von über 300.000€.</string>
+
+    <string name="aihabrasionimpactdo3291">Schneidplatte in einem Walzwerk. Grundwerkstoff: niedriglegiertes vergütetes Eisen 180x105x50 mm und 160x97x35 mm).</string>
+    <string name="aihabrasionimpactdo3292">Abrasion und Stoßbelastung infolge des Durchlaufs und Schneidens von gewelltem Stahl (8 – 32 mm).</string>
+    <string name="aihabrasionimpactdo3293">Längere Standzeit (von 7 auf 90 Tage).</string>
+
+    <string name="aihimpactabrasiondo3271">Kammhacker. Grundwerkstoff: S235.</string>
+    <string name="aihimpactabrasiondo3272">Hohe Stoßbelastung in Verbindung mit moderater Abrasion aufgrund durchlaufender Stämme.</string>
+    <string name="aihimpactabrasiondo3273">Die Anwendung wurde 2011 realisiert. 2015 immer noch in Betrieb ohne Verschleiß.</string>
+
+    <string name="aihimpactabrasiondo360x1">a</string>
+    <string name="aihimpactabrasiondo360x2">b</string>
+    <string name="aihimpactabrasiondo360x3">c</string>
+
+    <string name="aihimpactabrasiondo111">Bohrmeißel einer Vortriebsmaschine für den Tiefbau. Grundwerkstoff: Niedriglegierter vergütbarer Stahl.</string>
+    <string name="aihimpactabrasiondo112">Hohe Stoßbelastung in Verbindung mit Abrasion durch das Bohren verschiedener Bodenarten (Ton, San, Steine, Fels ...).</string>
+    <string name="aihimpactabrasiondo113">2 bis 3 mal längere Standzeit und bei Bedarf sehr schnelle Vor-Ort-Reparatur.</string>
+
+    <string name="aihimpactabrasiondo3291">Ober und untere Feinpolierwalzen einer Kieserling-Poliermaschine. Grundwerkstoff: 42CrMo4.</string>
+    <string name="aihimpactabrasiondo3292">Stoßbelastung und Abrasion durch kontinuierliche Verarbeitung von 12 m langen Stäben.</string>
+    <string name="aihimpactabrasiondo3293">Bis zu 2-fach verlängerte Standzeit.</string>
+
+    <string name="aihimpactabrasiondo151">Schieber eines Aufgabetrichters in der Produktion chemischer Grundstoffe. Grundwerkstoff: Baustahl S235. Maße: 1000x630 mm.</string>
+    <string name="aihimpactabrasiondo152">Der Schieber wird durch Stoß- und Abrasionsbeanspruchung strapaziert, da die Kalkklumpen und –blöcke aus 1 m Höhe in den Trichter fallen und ihn durch den Schurrenabzug wieder verlassen.</string>
+    <string name="aihimpactabrasiondo153">Verlängerung der Standzeit.</string>
+
+    <string name="aihimpactabrasiondo131">Greifer eines Krans. Grundwerkstoff: S355.</string>
+    <string name="aihimpactabrasiondo132">Dieser Greifer wird durch hohe Stoß- und Abrasionsbeanspruchung durch das Be- und Entladen von Pflastersteinen strapaziert.</string>
+    <string name="aihimpactabrasiondo133">Verlängerung der Standzeit und leicht in Position schweißbar.</string>
+
+    <string name="aihimpactabrasiondo3511">Brechzähne in einer Abfallzerkleinerungsanlage.</string>
+    <string name="aihimpactabrasiondo3512">Hohe Stoßbelastung plus Abrasion.</string>
+    <string name="aihimpactabrasiondo3513">Sehr gute Schweißbarkeit, hohe Abschmelzleistung und sehr geringe Aufmischung.</string>
+
+    <string name="aihimpactabrasiondo061">Brechzähne eines mobilen Schredders. Abfall-Recycling. Grundwerkstoff: niedriglegierter Gussstahl. Maße: 300x80 mm.</string>
+    <string name="aihimpactabrasiondo062">Hohe Stoß- und Abrasionsbeanspruchung, da die Zähne den Schrott zerkleinern müssen.</string>
+    <string name="aihimpactabrasiondo063">Standzeit von 250 auf 300 Stunden verlängert.</string>
+
+    <string name="aihimpactabrasiondo3321"> Mischerflügel für die Mauerstein- und Tonziegelproduktion. Grundwerkstoff: Kohlenstoffstahl.</string>
+    <string name="aihimpactabrasiondo3322">Stoß- und Abrasionsbeanspruchung beim Mischen von Ton.</string>
+    <string name="aihimpactabrasiondo3323">Verlängerung der Standzeit der Teile.</string>
+
+    <string name="aihimpactabrasiondo051">Einlaufführungen zum Strangkühlbett. Grundwerkstoff: unlegierter Baustahl (S355J2 /1.0577). Maße: 1950x40 mm.</string>
+    <string name="aihimpactabrasiondo052">Stoß- und Abrasionsbeanspruchung durch den Transport des Strangs.</string>
+    <string name="aihimpactabrasiondo053">Verdoppelung der Standzeit (bis zur Zielvorgabe des Kunden: 365 Tage).</string>
+
+    <string name="aihimpactabrasiondo021">Scheiben eines Grobbrechers (Zementindustrie). Grundwerkstoff: austenitischer Manganstahl.</string>
+    <string name="aihimpactabrasiondo022">Stoß und Abrasion.</string>
+    <string name="aihimpactabrasiondo023">Bis zu 3-fach verlängerte Standzeit.</string>
+
+    <string name="aihabrasionheatdo390n1">Ofenauslauf-Verschlussplatte in einem Zementofen. Grundwerkstoff: hochlegierter Gussstahl (GX 40 CrNiSi 25 20). Maße: 500x300x100 mm.</string>
+    <string name="aihabrasionheatdo390n2">Abrasion und hohe Temperatur.</string>
+    <string name="aihabrasionheatdo390n3">Mindestens 4 Jahre Standzeit. Teile sind noch vorhanden.</string>
+
+    <string name="aihabrasionheat8336eg1">Förderschnecke für die Extrusion von Polymeren mit Keramikanteilen. Grundwerkstoff: Legierter Stahl.</string>
+    <string name="aihabrasionheat8336eg2">Abrasion und Temperatur.</string>
+    <string name="aihabrasionheat8336eg3">Längere Standzeit. Bis zum 3-Fachen gegenüber DO*06.</string>
+
+    <string name="aihabrasionheatdo331">Förderschnecke. Eisen- und Stahlindustrie. Grundwerkstoff: warmfester Stahl. Maße: Ø 70x1000 mm.</string>
+    <string name="aihabrasionheatdo332">Starke Abrasion und hohe Temperatur an der gesamten Schnecke.</string>
+    <string name="aihabrasionheatdo333">Höhere Härte mit nur 2 Lagen, schnellere und billigere Produktion. Längere Standzeit.</string>
+
+    <string name="aihabrasionheatdo3321">Kettenförderer in der Zementindustrie. Grundwerkstoff: austenitischer Manganstahl.</string>
+    <string name="aihabrasionheatdo3322">Abrasion und Hitze an der Kettenoberfläche.</string>
+    <string name="aihabrasionheatdo3323">Längere Standzeit, dickere Lagen möglich, bessere Qualität.</string>
+
+    <string name="aihabrasionheatdo061">Auflageplatte unmittelbar vor dem Eingang zu Box Nr. 2 in einem Fertigungswerk für Schienenfahrzeuge. Grundwerkstoff: unlegierter Gussstahl.</string>
+    <string name="aihabrasionheatdo062">Starke Abrasion und Reibung bei hoher Temperatur.</string>
+    <string name="aihabrasionheatdo063">Schon 8 Jahre Betrieb bei sehr geringem Verschleiß.</string>
+
+    <string name="aihabrasionheatdo360x1">a</string>
+    <string name="aihabrasionheatdo360x2">b</string>
+    <string name="aihabrasionheatdo360x3">c</string>
+
+    <string name="aihabrasionheatdo151">Rührarm eines Mischers zur Asphaltproduktion. Grundwerkstoff: niedriglegierter Gussstahl. Maße: 750x20x16 mm (32 Einheiten).</string>
+    <string name="aihabrasionheatdo152">Abrasion unter hohem Druck bei 250 °C.</string>
+    <string name="aihabrasionheatdo153">Weniger Arme gekauft, geringere Kosten für Verschleißteile und Stillstandszeit reduziert.</string>
+
+    <string name="aihabrasionheatdo041">Treibrolle einer Stranggießanlage. Grundwerkstoff: niedriglegierter Einsatzstahl. Maße: Ø 110x530 mm.</string>
+    <string name="aihabrasionheatdo042">Abrasion bei hoher Temperatur, da diese Rollen den vertikalen Strang zur horizontalen Ziehmaschine führen.</string>
+    <string name="aihabrasionheatdo043">Gute Abrasions- und Temperaturfestigkeit.</string>
+
+    <string name="aihimpactheatdo360x1">a</string>
+    <string name="aihimpactheatdo360x2">b</string>
+    <string name="aihimpactheatdo360x3">c</string>
+
+    <string name="aihimpactheatdo3291">Schneidplatte für Welldraht (von 8 bis 32 mm). Drahtzieh- und -walzbetrieb. Grundwerkstoff: niedriglegierter vergütbarer Stahl. Maße: 180x108x50 mm und 160x97x35 mm.</string>
+    <string name="aihimpactheatdo3292">Der Welldraht wird bei 500 °C - 600 °C geschnitten, wobei die Platten 200 °C heiß werden. Hauptverschleißarten: Stoß und Hitze. Außerdem: Korrosion, Abrasion und Temperaturwechsel.</string>
+    <string name="aihimpactheatdo3293">Längere Standzeit, so dass die Wartungskosten ohne Qualitätseinbußen geringer sind.</string>
+
+    <string name="aihimpactheatdo041">Stempel einer Freiformpresse in Warmschmiede. Grundwerkstoff: S355. Maße: Ø 200 mm.</string>
+    <string name="aihimpactheatdo042">Stoß und Hitze, da die Stempel Warmschmiede-Flachstahl erzeugen und diesen zum Schluss stanzen.</string>
+    <string name="aihimpactheatdo043">Standzeit von 4 Wochen und höhere Abschmelzleistung.</string>
+
+    <string name="aihimpactheatdo601">Bodenplatte einer Koks-Crossover-Maschine. Grundwerkstoff: Baustahl. Maße: 960x600x30 mm.</string>
+    <string name="aihimpactheatdo602">Der heiße Koks fällt auf die stoß- und hitzebeanspruchte Bodenplatte.</string>
+    <string name="aihimpactheatdo603">Längere Standzeit (180 Tage mit Castolin-Lösung) und billigerer Grundwerkstoff.</string>
+
+    <string name="aihimpactheatdo3271">52 Kühler-Brecherschläger einer Klinkermühle. Grundwerkstoff: unlegierter Gussstahl. Maße: 230x350x160 mm.</string>
+    <string name="aihimpactheatdo3272">Stoß/Hitze, da die Schläger den Klinker zerkleinern müssen.</string>
+    <string name="aihimpactheatdo3273">Verlängerung der Standzeit (6 Monate). 58 HRC nach 1 Lage.</string>
+
+    <string name="aihimpactheatdo151">Aschebrechwalze in Wärmekraftwerk. Grundwerkstoff: niedriglegierter Gussstahl/Gussstahl. Maße: Ø152 mm x 2000 mm.</string>
+    <string name="aihimpactheatdo152">Stoß/Hitze sowohl an den Walzen als auch an den Zähnen, da diese die großen Ascheklumpen brechen müssen.</string>
+    <string name="aihimpactheatdo153">Vor-Ort-Lösung, Verlängerung der Standzeit und einfacher Kantenaufbau.</string>
+
+    <string name="aihabrasionimpactheatdo360x1">a</string>
+    <string name="aihabrasionimpactheatdo360x2">b</string>
+    <string name="aihabrasionimpactheatdo360x3">c</string>
+
+    <string name="aihabrasionimpactheatdo041">Presswerkzeug einer Schmiedepresse. Grundwerkstoff: niedriglegierter vergütbarer Stahl. Maße: Ø 300x100 mm.</string>
+    <string name="aihabrasionimpactheatdo042">Starke thermische Beanspruchung, Stoßbelastung und Abrasion.</string>
+    <string name="aihabrasionimpactheatdo043">Hohe Beständigkeit gegen Reibung, Verformung und Stoßbelastung. Der duktile Schweißwerkstoff ist stabil und zeigt an Ecken und Kanten keinerlei Rissneigung.</string>
+
+    <string name="aihabrasionimpactheatdo601">Bruchschaden an einem Drehautomaten. Grundwerkstoff: Kaltarbeitswerkzeugstahl (NC6, NC11). Maße: Ø 73 / 180x74 mm.</string>
+    <string name="aihabrasionimpactheatdo602">Abrasion, Stoßbelastung und hohe Temperatur, da dieses Teil ein Ringschmiedestück beim Einlegen und während des Drehvorgangs tragen muss.</string>
+    <string name="aihabrasionimpactheatdo603">Mindestens 100 % Standzeitverlängerung. Castolin-Standzeit: 42 Tage.</string>
+
+    <string name="aihabrasionimpactheatdo3271">Kamm eines Hackers aus einem Holzwerk. Grundwerkstoff: S235.</string>
+    <string name="aihabrasionimpactheatdo3272">Starker Druck sowie etwas Stoß- und Hitzebelastung bewirken Verschleiß des Kamms.</string>
+    <string name="aihabrasionimpactheatdo3273">Mindestens vier Jahre durch Castolin-Lösung.</string>
+
+    <string name="aihabrasionimpactheatdo061">Schredderblätter für das Recycling von Autoreifen.</string>
+    <string name="aihabrasionimpactheatdo062">Starke Abrasion, mittlere Stoßbelastung und geringe Hitzebeanspruchung.</string>
+    <string name="aihabrasionimpactheatdo063">Verlängerung der Standzeit. Möglichkeit der Reparatur und damit Kostensenkung.</string>
+
+    <string name="aihabrasionimpactheatdo3291">Mitnehmer/Zentrierführung eines Rollwagens. Grundwerkstoff: niedriglegierter Stahl. Maße: 5*50/50*500 mm.</string>
+    <string name="aihabrasionimpactheatdo3292">Abrasion bei hoher Temperatur (~ 500 ºC) und Stoßbelastung.</string>
+    <string name="aihabrasionimpactheatdo3293">Hervorragende Schweißbarkeit, gute Bearbeitbarkeit und eine Härte von 52 HRC.</string>
+
+    <string name="aihabrasionimpactheatdo3321">Brecherwelle einer Ziegelsteinzerkleinerungsanlage. Grundwerkstoff: Baustahl. Maße: Ø 350x450 mm.</string>
+    <string name="aihabrasionimpactheatdo3322">Abrasion und Stoßbelastung bei 40 °C – 50 °C, da der Brecher die mangelhaften Ziegelsteine von der Fertigungsstraße zerkleinern muss.</string>
+    <string name="aihabrasionimpactheatdo3323">Verlängerung der Standzeit.</string>
+
+    <string name="aihabrasionimpactheatdo151">Entzunderungsrampe einer Warmbreitbandwalzanlage. Grundwerkstoff: Niedriglegierter Stahl. Maße: 1350x1500x200 mm.</string>
+    <string name="aihabrasionimpactheatdo152">Abrasion bei hoher Temperatur und Stoßbelastung durch die über die Rampe laufende Bramme sowie durch die mit hohem Druck auftreffenden Wasserstrahlen.</string>
+    <string name="aihabrasionimpactheatdo153">Gute Schweißbarkeit ohne Gefahr der Rissbildung. Bis zu 2-fach verlängerte Standzeit.</string>
+
+    <string name="aihabrasionimpactheat8336eg1">Scheiben einer Klinkerbrechwalze in einem Zementwerk. Grundwerkstoff: Legierter Stahl. Maße: Ø 490x150 mm.</string>
+    <string name="aihabrasionimpactheat8336eg2">Diese Rollen befinden sich außerhalb des Kühlers und werden durch Abrasion, Stoß und Hitze bei mäßigem Druck beansprucht.</string>
+    <string name="aihabrasionimpactheat8336eg3">Doppelte Standzeit.</string>
+
+    <string name="aihabrasionimpactheatdo390n1">Griffabschirmung in den mittleren Reihen einer Hammermühle in einem Wärmekraftwerk. Grundwerkstoff: S235-2. Maße: 5x50/50x500 mm.</string>
+    <string name="aihabrasionimpactheatdo390n2">Abrasion und Stoßbelastung bei hoher Temperatur (300 ° – 400 °C).</string>
+    <string name="aihabrasionimpactheatdo390n3">Einsparung von Wartungskosten, da die Standzeit um 700 % verlängert wurde.</string>
+
+    <string name="aiccorrosiondo221">Schurre für fallenden Klinker zwischen dem Ofen und dem Kühler. Grundwerkstoff: austenitischer Edelstahl (16Mo3 + Inox 304L).</string>
+    <string name="aiccorrosiondo222">Starke Korrosion und thermische Ermüdung von Metallfuß und Verbindungsstellen.</string>
+    <string name="aiccorrosiondo223">Gute Beständigkeit gegen Korrosion und Oxidation. Ausgezeichnete Beständigkeit gegen Temperaturwechselbeanspruchung. Sehr hohe Kerbschlagzähigkeit. Geringe Wärmeeinbringung für geringe Aufmischung. Maximierte Ausbringung. Höhere Abschmelzleistung für geringere Lohnkosten.</string>
+
+    <string name="aiccorrosiondo801">Schützende Stahlplatte in einer Schurre in der Müllverbrennung. Grundwerkstoff: St 52.3. Kanalmaße: L = 300 0mm B = 700 mm Wandmaße: L = 2600 mm H = 1000 mm.</string>
+    <string name="aiccorrosiondo802">Korrosion und etwas Abrasion.</string>
+    <string name="aiccorrosiondo803">Diese Cobaltlegierungslagen verbessern die Korrosionsbeständigkeit in dieser aggressiven Umgebung.</string>
+
+    <string name="aiccorrosiondo601">Welle eines Lüfters in einem Zellstoff- und Papierwerk. Grundwerkstoff: niedriglegierter vergütbarer Stahl.</string>
+    <string name="aiccorrosiondo602">Korrosion.</string>
+    <string name="aiccorrosiondo603">Höchster Schutz gegen Korrosion. Jährliche Ersparnis für den Kunden fast 400.000€.</string>
+
+    <string name="aiccorrosiondo701">Schnecke eines Kunststoff-Spritzaggregats. Grundwerkstoff: Niedriglegierter Gussstahl.</string>
+    <string name="aiccorrosiondo702">Korrosion.</string>
+    <string name="aiccorrosiondo703">Die Ausbesserungsarbeit wurde in Rekordzeit durchgeführt (15 Minuten für eine Schnecke 1.600 x 50 mm). Das Aussehen von Raupe und Oberfläche ist unübertrefflich; der Schleifaufwand ist geringer.</string>
+
+    <string name="aiccorrosiondo021">Zinkdepot für das Verzinken. Grundwerkstoff: Edelstahl 316L. Maße: 2870 x 1161 mm.</string>
+    <string name="aiccorrosiondo022">Korrosion wegen Zink im Depot.</string>
+    <string name="aiccorrosiondo023">Die Risse sind seit der ersten Aufbringung vor 8 Monaten nicht wieder aufgetreten.</string>
+
+    <string name="aiccorrosioncavitec1">Doppelsitzventil an einer Bypass-Leitung eines Kesselraums. Grundwerkstoff: Unlegierter Gussstahl.</string>
+    <string name="aiccorrosioncavitec2">Korrosion / Kavitation.</string>
+    <string name="aiccorrosioncavitec3">Schutz gegen Korrosion und Kavitation.</string>
+
+    <string name="aiccorrosiondo041">Schnecke einer Zellstoff- und Papierpresse. Grundwerkstoff: Baustahl.</string>
+    <string name="aiccorrosiondo042">Korrosion.</string>
+    <string name="aiccorrosiondo043">Sowohl DO*04 als auch DO*13 gewährleisten eine hohe Rissfestigkeit. Die Standzeit kann von 5 Wochen auf bis zu 25 Wochen verlängert werden.</string>
+
+    <string name="aicabrasioncorrosiondo4111">Misch- und Förderschnecke für nasses Nickel mit Kalk. Grundwerkstoff: Edelstahl 316L. Maße: Ø 320 x 2880 mm.</string>
+    <string name="aicabrasioncorrosiondo4112">Abrasion und Korrosion durch das Fördern und Mischen dieser Materialien. Die Feuchtigkeit schadet der Nickelmatrix, wodurch sich Schwefelsäuren bilden, die die Schnecke beschädigen.</string>
+    <string name="aicabrasioncorrosiondo4113">Verlängerung der Standzeit von 3 Monaten (bei der bisherigen Lösung) auf 2 Jahre.</string>
+
+    <string name="aicabrasioncorrosiondo111">Baggerzähne eines Baggerschiffes zur Gewinnung von Sand und Kies. Grundwerkstoff: unlegierter Gussstahl. Maße: 100x240 mm.</string>
+    <string name="aicabrasioncorrosiondo112">Abrasion und Korrosion durch die Kombination von Sand und Wasser an den 30 Zähnen der Bohrkrone.</string>
+    <string name="aicabrasioncorrosiondo113">Verlängerung der Standzeit auf 32 Stunden, d. h. auf das 8-Fache.</string>
+
+    <string name="aicabrasioncorrosiondo331">Leitschaufel der Beschickungsvorrichtung einer kohlebefeuerten Kesselanlage. Grundwerkstoff: AISI 310. Maße: 8 mm Dicke.</string>
+    <string name="aicabrasioncorrosiondo332">Abrasion und Korrosion infolge des kontinuierlichen Durchlaufs von Heizkohle (400 °C – 500 °C).</string>
+    <string name="aicabrasioncorrosiondo333">Bis zu dreifach verlängerte Standzeit.</string>
+
+    <string name="aicabrasioncorrosiondo390n1">Pulperpresse. Grundwerkstoff: austenitischer Edelstahl. Maße: Ø 1000 mm.</string>
+    <string name="aicabrasioncorrosiondo390n2">Korrosion und Abrasion.</string>
+    <string name="aicabrasioncorrosiondo390n3">Mindestens doppelte Standzeit.</string>
+
+    <string name="aicabrasioncorrosion8336eg1">Schraubenpropeller einer Entwässerungspresse zur Verarbeitung fester Siedlungsabfälle</string>
+    <string name="aicabrasioncorrosion8336eg2">Abrasion bei hohem Druck plus Korrosion.</string>
+    <string name="aicabrasioncorrosion8336eg3">Verdreifachung der Standzeit.</string>
+
+    <string name="aicabrasioncorrosiondo311">Recycling-Einheit. Grundwerkstoff: niedriglegierter Gussstahl. Maße: Ø 248mm x 210 mm.</string>
+    <string name="aicabrasioncorrosiondo312">Abrasion und Korrosion durch das Zerkleinern von Tierabfällen, hauptsächlich an der Endpartie und den Kanten.</string>
+    <string name="aicabrasioncorrosiondo313">Hervorragende Abrasionsbeständigkeit nach 1 Lage mit 68 HRC. Billigere Lösung und längere Standzeit – an die 5.000 Stunden.</string>
+
+    <string name="aicabrasioncorrosiondo3321">Schnecke eines Rindenlagers in der Holzverarbeitung. Grundwerkstoff: unlegierter vergütbarer Stahl. Maße: Ø 700 x 9500 mm.</string>
+    <string name="aicabrasioncorrosiondo3322">Abrasion und Korrosion durch den Kontakt mit Rinde und Umgebungsbedingungen.</string>
+    <string name="aicabrasioncorrosiondo3323">Bessere Korrosionsbeständigkeit. Längere Standzeit.</string>
+
+    <string name="aicabrasioncorrosiondo701">Schnecke eines Kunststoff-Spritzaggregats in der Produktion von Kautschukerzeugnissen wie Schuhsohlen. Grundwerkstoff: niedriglegierter Gussstahl. Maße der Schnecke: 1600x50 mm.</string>
+    <string name="aicabrasioncorrosiondo702">Abrasion und Korrosion bei moderater Temperatur durch das Einspritzen von Kautschuk.</string>
+    <string name="aicabrasioncorrosiondo703">Durchführung in Rekordzeit und besseres Oberflächenbild.</string>
+
+    <string name="aicabrasioncorrosiondo041">Schneckenaufgeber zur Entwässerung der Holzspäne. Grundwerkstoff: austenitischer Edelstahl (AISI 316) Maße Ø 120/350 x 2000 mm.</string>
+    <string name="aicabrasioncorrosiondo042">Korrosion und Abrasion bei hohem Druck.</string>
+    <string name="aicabrasioncorrosiondo043">Druckfestigkeit, niedriger Reibungskoeffizient, hochglänzende Oberfläche und Schweißgut mit minimaler Rissbildung.</string>
+
+    <string name="aicimpactcorrosioncavitec1">Pelton-Schaufeln einer Pelton-Turbine in einem Wasserkraftwerk. Grundwerkstoff: niedriglegierter Gussstahl (410 NiMo).</string>
+    <string name="aicimpactcorrosioncavitec2">Starke Kavitation und Erosion durch Schwebstoffe im Wasser.</string>
+    <string name="aicimpactcorrosioncavitec3">Längere Standzeit und höhere Effizienz der Anlage. Cavitec hat die besten Ergebnisse im Vergleich mit jeder anderen Legierung.</string>
+
+    <string name="aicimpactcorrosiondo021">Hydropulper-Rotor für die Zellstoff- und Papierindustrie. Grundwerkstoff: AISI 316 / 1.4401. Maße: Ø 1500mm.</string>
+    <string name="aicimpactcorrosiondo022">Starker Verschleiß durch Zellstoff und einige andere Stoffe im Wasser.</string>
+    <string name="aicimpactcorrosiondo023">Standzeit: 4 - 5 Monate und schnellere Reparatur.</string>
+
+    <string name="aicimpactcorrosiondo051">Lüfter einer Umwälzpumpe in einem Wärmekraftwerk. Grundwerkstoff: hochlegierter Gussstahl (GX 10 Cr 13/GX 12 Cr14).</string>
+    <string name="aicimpactcorrosiondo052">Kavitation.</string>
+    <string name="aicimpactcorrosiondo053">Verlängerung der Standzeit.</string>
+
+    <string name="aicimpactcorrosiondo041">Flügel eines Wasserpropellers einer Wasseraufbereitungsanlage. Grundwerkstoff: Gusseisen.</string>
+    <string name="aicimpactcorrosiondo042">Kavitation und Erosion durch Wasser mit Schwebstoffen.</string>
+    <string name="aicimpactcorrosiondo043">Bis zu 4-fach verlängerte Standzeit.</string>
+
+    <string name="aicabrasionimpactcorrosiondo111">Schnecke. Grundwerkstoff: CrNi-Legierung (SMO 254). Maße: Ø 190x174 mm.</string>
+    <string name="aicabrasionimpactcorrosiondo112">Abrasion und etwas Stoßbelastung in sehr korrosiver Atmosphäre (schwefelsäurehaltige Gase).</string>
+    <string name="aicabrasionimpactcorrosiondo113">Verlängerung der Standzeit von sechs Monaten auf über 2 Jahre.</string>
+
+    <string name="aicabrasionimpactcorrosion8336eg1">95 Schläger eines Grobbrechers für Abfall und Recycling.</string>
+    <string name="aicabrasionimpactcorrosion8336eg2">Abrasions- und Stoßbelastung in korrosiver Umgebung.</string>
+    <string name="aicabrasionimpactcorrosion8336eg3">Verlängerung der Standzeit auf bis zu 22 Monate Ökotest liegt vor.</string>
+
+    <string name="aicabrasionimpactcorrosiondo390n1">Rollenführung unter dem Heizofen zur Eisen- und Stahlerzeugung. Grundwerkstoff: niedriglegierter vergütbarer Stahl (ASTM 140). Maße: 20x50x6000 mm.</string>
+    <string name="aicabrasionimpactcorrosiondo390n2">Stoß-Abrasion und gleichmäßige Korrosion, da diese Rollenführungen die heißen Stahlschienen tragen müssen.</string>
+    <string name="aicabrasionimpactcorrosiondo390n3">Verlängerung der Standzeit (400 %).</string>
+
+    <string name="aicabrasionimpactcorrosiondo311">Mischerflügel in der Produktion von Keramikerzeugnissen. Grundwerkstoff: Baustahl. Maße: Ø 1000 mm.</string>
+    <string name="aicabrasionimpactcorrosiondo312">Abrasion und Korrosion durch das Ton-Sand-Gemisch bei hoher Drehzahl.</string>
+    <string name="aicabrasionimpactcorrosiondo313">Eine erhebliche Verlängerung der Standzeit. Von 60 Tagen (bei der bisherigen Lösung) auf 380 Tage.</string>
+
+    <string name="aicabrasionimpactcorrosiondo360x1">a</string>
+    <string name="aicabrasionimpactcorrosiondo360x2">b</string>
+    <string name="aicabrasionimpactcorrosiondo360x3">c</string>
+
+    <string name="aicabrasionimpactcorrosiondo601">Kreismesser zur Verarbeitung von Tierfutter. Grundwerkstoff: niedriglegierter vergütbarer Stahl.</string>
+    <string name="aicabrasionimpactcorrosiondo602">Abrasion, Stoß und Korrosion, da das Messer die Tierknochen schneiden muss.</string>
+    <string name="aicabrasionimpactcorrosiondo603">Verlängerung der Standzeit und Möglichkeit der spanenden Bearbeitung.</string>
+
+    <string name="aicabrasionimpactcorrosiondo041">Presswerkzeug (Schmiedepresse). Grundwerkstoff: niedriglegierter vergütbarer Stahl. Maße: Ø 300 mm t=100 mm. Gewicht: 25 kg.</string>
+    <string name="aicabrasionimpactcorrosiondo042">Abrasion mit hohem Druck. Etwas Stoßbelastung und Korrosion.</string>
+    <string name="aicabrasionimpactcorrosiondo043">Längere Produktion, weniger Reparaturen, allgemeine Kostensenkung.</string>
+
+    <string name="ahccorrosionheatdo841">Leitbschaufel einer Dampfturbine. Grundwerkstoff: Nickellegierung (Hastelloy C). Maße: Ø 1500x300 mm.</string>
+    <string name="ahccorrosionheatdo842">Korrosion und Hitze, da die durch die Eintrittsleitvorrichtung strömende Luft H2S enthält.</string>
+    <string name="ahccorrosionheatdo843">Schnellere Reparatur und keinerlei Verformung. Verlängerung der Standzeit um 50 %.</string>
+
+    <string name="ahccorrosionheatdo801">Stahlschutzschild eines Ofenkühlrings in einer Müllverbrennungsanlage. Grundwerkstoff: St 52.3. Maße: 670x8 mm, Abwicklung: 6000 mm.</string>
+    <string name="ahccorrosionheatdo802">Korrosion durch die heißen Gase, die aggressive Chlor- und Schwefeldämpfe enthalten.</string>
+    <string name="ahccorrosionheatdo803">Keine Rissbildung im Schutzschild sowie Korrosions- und Abrasionsbeständigkeit.</string>
+
+    <string name="ahccorrosionheatdo041">Walze in Stranggießanlage. Grundwerkstoff: niedriglegierter vergütbarer Stahl. Maße: Ø 200-400 x 420 mm.</string>
+    <string name="ahccorrosionheatdo042">Der heiße, oxidierte Gießstrang kommt mit den wassergekühlten Treibrollen in Kontakt, was Korrosion und Hitzebelastung verursacht.</string>
+    <string name="ahccorrosionheatdo043">400.000 t Produktion gegenüber 80.000 t bei der bisherigen Lösung.</string>
+
+    <string name="ahccorrosionheatdo360x1">a</string>
+    <string name="ahccorrosionheatdo360x2">b</string>
+    <string name="ahccorrosionheatdo360x3">c</string>
+
+    <string name="ahccorrosionheatdo221">Retorte eines Härteofens für Gießmetalle. Grundwerkstoff: Nickellegierung. Maße: 4500x1500 mm.</string>
+    <string name="ahccorrosionheatdo222">Große Risse in der Retorte.</string>
+    <string name="ahccorrosionheatdo223">Beträchtliche Geld- und Zeitersparnis, da die Castolin-Lösung den Kauf einer neuen Retorte erübrigte.</string>
+
+    <string name="ahccorrosionheatdo4111">Förderschnecke einer Beschickungsvorrichtung für Metallerzeugnisse. Grundwerkstoff: unlegierter Stahl/ niedriglegierter Stahl (SS 2353/316L) Maße: Ø 320x2880 mm.</string>
+    <string name="ahccorrosionheatdo4112">Die Schnecken mischen Nickel mit Kalk und befördern das Gemisch in den 450 °C – 900 °C heißen Ofen; dadurch erleiden sie Korrosions-, Hitze- und Abrasionsschäden.</string>
+    <string name="ahccorrosionheatdo4113">Die Standzeit hat sich von 3 Monaten auf 2 Jahre verlängert.</string>
+
+    <string name="ahcabrasionheatcorrosiondo331">Förderschnecke der Sandaufbereitung in einer Müllverbrennungsanlage. Grundwerkstoff: niedriglegierter gehärteter Stahl.</string>
+    <string name="ahcabrasionheatcorrosiondo332">Abrasion und Korrosion bei hoher Temperatur.</string>
+    <string name="ahcabrasionheatcorrosiondo333">Längere Standzeit. Von 4 Monaten (bei der bisherigen Lösung) auf 12 Monate (3x).</string>
+
+    <string name="ahcabrasionheatcorrosiondo390n1">Rührblatt eines Aschemischers in einem Wärmekraftwerk. Grundwerkstoff: austenitischer Edelstahl (X2CrNi18-8/X2CrNiMo19-12-3), ähnlich 308 und 316.</string>
+    <string name="ahcabrasionheatcorrosiondo390n2">Abrasion und Korrosion durch den Siliciumanteil in der Asche, gemischt mit Wasser aus der Braunkohleverbrennung.</string>
+    <string name="ahcabrasionheatcorrosiondo390n3">Verlängerung der Standzeit von 3 Monaten (bei der bisherigen Lösung) auf 12 Monate.</string>
+
+    <string name="ahcabrasionheatcorrosion8336eg1">Mischerflügel für die Sauerstoffbelüftung von Klärschlamm. Grundwerkstoff: 20Mn5.</string>
+    <string name="ahcabrasionheatcorrosion8336eg2">Abrasion, Korrosion und Temperatur, da die Schaufeln das Wasser bewegen.</string>
+    <string name="ahcabrasionheatcorrosion8336eg3">Schnelleres Raupenziehen, weniger Zeitaufwand, Kostensenkung.</string>
+
+    <string name="ahcabrasionheatcorrosiondo701">Keil eines Sicherheitsventils in Wärmekraftwerk. Grundwerkstoff: niedriglegierter vergütbarer Stahl (P91). Gewicht: 0,2 kg.</string>
+    <string name="ahcabrasionheatcorrosiondo702">Hoher Druck 100 atm. Hohe Temperatur 550 ºC. Korrosion und Verschleiß durch Dampf.</string>
+    <string name="ahcabrasionheatcorrosiondo703">Schneller, effizienter Prozess, der eine hochwertige Auftragung und bessere Leistungswerte im Betrieb gewährleistet.</string>
+
+    <string name="ahcabrasionheatcorrosiondo041">Ofen-Außenrollen in einer Brammenstranggießanlage. Eisen- und Stahlwerk. Grundwerkstoff: niedriglegierter Gussstahl (21CrMoV5.11). Maße: Ø 140x900 mm.</string>
+    <string name="ahcabrasionheatcorrosiondo042">Abrasion, Hitze (500-700 ºC) und Korrosion.</string>
+    <string name="ahcabrasionheatcorrosiondo043">Standzeitverlängerung, Senkung der Fertigungskosten, repetitive Lösung. Jährliche Ersparnis für den Kunden fast 300.000€. Ökotest liegt vor.</string>
+
+    <string name="ahcabrasionheatcorrosiondo360x1">a</string>
+    <string name="ahcabrasionheatcorrosiondo360x2">b</string>
+    <string name="ahcabrasionheatcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo360x1">a</string>
+    <string name="hicheatimpactcorrosiondo360x2">b</string>
+    <string name="hicheatimpactcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo041">Schmiedegesenk. Freiformschmieden. Grundwerkstoff: Warmarbeitswerkzeugstahl (1.2714). Maße: 900x500x280 mm.</string>
+    <string name="hicheatimpactcorrosiondo042">Harte Stöße, Temperaturwechsel und -schocks in einer korrosiven Umgebung. Die Betriebstemperatur des Gesenks beträgt ca. 500 °C. Mit dem Gesenk wird Borstahl für die Landwirtschaft geschmiedet.</string>
+    <string name="hicheatimpactcorrosiondo043">Die Produktivität wurde um 70 % gesteigert.</string>
+
+    <string name="hicheatimpactcorrosiondo801">Stahl-Schutzplatte in einer Schurre in der Müllverbrennung. Grundwerkstoff: S355 J2. Maße: 3000x700 mm und 2000x2600x1000 mm</string>
+    <string name="hicheatimpactcorrosiondo802">Stoßbelastung/Hitze und Korrosion, da der Müll auf den Blechen der Schurre zu Beschickung des Verbrennungsofens heiß ist.</string>
+    <string name="hicheatimpactcorrosiondo803">Verlängerung der Standzeit.</string>
+
+    <string name="hicheatimpactcorrosiondo3321">Verschleißplatten eines Zementbrechers. Grundwerkstoff: Austenitischer Manganstahl (13 % Mn 2,25 % Cr). Gewicht: 65 kg.</string>
+    <string name="hicheatimpactcorrosiondo3322">Stoßbelastung und Korrosion bei ca. 80 °C.</string>
+    <string name="hicheatimpactcorrosiondo3323">Kurzzeitige Durchführung der Arbeit und hervorragende Resultate im Einsatz.</string>
+
+    <string name="hicheatimpactcorrosion8336eg1">Richtig-Platte eines Klinkerkühlers. Grundwerkstoff: austenitischer Edelstahl. Maße: 300x417 mm.</string>
+    <string name="hicheatimpactcorrosion8336eg2">Stoß/Hitze und Korrosion.</string>
+    <string name="hicheatimpactcorrosion8336eg3">Ein Jahr in Betrieb.</string>
+
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_aih1">ABRASION / SCHLÄGE / HITZE</string>
+    <string name="title_activity_aic1">ABRASION / SCHLÄGE / KORROSION</string>
+    <string name="title_activity_ahc1">ABRASION / HITZE / KORROSION</string>
+    <string name="title_activity_hic1">HITZE / SCHLÄGE / KORROSION</string>
+    <string name="title_activity_selections">Wählen Sie ein Phänomen:</string>
+    <string name="title_activity_feedback">Anfrageformular</string>
+    <string name="title_activity_erosion">EROSION</string>
+    <string name="title_activity_DO390N">DO*390N</string>
+    <string name="title_activity_EG8336">8336EG</string>
+    <string name="title_activity_DO48">DO*48</string>
+    <string name="title_activity_DO11">DO*11</string>
+    <string name="title_activity_DO33">DO*33</string>
+    <string name="title_activity_DO322">DO*322</string>
+    <string name="title_activity_mechanical_fatigue">MECHANISCHE ERMÜDUNG</string>
+    <string name="title_activity_DO22">DO*22</string>
+    <string name="title_activity_DO02">DO*02</string>
+    <string name="title_activity_DO257">DO*257</string>
+    <string name="title_activity_cavitation">KAVITATION</string>
+    <string name="title_activity_CAVITEC">CAVITEC</string>
+    <string name="title_activity_DO80">DO*80</string>
+    <string name="title_activity_DO04">DO*04</string>
+    <string name="title_activity_DO05">DO*05</string>
+    <string name="title_activity_DO02cavitation">DO*02</string>
+    <string name="title_activity_read_me">EnDOtec Easy Selector</string>
+    <string name="title_activity_test_app">testApp</string>
+    <string name="title_activity_friction_and_rubbing">Reibung und Schmirgel</string>
+    <string name="title_activity_do80frictionrubbing">DO*80</string>
+    <string name="title_activity_do70">DO*70</string>
+    <string name="title_activity_do60">DO*60</string>
+    <string name="title_activity_do329">DO*329</string>
+    <string name="title_activity_do06">DO*06</string>
+    <string name="title_activity_do360x">DO*360X</string>
+    <string name="title_activity_do04frictionrubbing">DO*04</string>
+    <string name="title_activity_aihabrasion">ABRASION</string>
+    <string name="title_activity_aihimpact">SCHLÄGE</string>
+    <string name="title_activity_aihheat">Hitze</string>
+    <string name="title_activity_aihabrasionimpact">ABRASION + Schläge</string>
+    <string name="title_activity_aihimpactabrasion">SCHLÄGE + Abrasion</string>
+    <string name="title_activity_aihabrasionheat">ABRASION + HITZE</string>
+    <string name="title_activity_aihimpactheat">SCHLÄGE + HITZE</string>
+    <string name="title_activity_aihabrasionimpactheat">ABRASION + SCHLÄGE + HITZE</string>
+    <string name="title_activity_aiccorrosion">KORROSION</string>
+    <string name="title_activity_aicabrasioncorrosion">ABRASION + KORROSION</string>
+    <string name="title_activity_aicimpactcorrosion">SCHLÄGE + KORROSION</string>
+    <string name="title_activity_aicabrasionimpactcorrosion">ABRASION + SCHLÄGE + KORROSION</string>
+    <string name="title_activity_ahcheatcorrosion">HITZE + KORROSION</string>
+    <string name="title_activity_ahcabrasionheatcorrosion">ABRASION + HITZE + KORROSION</string>
+    <string name="title_activity_hicheatimpactcorrosion">HITZE + SCHLÄGE + KORROSION</string>
+    <string name="title_activity_aihabrasiondo48">DO*48</string>
+    <string name="title_activity_aihabrasiondo390n">DO*390N</string>
+    <string name="title_activity_aihabrasion8336eg">8336EG</string>
+    <string name="title_activity_aihabrasiondo11">DO*11</string>
+    <string name="title_activity_aihabrasiondo33">DO*33</string>
+    <string name="title_activity_aihabrasiondo30">DO*30</string>
+    <string name="title_activity_aihabrasiondo322">DO*322</string>
+    <string name="title_activity_aihabrasiondo31">DO*31</string>
+    <string name="title_activity_aihabrasiondo06">DO*06</string>
+    <string name="title_activity_aihabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihabrasiondo15">DO*15</string>
+    <string name="title_activity_aihabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactdo05">DO*05</string>
+    <string name="title_activity_aihimpactdo02">DO*02</string>
+    <string name="title_activity_aihimpactdo310">DO*310</string>
+    <string name="title_activity_aihimpactdo327">DO*327</string>
+    <string name="title_activity_aihimpactdo15">DO*15</string>
+    <string name="title_activity_aihimpactdo351">DO*351</string>
+    <string name="title_activity_aihimpactdo13">DO*13</string>
+    <string name="title_activity_aihimpactdo332">DO*332</string>
+    <string name="title_activity_aihheatdo84">DO*84</string>
+    <string name="title_activity_aihheatdo80">DO*80</string>
+    <string name="title_activity_aihheatdo04">DO*04</string>
+    <string name="title_activity_aihheatdo360x">DO*360X</string>
+    <string name="title_activity_aihheatdo70">DO*70</string>
+    <string name="title_activity_aihheatdo60">DO*60</string>
+    <string name="title_activity_aihheatdo22">DO*22</string>
+    <string name="title_activity_aihabrasionimpact8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactdo48">DO*48</string>
+    <string name="title_activity_aihabrasionimpactdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionimpactdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactdo31">DO*31</string>
+    <string name="title_activity_aihabrasionimpactdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactdo351">DO*351</string>
+    <string name="title_activity_aihabrasionimpactdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactdo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo327">DO*327</string>
+    <string name="title_activity_aihimpactabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihimpactabrasiondo11">DO*11</string>
+    <string name="title_activity_aihimpactabrasiondo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo15">DO*15</string>
+    <string name="title_activity_aihimpactabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactabrasiondo351">DO*351</string>
+    <string name="title_activity_aihimpactabrasiondo06">DO*06</string>
+    <string name="title_activity_aihimpactabrasiondo332">DO*332</string>
+    <string name="title_activity_aihimpactabrasiondo05">DO*05</string>
+    <string name="title_activity_aihimpactabrasiondo02">DO*02</string>
+    <string name="title_activity_aihabrasionheatdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionheatdo33">DO*33</string>
+    <string name="title_activity_aihabrasionheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihabrasionimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihabrasionimpactheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactheatdo390n">DO*390N</string>
+    <string name="title_activity_aiccorrosiondo22">DO*22</string>
+    <string name="title_activity_aiccorrosiondo80">DO*80</string>
+    <string name="title_activity_aiccorrosiondo60">DO*60</string>
+    <string name="title_activity_aiccorrosiondo70">DO*70</string>
+    <string name="title_activity_aiccorrosiondo02">DO*02</string>
+    <string name="title_activity_aiccorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aiccorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasioncorrosiondo411">DO*411</string>
+    <string name="title_activity_aicabrasioncorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasioncorrosiondo33">DO*33</string>
+    <string name="title_activity_aicabrasioncorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasioncorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasioncorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasioncorrosiondo332">DO*332</string>
+    <string name="title_activity_aicabrasioncorrosiondo70">DO*70</string>
+    <string name="title_activity_aicabrasioncorrosiondo04">DO*04</string>
+    <string name="title_activity_aicimpactcorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aicimpactcorrosiondo02">DO*02</string>
+    <string name="title_activity_aicimpactcorrosiondo05">DO*05</string>
+    <string name="title_activity_aicimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasionimpactcorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo60">DO*60</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo84">DO*84</string>
+    <string name="title_activity_ahccorrosionheatdo80">DO*80</string>
+    <string name="title_activity_ahccorrosionheatdo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo360x">DO*360X</string>
+    <string name="title_activity_ahccorrosionheatdo22">DO*22</string>
+    <string name="title_activity_ahccorrosionheatdo411">DO*411</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo33">DO*33</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_ahcabrasionheatcorrosion8336eg">8336EG</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo70">DO*70</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_hicheatimpactcorrosiondo80">DO*80</string>
+    <string name="title_activity_hicheatimpactcorrosiondo332">DO*332</string>
+    <string name="title_activity_hicheatimpactcorrosion8336eg">8336EG</string>
+
+</resources>
