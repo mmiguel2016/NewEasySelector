@@ -5,8 +5,8 @@
     <string name="readme">Léeme</string>
     <string name="backButton">atras</string>
     <string name="action_advantages">Ventajas:</string>
-    <string name="action_part">Parte:</string>
-    <string name="action_wear">Vestir:</string>
+    <string name="action_part">Pieza:</string>
+    <string name="action_wear">Desgaste:</string>
     <string name="action_technical_support">Solicita Información Adicional</string>
     <string name="selections_title">Elija un fenómeno:</string>
     <string name="NameOfCustomer">Su nombre completo aquí:</string>
@@ -79,8 +79,8 @@ Si es necesario, solicite confirmación a su departamento técnico y asistencia 
     <string name="erosion5">5. DO*33</string>
     <string name="erosion6">6. DO*322</string>
 
-    <string name="application1">Parte:</string>
-    <string name="application2">Vestir:</string>
+    <string name="application1">Pieza:</string>
+    <string name="application2">Desgaste:</string>
     <string name="application3">Soluciones típicas:</string>
     <string name="application4">Soluciones avanzadas:</string>
     <string name="application5">Ventajas:</string>
