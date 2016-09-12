@@ -35,7 +35,7 @@ Si es necesario, solicite confirmación a su departamento técnico y asistencia 
     <string name="Selectionlist4">Calor/Impacto/Corrosión</string>
     <string name="Selectionlist5">Erosión</string>
     <string name="Selectionlist6">Fatiga Mecánica</string>
-    <string name="Selectionlist7">Cavitation</string>
+    <string name="Selectionlist7">Cavitación</string>
     <string name="Selectionlist8">Fricción/Frotamiento </string>
 
     <string name="AIH1">Abrasión</string>
@@ -801,7 +801,7 @@ Si es necesario, solicite confirmación a su departamento técnico y asistencia 
     <string name="title_activity_DO22">DO*22</string>
     <string name="title_activity_DO02">DO*02</string>
     <string name="title_activity_DO257">DO*257</string>
-    <string name="title_activity_cavitation">CAVITATIÓN</string>
+    <string name="title_activity_cavitation">CAVITACIÓN</string>
     <string name="title_activity_CAVITEC">CAVITEC</string>
     <string name="title_activity_DO80">DO*80</string>
     <string name="title_activity_DO04">DO*04</string>
