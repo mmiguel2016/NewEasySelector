@@ -1,0 +1,946 @@
+<resources>
+    <string name="app_name">EnDOtec Castolin</string>
+    <string name="action_settings">Настройки</string>
+    <string name="intro">СТАРТ</string>
+    <string name="readme">Введение</string>
+    <string name="backButton">назад</string>
+    <string name="action_advantages">Преимущества:</string>
+    <string name="action_part">Деталь:</string>
+    <string name="action_wear">Износ:</string>
+    <string name="action_technical_support">Запросить дополнительную информацию</string>
+    <string name="selections_title">Выбрать процесс:</string>
+    <string name="NameOfCustomer">ФИО:</string>
+    <string name="Country">Страна:</string>
+    <string name="Company">Компания:</string>
+    <string name="Email">Email:</string>
+    <string name="PhoneNumber">Тел.:</string>
+    <string name="Description">Описание:</string>
+    <string name="SendFeedback">Отправить</string>
+    <string name="AllFieldsCompulsory">Все поля обязательны для заполнения.\n</string>
+    <string name="EmailClient">Выбрать почтовый клиент:</string>
+    <string name="EmailTechnicalSupport">Запрос на техническую поддержку из приложения EnDOtec EASYselector </string>
+
+    <string name="read_me_description">\nКак правило, на износ детали оказывает влияние сразу несколько негативных факторов. В таком случае простых решений становится недостаточно, а окончательное решение принимается исходя из  знания всей номенклатуры  продукции, а также на основании опыта сотрудников.\n\n ИСТИННЫЙ ПРОФЕССИОНАЛИЗМ CASTOLIN EUTECTIC \n\n Это осложняет процесс понимания механизма износа. Иногда мы имеем два, три или даже четыре различных механизма износа, что требует применения инновационных решений. Вместе с тем необходимо установить первичный механизм износа.\n\n Используйте данное приложение для:\n 1. Анализа и определения первичного фактора износа.\n 2. Анализа и определения вторичного и третичного фактора износа.\n 3. Выбора проволоки Endotec с учетом ваших требований.\n\n При необходимости обратитесь в наш технический отдел для подтверждения и получения дополнительной информации относительно технологии сварки.</string>
+
+    <string name="Selectionlist1">Абразивный износ/Удар /Нагрев</string>
+    <string name="Selectionlist2">Абразивный износ/Удар /Коррозия</string>
+    <string name="Selectionlist3">Абразивный износ/Нагрев/Коррозия</string>
+    <string name="Selectionlist4">Нагрев/Удар /Коррозия</string>
+    <string name="Selectionlist5">Эрозия</string>
+    <string name="Selectionlist6">Механическая усталость</string>
+    <string name="Selectionlist7">Кавитация </string>
+    <string name="Selectionlist8">Трение и истирание</string>
+
+    <string name="AIH1">Абразивный износ</string>
+    <string name="AIH2">Удар </string>
+    <string name="AIH3">Нагрев</string>
+    <string name="AIH4">АБРАЗИВНЫЙ ИЗНОС + удар </string>
+    <string name="AIH5">УДАР + абразивный износ</string>
+    <string name="AIH6">Абразивный износ + нагрев</string>
+    <string name="AIH7">Удар+ нагрев</string>
+    <string name="AIH8">Абразивный износ + удар + нагрев</string>
+
+    <string name="AIC1">Абразивный износ</string>
+    <string name="AIC2">Удар</string>
+    <string name="AIC3">Коррозия</string>
+    <string name="AIC4">Абразивный износ + удар</string>
+    <string name="AIC5">УДАР + абразивный износ</string>
+    <string name="AIC6">Абразивный износ + коррозия</string>
+    <string name="AIC7">Удар + коррозия</string>
+    <string name="AIC8">Абразивный износ + удар + коррозия</string>
+
+    <string name="AHC1">Абразивный износ</string>
+    <string name="AHC2">Нагрев</string>
+    <string name="AHC3">Коррозия</string>
+    <string name="AHC4">Абразивный износ + нагрев</string>
+    <string name="AHC5">Абразивный износ + коррозия</string>
+    <string name="AHC6">Нагрев + коррозия</string>
+    <string name="AHC7">Абразивный износ + нагрев + коррозия</string>
+
+    <string name="HIC1">Нагрев</string>
+    <string name="HIC2">Удар</string>
+    <string name="HIC3">Коррозия</string>
+    <string name="HIC4">Нагрев + удар </string>
+    <string name="HIC5">Нагрев + коррозия</string>
+    <string name="HIC6">Удар + коррозия</string>
+    <string name="HIC7">Нагрев + удар + коррозия</string>
+
+    <string name="erosion1">1. DO*390N</string>
+    <string name="erosion2">2. 8336EG</string>
+    <string name="erosion3">3. DO*48</string>
+    <string name="erosion4">4. DO*11</string>
+    <string name="erosion5">5. DO*33</string>
+    <string name="erosion6">6. DO*322</string>
+
+    <string name="application1">Деталь:</string>
+    <string name="application2">Износ:</string>
+    <string name="application3">Стандартные решения:</string>
+    <string name="application4">Инновационные решения:</string>
+    <string name="application5">Преимущества:</string>
+
+    <string name="mechanical1">1. DO*22</string>
+    <string name="mechanical2">2. DO*02</string>
+    <string name="mechanical3">3. DO*257</string>
+
+    <string name="cavitation1">1. CAVITEC</string>
+    <string name="cavitation2">2. DO*80</string>
+    <string name="cavitation3">3. DO*04</string>
+    <string name="cavitation4">4. DO*05</string>
+    <string name="cavitation5">5. DO*02</string>
+
+    <string name="frictionrubbing1">1. DO*80</string>
+    <string name="frictionrubbing2">2. DO*70</string>
+    <string name="frictionrubbing3">3. DO*60</string>
+    <string name="frictionrubbing4">4. DO*329</string>
+    <string name="frictionrubbing5">5. DO*06</string>
+    <string name="frictionrubbing6">6. DO*360X</string>
+    <string name="frictionrubbing7">7. DO*04</string>
+
+    <string name="aihabrasion1">1. DO*48</string>
+    <string name="aihabrasion2">2. DO*390N</string>
+    <string name="aihabrasion3">3. 8336EG</string>
+    <string name="aihabrasion4">4. DO*11</string>
+    <string name="aihabrasion5">5. DO*33</string>
+    <string name="aihabrasion6">6. DO*30</string>
+    <string name="aihabrasion7">7. DO*322</string>
+    <string name="aihabrasion8">8. DO*31</string>
+    <string name="aihabrasion9">9. DO*06</string>
+    <string name="aihabrasion10">10. DO*360X</string>
+    <string name="aihabrasion11">11. DO*15</string>
+    <string name="aihabrasion12">12. DO*13</string>
+
+    <string name="aihimpact1">1. DO*05</string>
+    <string name="aihimpact2">2. DO*02</string>
+    <string name="aihimpact3">3. DO*310</string>
+    <string name="aihimpact4">4. DO*327</string>
+    <string name="aihimpact5">5. DO*15</string>
+    <string name="aihimpact6">6. DO*351</string>
+    <string name="aihimpact7">7. DO*13</string>
+    <string name="aihimpact8">8. DO*332</string>
+
+    <string name="aihheat1">1. DO*84</string>
+    <string name="aihheat2">2. DO*80</string>
+    <string name="aihheat3">3. DO*04</string>
+    <string name="aihheat4">4. DO*360X</string>
+    <string name="aihheat5">5. DO*70</string>
+    <string name="aihheat6">6. DO*60</string>
+    <string name="aihheat7">7. DO*22</string>
+
+    <string name="aihabrasionimpact1">1. 8336EG</string>
+    <string name="aihabrasionimpact2">2. DO*48</string>
+    <string name="aihabrasionimpact3">3. DO*390N</string>
+    <string name="aihabrasionimpact4">4. DO*327</string>
+    <string name="aihabrasionimpact5">5. DO*31</string>
+    <string name="aihabrasionimpact6">6. DO*332</string>
+    <string name="aihabrasionimpact7">7. DO*06</string>
+    <string name="aihabrasionimpact8">8. DO*15</string>
+    <string name="aihabrasionimpact9">9. DO*351</string>
+    <string name="aihabrasionimpact10">10. DO*04</string>
+    <string name="aihabrasionimpact11">11. DO*329</string>
+
+    <string name="aihimpactabrasion1">1. DO*327</string>
+    <string name="aihimpactabrasion2">2. DO*360X</string>
+    <string name="aihimpactabrasion3">3. DO*11</string>
+    <string name="aihimpactabrasion4">4. DO*329</string>
+    <string name="aihimpactabrasion5">5. DO*15</string>
+    <string name="aihimpactabrasion6">6. DO*13</string>
+    <string name="aihimpactabrasion7">7. DO*351</string>
+    <string name="aihimpactabrasion8">8. DO*06</string>
+    <string name="aihimpactabrasion9">9. DO*332</string>
+    <string name="aihimpactabrasion10">10. DO*05</string>
+    <string name="aihimpactabrasion11">11. DO*02</string>
+
+    <string name="aihabrasionheat1">1. DO*390N</string>
+    <string name="aihabrasionheat2">2. 8336EG</string>
+    <string name="aihabrasionheat3">3. DO*33</string>
+    <string name="aihabrasionheat4">4. DO*332</string>
+    <string name="aihabrasionheat5">5. DO*06</string>
+    <string name="aihabrasionheat6">6. DO*360X</string>
+    <string name="aihabrasionheat7">7. DO*15</string>
+    <string name="aihabrasionheat8">8. DO*04</string>
+
+    <string name="aihimpactheat1">1. DO*360X</string>
+    <string name="aihimpactheat2">2. DO*329</string>
+    <string name="aihimpactheat3">3. DO*04</string>
+    <string name="aihimpactheat4">4. DO*60</string>
+    <string name="aihimpactheat5">5. DO*327</string>
+    <string name="aihimpactheat6">6. DO*15</string>
+
+    <string name="aihabrasionimpactheat1">1. DO*360X</string>
+    <string name="aihabrasionimpactheat2">2. DO*04</string>
+    <string name="aihabrasionimpactheat3">3. DO*60</string>
+    <string name="aihabrasionimpactheat4">4. DO*327</string>
+    <string name="aihabrasionimpactheat5">5. DO*06</string>
+    <string name="aihabrasionimpactheat6">6. DO*329</string>
+    <string name="aihabrasionimpactheat7">7. DO*332</string>
+    <string name="aihabrasionimpactheat8">8. DO*15</string>
+    <string name="aihabrasionimpactheat9">9. 8336EG</string>
+    <string name="aihabrasionimpactheat10">10. DO*390N</string>
+
+    <string name="aiccorrosion1">1. DO*22</string>
+    <string name="aiccorrosion2">2. DO*80</string>
+    <string name="aiccorrosion3">3. DO*60</string>
+    <string name="aiccorrosion4">4. DO*70</string>
+    <string name="aiccorrosion5">5. DO*02</string>
+    <string name="aiccorrosion6">6. CAVITEC</string>
+    <string name="aiccorrosion7">7. DO*04</string>
+
+    <string name="aicabrasioncorrosion1">1. DO*411</string>
+    <string name="aicabrasioncorrosion2">2. DO*11</string>
+    <string name="aicabrasioncorrosion3">3. DO*33</string>
+    <string name="aicabrasioncorrosion4">4. DO*390N</string>
+    <string name="aicabrasioncorrosion5">5. 8336EG</string>
+    <string name="aicabrasioncorrosion6">6. DO*31</string>
+    <string name="aicabrasioncorrosion7">7. DO*332</string>
+    <string name="aicabrasioncorrosion8">8. DO*70</string>
+    <string name="aicabrasioncorrosion9">9. DO*04</string>
+
+    <string name="aicimpactcorrosion1">1. CAVITEC</string>
+    <string name="aicimpactcorrosion2">2. DO*02</string>
+    <string name="aicimpactcorrosion3">3. DO*05</string>
+    <string name="aicimpactcorrosion4">4. DO*04</string>
+
+    <string name="aicabrasionimpactcorrosion1">1. DO*11</string>
+    <string name="aicabrasionimpactcorrosion2">2. 8336EG</string>
+    <string name="aicabrasionimpactcorrosion3">3. DO*390N</string>
+    <string name="aicabrasionimpactcorrosion4">4. DO*31</string>
+    <string name="aicabrasionimpactcorrosion5">5. DO*360X</string>
+    <string name="aicabrasionimpactcorrosion6">6. DO*60</string>
+    <string name="aicabrasionimpactcorrosion7">7. DO*04</string>
+
+    <string name="ahcheatcorrosion1">1. DO*84</string>
+    <string name="ahcheatcorrosion2">2. DO*80</string>
+    <string name="ahcheatcorrosion3">3. DO*04</string>
+    <string name="ahcheatcorrosion4">4. DO*360X</string>
+    <string name="ahcheatcorrosion5">5. DO*22</string>
+    <string name="ahcheatcorrosion6">6. DO*411</string>
+
+    <string name="ahcabrasionheatcorrosion1">1. DO*33</string>
+    <string name="ahcabrasionheatcorrosion2">2. DO*390N</string>
+    <string name="ahcabrasionheatcorrosion3">3. 8336EG</string>
+    <string name="ahcabrasionheatcorrosion4">4. DO*70</string>
+    <string name="ahcabrasionheatcorrosion5">5. DO*04</string>
+    <string name="ahcabrasionheatcorrosion6">6. DO*360X</string>
+
+    <string name="hicheatimpactcorrosion1">1. DO*360X</string>
+    <string name="hicheatimpactcorrosion2">2. DO*04</string>
+    <string name="hicheatimpactcorrosion3">3. DO*80</string>
+    <string name="hicheatimpactcorrosion4">4. DO*332</string>
+    <string name="hicheatimpactcorrosion5">5. 8336EG</string>
+
+    <string name="DO390N1">Ротор мельницы Atox. Цементная промышленность. Основной металл: нелегированная сталь Размеры: 140 мм (внутри) x 155 мм (длина)</string>
+    <string name="DO390N2">Эрозия-абразивный износ</string>
+    <string name="DO390N3">Заменяемое решение. После износа барабаны могут поворачиваться на 90?, таким образом, срок службы увеличивается 4 раза.</string>
+
+    <string name="EG83361">Воздушное направляющее кольцо вертикальной валковой мельницы. Цементная промышленность. Основной металл: конструкционная сталь (S355JRG2) Размеры: (520x350) мм</string>
+    <string name="EG83362">Эрозия</string>
+    <string name="EG83363">Увеличение срока службы в 2,5 раза и легкая сборка и демонтаж изношенных защитных пластин.</string>
+
+    <string name="DO481">Пластины сепаратора в цементной промышленности Основной металл: низколегированная закаленная сталь (16MnCr5) Размеры: (1940x180) мм</string>
+    <string name="DO482">Эрозия и абразивный износ</string>
+    <string name="DO483">Увеличение срока службы от 730 дней, используя предыдущее решение, до 1095 дней, используя текущее решение</string>
+
+    <string name="DO111">Лопасть вентилятора первичной воздуходувки, в цементной промышленности. Основной металл: конструкционная сталь Размеры: ?1600x120 мм</string>
+    <string name="DO112">Эрозия</string>
+    <string name="DO113">Сокращение времени сварки (прим. на 65%). Увеличение срока службы почти в 3 раза.</string>
+
+    <string name="DO331">Ролик котла для утилизации отходов на тепловой электростанции. Основной металл: конструкционная сталь. Размеры: ?=400 мм L=1200 мм</string>
+    <string name="DO332">Эрозия / абразивный износ при низком давлении, особенно во фланцах</string>
+    <string name="DO333"> Увеличение срока службы больше, чем в 5 раз по сравнению с Hardox </string>
+
+    <string name="DO3221">Труба бетононасоса. Основной металл: конструкционная сталь.</string>
+    <string name="DO3222">Эрозия и абразивный износ внутренней части трубы</string>
+    <string name="DO3223">Увеличение срока службы. 14 месяцев</string>
+
+    <string name="DO221">Бандаж цементной печи. Основной металл: литая низколегированная сталь (GS 30 Mn 5). Размеры: ? 6500x1400x500 мм Размеры фаски: 1200x170x250 мм</string>
+    <string name="DO222">Механическая усталость вследствие экстремальных условий работы</string>
+    <string name="DO223">Ускорение работы при использовании данной проволоки и отсутствие шлака</string>
+
+    <string name="DO021">Коленчатый вал двигателя в автомобильной промышленности. Основной металл: низколегированная термообработанная сталь</string>
+    <string name="DO022">Механическая усталость</string>
+    <string name="DO023">Более длительный срок службы, уменьшение вероятности образования трещин (водородные трещины или остаточное напряжение в ЗТВ)</string>
+
+    <string name="DO2571">Рекуператоры цементной печи. Устранение трещин Основной металл: St35</string>
+    <string name="DO2572">Тепловая и механическая усталость </string>
+    <string name="DO2573">Качественная сварка, отличные механические свойства и высокая скорость наплавки.</string>
+
+    <string name="CAVITEC1">Ковши Ковши активной гидравлической турбины на гидроэлектростанции. Основной металл: низколегированная литая сталь (410 NiMo).</string>
+    <string name="CAVITEC2">Сильная кавитация и эрозия вследствие воздействия взвешенных твердых частиц в воде, используемой для перемещения ковшей.</string>
+    <string name="CAVITEC3">Более долгий срок службы и увеличение КПД оборудования. Cavitec имеет преимущество по сравнению с любым другим сплавом.</string>
+
+    <string name="DO801">Впускные патрубки циклотурбины мельницы в целлюлозно-бумажной промышленности. Основной металл: аустенитная нержавеющая сталь Размеры: 300x500 мм</string>
+    <string name="DO802">Кавитация</string>
+    <string name="DO803">Более длительный срок службы, не менее 3 лет.</string>
+
+    <string name="DO041">Лопасти гребного винта на водоочистном сооружении. Основной металл: чугун</string>
+    <string name="DO042">Кавитация и эрозия вследствие воздействия воды с взвешенными твердыми частицами.</string>
+    <string name="DO043">Срок службы увеличился почти в 4 раза.</string>
+
+    <string name="DO051">Ротор циркуляционного насоса на тепловой электростанции. Основной металл: высоколегированная литая сталь (GX 10 Cr 13/GX 12 Cr14).</string>
+    <string name="DO052">Кавитация</string>
+    <string name="DO053">Увеличение срока службы. Продолжительный период эксплуатации, еще не закончен.</string>
+
+    <string name="DO02cavitation1">Ротор гидроразбивателя для целлюлозно-бумажной промышленности. Основной металл: AISI 316. Размеры: ? 1500 мм</string>
+    <string name="DO02cavitation2">Сильный износ по причине наличия в воде целлюлозы и прочих материалов.</string>
+    <string name="DO02cavitation3">Срок службы: 4–5 месяца и более быстрый ремонт</string>
+
+    <string name="DO80frictionrubbing1">Формовочный инструмент гидравлического пресса Основной металл: дуплексная сталь</string>
+    <string name="DO80frictionrubbing2">Быстрый износ инструмента для изготовления фитингов вследствие высокого давления и адгезии.</string>
+    <string name="DO80frictionrubbing3">Нечувствительный к адгезионному износу даже при отсутствии смазки — низкий коэффициент трения металлических поверхностей.</string>
+
+    <string name="DO701">Отбойник клети прокатного стана для производства стальных рельсов Основной металл: нелегированная термообработанная сталь</string>
+    <string name="DO702">Высокое давление и температура (до 1100?C) приводят к сильному трению и износу отбойников.</string>
+    <string name="DO703">Более гладкая поверхность отбойников, увеличение срока службы в три раза. Меньшая усадка наплавленного слоя.</string>
+
+    <string name="DO601">Поломка токарного станка. Инструментальная сталь холодной обработки Основной металл: NC6, NC11</string>
+    <string name="DO602">Трение и удары, вызванные воздействием колец во время нагрузки. Неравномерная изношенная контактная поверхность вызывает вибрации, что приводит к потере требуемой точности обработки заготовки.</string>
+    <string name="DO603">Увеличение срока службы больше, чем на 100%.</string>
+
+    <string name="DO3291">Ролики петлеобразования для протяжки и сматывания проволоки Основной металл: аустенитная марганцевая сталь</string>
+    <string name="DO3292">Трение при высокой температуре, вызванное роликами и препятствующее натяжению проволоки.</string>
+    <string name="DO3293">Увеличение срока службы от 15 до 90 дней.</string>
+
+    <string name="DO061">Станина приводного валика. Металлургическая промышленность. Основной металл: F114 Размеры: ? 337 мм x 710 мм</string>
+    <string name="DO062">Трение металлических поверхностей при 250?C.</string>
+    <string name="DO063">Увеличение срока службы и производства.</string>
+
+    <string name="DO360X1">Формовочный инструмент в гидравлическом прессе. Ковка Основной металл: супердуплекс</string>
+    <string name="DO360X2">Трение металлических поверхностей в связи с высоким давлением инструмента.</string>
+    <string name="DO360X3">Менее подвержен износу даже без смазки.</string>
+
+    <string name="DO04FrictionRubbing1">Направляющая для правки прутка Основной металл: конструкционная сталь</string>
+    <string name="DO04FrictionRubbing2">Трение металлических поверхностей по причине давления, оказываемого цилиндром на прутки.</string>
+    <string name="DO04FrictionRubbing3">Увеличение срока службы от 25 до 35 дней.</string>
+
+    <string name="aihabrasiondo481">Молотковая мельница (тальк)</string>
+    <string name="aihabrasiondo482">Сильное абразивное истирание при слабом ударе (практически без удара) по причине измельчения талька.</string>
+    <string name="aihabrasiondo483">Увеличение срока службы более чем в 2-3 раза (от 2 до 9 дней).</string>
+
+    <string name="aihabrasiondo390n1">Транспортирующий шнек (подача керамики). Основной металл: Hardox</string>
+    <string name="aihabrasiondo390n2">Сильный абразивный износ по причине транспортировки керамических изделий (кирпичи и глина).</string>
+    <string name="aihabrasiondo390n3">Увеличение срока службы почти в 5-6 раз.</string>
+
+    <string name="aihabrasion8336eg1">Шнековый винт (транспортировка минералов). Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aihabrasion8336eg2">Сильный абразивный износ по причине транспортировки минералов (тенардит).</string>
+    <string name="aihabrasion8336eg3">Увеличение срока службы почти в 4 раза. Непосредственное применение во избежание длительного отключения для нового шнекового винта, более низкая цена.</string>
+
+    <string name="aihabrasiondo111">Лопасть месильной машины (глина). Основной металл: низколегированная сталь</string>
+    <string name="aihabrasiondo112">Сильный абразивный износ по причине смешивания глины и пирита.</string>
+    <string name="aihabrasiondo113">Более высокая скорость наплавки, сокращение времени сварки, сокращение времени на ремонт месильной машины. Увеличение срока службы до 3 раз.</string>
+
+    <string name="aihabrasiondo331">Шнековый винт (транспортировка песка). Основной металл: низколегированная отвержденная сталь</string>
+    <string name="aihabrasiondo332">Сильный абразивный износ и высокая температура (коррозионная среда).</string>
+    <string name="aihabrasiondo333">Увеличение срока службы от 4 до 12 месяцев без замены червячного транспортера.</string>
+
+    <string name="aihabrasiondo301">Шнековый винт насоса подачи цемента. Основной металл: низколегированная сталь</string>
+    <string name="aihabrasiondo302">Сильный абразивный износ по причине транспортировки цемента.</string>
+    <string name="aihabrasiondo303">Повышенная стойкость к абразивному истиранию, увеличение срока службы.</string>
+
+    <string name="aihabrasiondo3221">Шнек для подачи топлива, древесной щепы и животных веществ. Основной металл: низколегированная сталь</string>
+    <string name="aihabrasiondo3222">Сильный абразивный износ по причине транспортировки различных материалов.</string>
+    <string name="aihabrasiondo3223">Повышенная стойкость к абразивному истиранию, увеличение срока службы до 18 месяцев.</string>
+
+    <string name="aihabrasiondo311">Шнек для транспортировки биомассы. Основной металл: низколегированная сталь</string>
+    <string name="aihabrasiondo312">Сильный абразивный износ по причине транспортировки коры.</string>
+    <string name="aihabrasiondo313">Увеличение срока службы до 24 месяцев.</string>
+
+    <string name="aihabrasiondo061">Валок в зоне охлаждения, сталепрокатный стан. Основной металл: низколегированная сталь GS-52</string>
+    <string name="aihabrasiondo062">Сильный абразивный износ и трение.</string>
+    <string name="aihabrasiondo063">Повышенная стойкость к абразивному истиранию, увеличение срока службы от 60 до 180 дней.</string>
+
+    <string name="aihabrasiondo360x1">a</string>
+    <string name="aihabrasiondo360x2">b</string>
+    <string name="aihabrasiondo360x3">c</string>
+
+    <string name="aihabrasiondo151">Шнековый винт (цемент). Основной металл: низколегированная термообработанная сталь Размеры: ? =300 мм L= 3000 мм</string>
+    <string name="aihabrasiondo152">Сильный абразивный износ по причине транспортировки цемента.</string>
+    <string name="aihabrasiondo153">Значительное увеличение срока службы и упрощение процесса обработки.</string>
+
+    <string name="aihabrasiondo131">Ролик для шлифовки стекла вторичной обработки. Основной металл: низколегированная сталь (St37)</string>
+    <string name="aihabrasiondo132">Сильный абразивный износ и высокое давление.</string>
+    <string name="aihabrasiondo133">Высокая устойчивость к сильному абразивному истиранию и удару, без трещин.</string>
+
+    <string name="aihimpactdo051">Ротор молотковой дробилки (с качающимися молотками). Основной металл: низколегированная литая закаленная сталь Размеры: ? =800 мм t=80 мм. Масса: 1000 кг</string>
+    <string name="aihimpactdo052">Сильный удар и абразивный износ по причине воздействия качающихся молотков на наковальню для измельчения металлических изделий (200-300 г износа на тонну произведенного лома).</string>
+    <string name="aihimpactdo053">Увеличение срока службы (ранее: 120 дней; решение Castolin: 210 дней)</string>
+
+    <string name="aihimpactdo021">Бобинодержатель дробилки для получения песка и гравия. Основной металл: низколегированная литая сталь (? 110/880x435 мм).</string>
+    <string name="aihimpactdo022">Удар и высокое давление.</string>
+    <string name="aihimpactdo023">Увеличение срока службы с 365 дней, используя предыдущее решение, до 550 дней, используя решение компании Castolin. Дешевле, чем замена.</string>
+
+    <string name="aihimpactdo3101">Приводное колесо для экскаватора для проведения открытых горных работ. Основной металл: нелегированная термообработанная сталь. Размеры: ?2000 мм t=450 мм</string>
+    <string name="aihimpactdo3102">Следы сильного удара и абразивный износ, особенно на зубьях приводного колеса.</string>
+    <string name="aihimpactdo3103">Увеличение срока службы и повышение рентабельности. Дешевле, чем замена. DO*310 обеспечивает однородную наплавку без трещин.</string>
+
+    <string name="aihimpactdo3271">Молотки дробилки вторичного измельчения в цементной промышленности. Основной металл: аустенитная марганцевая сталь (14%Mn-2%Mo). Размеры: (420x350x140) мм</string>
+    <string name="aihimpactdo3272">Следы удара и небольшой абразивный износ по причине дробления известняка молотками.</string>
+    <string name="aihimpactdo3273">Увеличение срока службы на 50%. Срок службы 3 года.</string>
+
+    <string name="aihimpactdo151">Рабочее колесо ударной дробилки. Открытые горные работы. Основной металл: конструкционная сталь (?1000x340 мм).</string>
+    <string name="aihimpactdo152">Удар по причине уменьшения размеров камней от 60 мм до 0,5-30 мм.</string>
+    <string name="aihimpactdo153">Увеличение срока службы с 300 дней, используя конкурентное решение, до 600 дней, используя решение Castolin.</string>
+
+    <string name="aihimpactdo3511">Колена и отводы пневмотранспорта для транспортировки отходов стекольной промышленности Основной металл: St37</string>
+    <string name="aihimpactdo3512">Следы удара и абразивный износ по причине падения бракованных стеклянных бутылок и стеклобоя.</string>
+    <string name="aihimpactdo3513">Более быстрая замена колен и отводов, высококачественная сварка и высокая скорость наплавки.</string>
+
+    <string name="aihimpactdo131">Молотковая дробилка вторичного измельчения для работы с кирпичом и глиной. Основной металл: низколегированная литая закаленная сталь Размеры: 510x60x30 мм</string>
+    <string name="aihimpactdo132">Удар </string>
+    <string name="aihimpactdo133">27 часов работы, не нужно останавливать дробилку во время смены персонала, что означает увеличение срока службы на 800%.</string>
+
+    <string name="aihimpactdo3321">Молот дробильного пресса для производства кормов для животных. Основной металл: конструкционная сталь</string>
+    <string name="aihimpactdo3322">Удар под высоким давлением для измельчения костей животных.</string>
+    <string name="aihimpactdo3323">Аналогичный срок службы, но гораздо более низкая цена и отсутствие риска растрескивания.</string>
+
+    <string name="aihheatdo841">Ковочный штамп Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aihheatdo842">Усталость и трение при высокой температуре.</string>
+    <string name="aihheatdo843">Время наплавки сократилось вдвое, улучшены механические свойства и увеличился срок службы.</string>
+
+    <string name="aihheatdo801">Зажимная губка ковочного пресса Основной металл: инструментальная сталь для работы при высоких температурах (1.2714)</string>
+    <string name="aihheatdo802">Высокая температура и удар во время того, когда раскаленная штамповка зажата в губках.</string>
+    <string name="aihheatdo803">Высокая теплостойкость и ударопрочность. Увеличение срока службы в два раза по сравнению со стандартным решением.</string>
+
+    <string name="aihheatdo041">Роликовая установка непрерывного литья Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aihheatdo042">Высокая температура и давление заготовки вызывают быстрый износ роликов.</string>
+    <string name="aihheatdo043">Ежегодная экономия средств, увеличение срока службы до 5 раз.</string>
+
+    <string name="aihheatdo701">Отбойник клети прокатного стана. Металлургический завод. Основной металл: низколегированная термообработанная сталь Размеры: 700x80x80 мм</string>
+    <string name="aihheatdo702">Высокая температура и давление, потому что отбойники направляют горячую заготовку (1000 °C) через правое положение клети прокатного стана.</string>
+    <string name="aihheatdo703">Увеличение срока службы до 3 раз, меньшая усадка и повышение качества рельсов путем достижения гладкой поверхности.</string>
+
+    <string name="aihheatdo601">Нижняя плита кокса поперек станка (металлургический завод) Основной металл: конструкционная сталь</string>
+    <string name="aihheatdo602">Абразивный износ происходит в результате падения кокса на нижнюю плиту.</string>
+    <string name="aihheatdo603">Более дешевый основной металл с покрытием DO*60. Увеличение срока службы плит до 3 раз.</string>
+
+    <string name="aihheatdo221">Муфель роликовой печи для закалки. Основной металл: никелевый сплав Размеры: 3x0,5 м</string>
+    <string name="aihheatdo222">Ремонт трещины, подверженной термической усталости.</string>
+    <string name="aihheatdo223">Чтобы избежать замены дорогостоящего муфеля.</string>
+
+    <string name="aihabrasionimpact8336eg1">Лопасть ротора для нарезки люцерны Основной металл: низколегированная термообработанная сталь (Hardox 400)</string>
+    <string name="aihabrasionimpact8336eg2">Ротор имеет спиральную подводящую с несколькими лопастями, которые собирают люцерну, что приводит к абразивному износу, а также небольшим ударам в результате попадания камней с земли.</string>
+    <string name="aihabrasionimpact8336eg3">Срок службы 2 года (в 2 раза больше). Избегайте демонтажа и замены лопастей.</string>
+
+    <string name="aihabrasionimpactdo481">Молот мешалки в компостной системе. Основной металл: низколегированная термообработанная сталь (Hardox 400)</string>
+    <string name="aihabrasionimpactdo482">Несколько следов абразивного износа и ударов на лопастях, которые месят деревянные материалы, такие как деревья, сучья, почву и песок.</string>
+    <string name="aihabrasionimpactdo483">Более длительный срок службы от 6 до 13 месяцев.</string>
+
+    <string name="aihabrasionimpactdo390n1">Молоток дробилки вторичного измельчения на цементном заводе. Основной металл: низколегированная термообработанная сталь (38NCD4)</string>
+    <string name="aihabrasionimpactdo390n2">Молотки дробилки дробят известняк на мелкие кусочки (от 20 до 80 мм), поэтому они подвергаются сильному абразивному износу и ударам.</string>
+    <string name="aihabrasionimpactdo390n3">По сравнению с предложениями конкурентов срок службы в два раза больше — от 180 до 360 дней).</string>
+
+    <string name="aihabrasionimpactdo3271">Режущие инструменты — бандажно-шлифовальная машина Основной металл: нелегированная сталь (St37)</string>
+    <string name="aihabrasionimpactdo3272">Сильный абразивный износ в сочетании с сильным ударом и трением (нагревом).</string>
+    <string name="aihabrasionimpactdo3273">Завод может измельчать около 1000 т каждые 3 недели по сравнению с предыдущими 770 т каждые три недели. Повышение качества сварки.</string>
+
+    <string name="aihabrasionimpactdo311">Насадка туннельного резака. Основной металл: конструкционная сталь.</string>
+    <string name="aihabrasionimpactdo312">Различные удары и абразивный износ в зависимости от обрабатываемого участка земли.</string>
+    <string name="aihabrasionimpactdo313">Увеличение срока службы до 500 часов. Рабочее время при использовании решения конкурента составило 300 часов.</string>
+
+    <string name="aihabrasionimpactdo3321">Молотки маятниковой мельницы. Основной металл: конструкционная сталь</string>
+    <string name="aihabrasionimpactdo3322">Молотки страдают от абразивного износа и ударов, сбалансированных на 50%.</string>
+    <string name="aihabrasionimpactdo3323">Увеличение срока службы от 5 до 30 месяцев.</string>
+
+    <string name="aihabrasionimpactdo061">Ротор и режущие инструменты. Основной металл: термообработанная сталь</string>
+    <string name="aihabrasionimpactdo062">Абразивный износ и удар в результате вторичной шлифовки бандажей (куски резины размером 80 мм).</string>
+    <string name="aihabrasionimpactdo063">Увеличение срока службы до 3 раз.</string>
+
+    <string name="aihabrasionimpactdo151">Шнек для извлечения земли. Основной металл: низколегированная литая закаленная сталь</string>
+    <string name="aihabrasionimpactdo152">Сильный абразивный износ и следы удара в результате извлечения грунта, в основном на лопастях.</string>
+    <string name="aihabrasionimpactdo153">Экономия средств при более длительном сроке службы, возможность нанесения нескольких покрытий и дешевый материал основания.</string>
+
+    <string name="aihabrasionimpactdo3511">Ротор для переработки опавшей листвы.</string>
+    <string name="aihabrasionimpactdo3512">Сильный абразивный износ в результате переработки опавшей листвы.</string>
+    <string name="aihabrasionimpactdo3513">Более качественная сварка и значительно более низкая себестоимость.</string>
+
+    <string name="aihabrasionimpactdo041">Вал дробильной машины для утилизации отходов. Основной металл: низколегированная термообработанная сталь Масса: 800 кг</string>
+    <string name="aihabrasionimpactdo042">Абразивный износ при высоком давлении и несколько следов от удара в основном по краям ножей, поскольку они перемалывают кости животных.</string>
+    <string name="aihabrasionimpactdo043">Дешевле отремонтировать, чем заменить вал. Экономия более € 300 000.</string>
+
+    <string name="aihabrasionimpactdo3291">Режущее лезвие в прокатном стане Основной металл: низколегированное термообработанное железо (180x105x50 мм и 160x97x35 мм)</string>
+    <string name="aihabrasionimpactdo3292">Абразивный износ и следы удара в результате прохода и резки гофрированной стали (8-32 мм).</string>
+    <string name="aihabrasionimpactdo3293">Увеличение срока службы (от 7 до 90 дней).</string>
+
+    <string name="aihimpactabrasiondo3271">Гребенчатый измельчитель Основной металл: St37</string>
+    <string name="aihimpactabrasiondo3272">Сильный удар и умеренный абразивный износ вследствие прохождения бревен.</string>
+    <string name="aihimpactabrasiondo3273">Устройство было изготовлено в 2011 году. В 2015 году все еще находится в эксплуатации и не изношено.</string>
+
+    <string name="aihimpactabrasiondo360x1">a</string>
+    <string name="aihimpactabrasiondo360x2">b</string>
+    <string name="aihimpactabrasiondo360x3">c</string>
+
+    <string name="aihimpactabrasiondo111">Наконечник бура колонкового перфоратора (пробойник)  используемого в строительстве. Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aihimpactabrasiondo112">Сильный удар и абразивный износ по причине разного состава почвы. (глина, песок, камни, горная порода...)</string>
+    <string name="aihimpactabrasiondo113">Увеличение срока службы в 2-3 раза и при необходимости очень быстрый ремонт непосредственно на рабочем месте.</string>
+
+    <string name="aihimpactabrasiondo3291">Верхние и нижние отделочные ролики шлифовальной машины Kieserling. Основной металл: 42CrMo4</string>
+    <string name="aihimpactabrasiondo3292">Удар и абразивный износ по причине непрерывного прохождения 12-метровых прутков.</string>
+    <string name="aihimpactabrasiondo3293">Увеличение срока службы до 2 раз.</string>
+
+    <string name="aihimpactabrasiondo151">Распорная плита загрузочного бункера при производстве основных химикатов. Основной металл: конструкционная сталь S235 Размеры: (1000x630) мм</string>
+    <string name="aihimpactabrasiondo152">Распорная плита подвергается ударам и абразивному износу, потому что куски и блоки известняка падают в бункер с высоты 1 м и высыпаются по желобам.</string>
+    <string name="aihimpactabrasiondo153">Увеличение срока службы.</string>
+
+    <string name="aihimpactabrasiondo131">Захват крана Основной металл: St52</string>
+    <string name="aihimpactabrasiondo132">Захват повреждается от сильного удара и абразивного износа во время загрузки и выгрузки булыжников.</string>
+    <string name="aihimpactabrasiondo133">Увеличение срока службы и простота сварки в заданном положении.</string>
+
+    <string name="aihimpactabrasiondo3511">Зубья для дробления в дробильно-сортировочной машине.</string>
+    <string name="aihimpactabrasiondo3512">Сильный удар и абразивный износ.</string>
+    <string name="aihimpactabrasiondo3513">Качественная сварка, высокая скорость наплавки и очень слабое разбавление.</string>
+
+    <string name="aihimpactabrasiondo061">Зубья для дробления переносного шредера. Утилизация отходов. Основной металл: низколегированная литая сталь Размеры: 300x80 мм</string>
+    <string name="aihimpactabrasiondo062">Сильный удар и абразивный износ, потому что зубья должны перемалывать лом.</string>
+    <string name="aihimpactabrasiondo063">Увеличение срока службы от 250 до 300 часов.</string>
+
+    <string name="aihimpactabrasiondo3321">Лопасти мешалки для производства кирпича и глиняной плитки. Основной металл: углеродистая сталь</string>
+    <string name="aihimpactabrasiondo3322">Удар и абразивный износ при перемешивании глины.</string>
+    <string name="aihimpactabrasiondo3323">Увеличение срока службы деталей.</string>
+
+    <string name="aihimpactabrasiondo051">Вход прутков в стеллаж-холодильник. Основной металл: нелегированная конструкционная сталь (1.0577). Размеры: (1950x40) мм</string>
+    <string name="aihimpactabrasiondo052">Удар и абразивный износ вследствие транспортировки заготовки.</string>
+    <string name="aihimpactabrasiondo053">Увеличение срока службы в два раза (по требованию заказчика: 365 дней)</string>
+
+    <string name="aihimpactabrasiondo021">Диски дробилки первичного дробления (цементная промышленность). Основной металл: аустенитная марганцевая сталь</string>
+    <string name="aihimpactabrasiondo022">Удар и абразивный износ.</string>
+    <string name="aihimpactabrasiondo023">Увеличение срока службы до 3 раз.</string>
+
+    <string name="aihabrasionheatdo390n1">Выходная закрывающая плита в цементной печи. Основной металл: высоколегированная литая сталь (GX 40 CrNiSi 25 20). Размеры: (500x300x100) мм</string>
+    <string name="aihabrasionheatdo390n2">Абразивный износ и высокая температура.</string>
+    <string name="aihabrasionheatdo390n3">Срок службы не менее 4 лет. Детали не заменялись.</string>
+
+    <string name="aihabrasionheat8336eg1">Шнековый винт для экструзии полимеров с керамическими компонентами. Основной металл: легированная сталь</string>
+    <string name="aihabrasionheat8336eg2">Абразивный износ и высокая температура.</string>
+    <string name="aihabrasionheat8336eg3">Более длительный срок службы. В 3 раза больше по сравнению с DO*06 .</string>
+
+    <string name="aihabrasionheatdo331">Шнековый винт. Металлургическая промышленность. Основной металл: жаропрочная сталь Размеры: ? 70x1000 мм</string>
+    <string name="aihabrasionheatdo332">Сильный абразивный износ при сильном нагреве всего винта.</string>
+    <string name="aihabrasionheatdo333">Более высокая твердость при нанесении всего 2 слоев, более быстрое и дешевое производство. Увеличение срока службы.</string>
+
+    <string name="aihabrasionheatdo3321">Цепной конвейер в цементной промышленности. Основной металл: аустенитная марганцевая сталь</string>
+    <string name="aihabrasionheatdo3322">Абразивный износ и нагрев поверхности цепи.</string>
+    <string name="aihabrasionheatdo3323">Увеличение срока службы, возможно нанесение более толстых слоев, более высокое качество.</string>
+
+    <string name="aihabrasionheatdo061">Опорная плита прямо перед входом в бокс №2 на производственной линии рельсов. Основной металл: нелегированная литая сталь</string>
+    <string name="aihabrasionheatdo062">Сильный абразивный износ и трение при высокой температуре.</string>
+    <string name="aihabrasionheatdo063">За 8 лет службы очень небольшой износ.</string>
+
+    <string name="aihabrasionheatdo360x1">a</string>
+    <string name="aihabrasionheatdo360x2">b</string>
+    <string name="aihabrasionheatdo360x3">c</string>
+
+    <string name="aihabrasionheatdo151">Лопасть мешалки для производства асфальта. Основной металл: низколегированная литая сталь Размеры: (750x20x16) мм (32 шт.)</string>
+    <string name="aihabrasionheatdo152">Абразивный износ по причине высокого давления при температуре 250?C.</string>
+    <string name="aihabrasionheatdo153">Закупка меньшего количества лопастей, сокращение расходов на изнашиваемые детали и сокращение времени простоя.</string>
+
+    <string name="aihabrasionheatdo041">Ролик установки непрерывного литья. Основной металл: низколегированная литая закаленная сталь. Размеры: &#xD8;110x530 мм</string>
+    <string name="aihabrasionheatdo042">Абразивный износ при высокой температуре, поскольку эти ролики направляют вертикальный транспортер в горизонтальный волочильный стан.</string>
+    <string name="aihabrasionheatdo043">Хорошая устойчивость к абразивному износу и нагреву.</string>
+
+    <string name="aihimpactheatdo360x1">a</string>
+    <string name="aihimpactheatdo360x2">b</string>
+    <string name="aihimpactheatdo360x3">c</string>
+
+    <string name="aihimpactheatdo3291">Нож для резки арматуры (от 8 до 32 мм). Волочение и прокат проволоки. Основной металл: низколегированная термообработанная сталь Размеры: (180x108x50) мм и (160x97x35) мм</string>
+    <string name="aihimpactheatdo3292">Арматура режется при температуре 500-600?C, при этом температура лопастей достигает 200?C. Основные признаки износа: Удар и нагрев. Другие: коррозия, абразивный износ и термическая усталость.</string>
+    <string name="aihimpactheatdo3293">Срок службы 4 недели и более высокая скорость наплавки.</string>
+
+    <string name="aihimpactheatdo041">Пуансон молоткового пресса для ковки в нагретом состоянии. Основной металл: St 52. Размеры: ? 200 мм</string>
+    <string name="aihimpactheatdo042">Удар и нагрев, поскольку эти пуансоны осуществляют горячую ковку полосовой стали и, в итоге, перфорируют ее.</string>
+    <string name="aihimpactheatdo043">Более длительный срок службы, поэтому затраты на обслуживание сокращаются без снижения качества.</string>
+
+    <string name="aihimpactheatdo601">Нижняя плита кокса поперек станка. Основной металл: конструкционная сталь. Размеры: (960x600x30) мм</string>
+    <string name="aihimpactheatdo602">Горячий кокс падает на нижнюю плиту, происходит удар и нагрев.</string>
+    <string name="aihimpactheatdo603">Более длительный срок службы (180 дней при использовании решения Castolin) и более дешевый материал основания.</string>
+
+    <string name="aihimpactheatdo3271">52 отбойных молотка клинкерной дробилки Основной металл: нелегированная литая сталь Размеры: (230x350x160) мм</string>
+    <string name="aihimpactheatdo3272">Удар и нагрев, потому что молотки должны уменьшить размер клинкера.</string>
+    <string name="aihimpactheatdo3273">Увеличение срока службы (6 месяцев). 58HRC после 1 слоя</string>
+
+    <string name="aihimpactheatdo151">Валок шлаковой дробилки на тепловой электростанции. Основной металл: низколегированная литая сталь/литая сталь Размеры: ? 152x2000 мм</string>
+    <string name="aihimpactheatdo152">Удар и нагрев обоих валков и зубьев, поскольку они перемалывают большие куски шлака.</string>
+    <string name="aihimpactheatdo153">Собственное решение, увеличение срока службы и простая процедура наплавки кромок.</string>
+
+    <string name="aihabrasionimpactheatdo360x1">a</string>
+    <string name="aihabrasionimpactheatdo360x2">b</string>
+    <string name="aihabrasionimpactheatdo360x3">c</string>
+
+    <string name="aihabrasionimpactheatdo041">Ковочный штамп. Основной металл: низколегированная термообработанная сталь Размеры: ?300x100</string>
+    <string name="aihabrasionimpactheatdo042">Высокое тепловое напряжение, удар и абразивный износ.</string>
+    <string name="aihabrasionimpactheatdo043">Высокая устойчивость к трению, деформации и удару. Прочный пластичный сварной материал, не склонный к растрескиванию по углам и краям.</string>
+
+    <string name="aihabrasionimpactheatdo601">Тормоз автоматического токарного станка. Основной металл: Инструментальная сталь холодной обработки (NC6, NC11). Размеры: ?73 / (180x74) мм</string>
+    <string name="aihabrasionimpactheatdo602">Абразивный износ, удар при высокой температуре, поскольку эта часть должна обеспечивать кольцевую ковку во время загрузки и обточки.</string>
+    <string name="aihabrasionimpactheatdo603">Увеличение срока службы, как минимум, на 100%. Срок службы Castolin: 42 дня</string>
+
+    <string name="aihabrasionimpactheatdo3271">Гребенка измельчителя на деревообрабатывающей фабрике. Основной металл: St37</string>
+    <string name="aihabrasionimpactheatdo3272">Высокое давление, небольшой удар и нагрев, поскольку гребенка должна измельчать древесину в стружку.</string>
+    <string name="aihabrasionimpactheatdo3273">Как минимум четыре года спустя начала использования решения компании Castolin и гребенки все еще находятся в эксплуатации.</string>
+
+    <string name="aihabrasionimpactheatdo061">Лезвия измельчителя для утилизации шпал.</string>
+    <string name="aihabrasionimpactheatdo062">Сильный абразивный износ, средний удар и слабый нагрев.</string>
+    <string name="aihabrasionimpactheatdo063">Увеличение срока службы. Возможность ремонта, а значит, снижение затрат.</string>
+
+    <string name="aihabrasionimpactheatdo3291">Толкатель/центрирующая направляющая роликовой вагонетки. Основной металл: низколегированная сталь Размеры: 5*50/50*500 мм</string>
+    <string name="aihabrasionimpactheatdo3292">Абразивный износ при высокой температуре (~ 500?C) и удар.</string>
+    <string name="aihabrasionimpactheatdo3293">Высококачественная сварка, легкая обработка и 52HRC.</string>
+
+    <string name="aihabrasionimpactheatdo3321">Вал кирпичной дробилки. Основной металл: конструкционная сталь Размеры: ?350 x450 мм</string>
+    <string name="aihabrasionimpactheatdo3322">Абразивный износ, удар при температуре 40-50?C, потому что дробилка измельчает кирпичи низкого качества, поступающие с производственной линии.</string>
+    <string name="aihabrasionimpactheatdo3323">Увеличение срока службы.</string>
+
+    <string name="aihabrasionimpactheatdo151">Загрузочная платформа для удаления окалины на горячекатаной полосе в прокатном стане. Основной металл: низколегированная сталь Размеры: (1350x1500x200) мм</string>
+    <string name="aihabrasionimpactheatdo152">Абразивный износ при высокой температуре и ударе, поскольку заготовка проходит через загрузочную платформу и промывается водой под высоким давлением.</string>
+    <string name="aihabrasionimpactheatdo153">Простая процедура повторяющейся сварки без риска растрескивания. На данный момент увеличение срока службы до 2 раз. Деталь все еще находится в эксплуатации.</string>
+
+    <string name="aihabrasionimpactheat8336eg1">Диски клинкерного дробильного вала на цементном заводе. Основной металл: легированная сталь Размеры: ? 490x150 мм</string>
+    <string name="aihabrasionimpactheat8336eg2">Эти валки находятся за пределами холодильника и при умеренном давлении подвергаются абразивному износу, удару и нагреву.</string>
+    <string name="aihabrasionimpactheat8336eg3">Увеличение срока службы в два раза.</string>
+
+    <string name="aihabrasionimpactheatdo390n1">Используйте экран в средних рядах молотковой мельницы на тепловой электростанции. Основной металл: St37–2. Размеры: 5x50/50x500 мм</string>
+    <string name="aihabrasionimpactheatdo390n2">Абразивный износ, удар при высокой температуре (300- 400?C).</string>
+    <string name="aihabrasionimpactheatdo390n3">Экономия средств на обслуживание, поскольку срок службы увеличивается на 700%.</string>
+
+    <string name="aiccorrosiondo221">Тромель упавшего клинкера между печью и холодильником. Основной металл: аустенитная нержавеющая сталь (16Mo3 + нерж. сталь 304L).</string>
+    <string name="aiccorrosiondo222">Сильная коррозия и термическая усталость металлического основания и соединений.</string>
+    <string name="aiccorrosiondo223">Высокая устойчивость к коррозии, окислению. Высокая устойчивость к тепловым ударам. Очень высокая ударопрочность. Низкая тепловая мощность для слабого разбавления. Максимальное восстановление металла сварного шва. Более высокая скорость наплавки способствует снижению трудовых затрат.</string>
+
+    <string name="aiccorrosiondo801">Защитная стальная пластина лотка, который используется в процессе сжигания отходов. Основной металл: St 52.3 Размеры желоба: L=3000 мм W= 700 мм Размеры стен: L=2600 мм H=1000 мм</string>
+    <string name="aiccorrosiondo802">Коррозия и небольшой абразивный износ</string>
+    <string name="aiccorrosiondo803">Эти слои кобальтового сплава повышают коррозионную стойкость в аварийных условиях.</string>
+
+    <string name="aiccorrosiondo601">Вал вентилятора на целлюлозно-бумажном комбинате. Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aiccorrosiondo602">Коррозия</string>
+    <string name="aiccorrosiondo603">Максимальная защита от коррозии. Ежегодная экономия средств заказчиков составляет около € 400 000.</string>
+
+    <string name="aiccorrosiondo701">Шнек экструдера горячего формования пластика Основной металл: низколегированная литая сталь</string>
+    <string name="aiccorrosiondo702">Коррозия</string>
+    <string name="aiccorrosiondo703">Операция по восстановлению выполнена в рекордные сроки (15 минут для винта 1600 x 50 мм). Валик и покрытие не имеют аналогов, на шлифовку потрачено меньше времени.</string>
+
+    <string name="aiccorrosiondo021">Цинковое покрытие для гальванизации. Основной металл: нержавеющая сталь марки 316L. Размеры: (2870 x 1161) мм</string>
+    <string name="aiccorrosiondo022">Коррозия по причине наличия цинка внутри покрытия.</string>
+    <string name="aiccorrosiondo023"> Трещины не появлялись с момента первой наплавки 8 месяцев назад.</string>
+
+    <string name="aiccorrosioncavitec1">Двухседельный клапан на отводном трубопроводе котельной. Основной металл: нелегированная литая сталь.</string>
+    <string name="aiccorrosioncavitec2">Коррозия/кавитация</string>
+    <string name="aiccorrosioncavitec3">Защита от коррозии и кавитации.</string>
+
+    <string name="aiccorrosiondo041">Червячный винт целлюлозно-бумажного пресса. Основной металл: конструкционная сталь.</string>
+    <string name="aiccorrosiondo042">Коррозия</string>
+    <string name="aiccorrosiondo043">И DO*04 и DO*13 гарантируют высокую степень защиты от трещин. Срок службы может быть увеличен с 5 до 25 недель.</string>
+
+    <string name="aicabrasioncorrosiondo4111">Перемешивающий и подающий шнек мокрого никеля с известью. Основной металл: нержавеющая сталь марки 316L Размеры: ? 320 x 2880 мм</string>
+    <string name="aicabrasioncorrosiondo4112">Абразивный износ и коррозия по причине транспортировки и смешивания данных материалов. Влажность влияет на структуру никеля, поэтому образуются серные кислоты, воздействующие на шнек.</string>
+    <string name="aicabrasioncorrosiondo4113">Увеличение срока службы от 3 месяцев (используя предыдущее решение) до 2 лет.</string>
+
+    <string name="aicabrasioncorrosiondo111">Зубцы ковша экскаватора для добычи песка и гравия. Основной металл: нелегированная литая сталь Размеры: (100x240) мм</string>
+    <string name="aicabrasioncorrosiondo112">Абразивный износ и коррозия по причине наличия песка и воды на 30 зубьях буровой коронки.</string>
+    <string name="aicabrasioncorrosiondo113">Увеличение срока службы до 32 часов, т. е. в 8 раз.</string>
+
+    <string name="aicabrasioncorrosiondo331">Форсунка вентилятора системы подачи угля в котел. Основной металл: AISI 310 Размеры: толщина 8 мм</string>
+    <string name="aicabrasioncorrosiondo332">Абразивный износ и коррозия по причине непрерывной подачи угля в котёл (400- 500?C).</string>
+    <string name="aicabrasioncorrosiondo333">Увеличение срока службы. На данный момент практически в три раза. Все еще находится в эксплуатации.</string>
+
+    <string name="aicabrasioncorrosiondo390n1">Пресс-разрыватель. Основной металл: аустенитная нержавеющая сталь. Размеры: ?1000 мм</string>
+    <string name="aicabrasioncorrosiondo390n2">Абразивный износ и коррозия.</string>
+    <string name="aicabrasioncorrosiondo390n3">Увеличение срока службы минимум в два раза.</string>
+
+    <string name="aicabrasioncorrosion8336eg1">5-секционный винтовой пропеллер пресса для обезвоживания твердых городских отходов.</string>
+    <string name="aicabrasioncorrosion8336eg2">Абразивный износ при высоком давлении и коррозия.</string>
+    <string name="aicabrasioncorrosion8336eg3">Увеличение срока службы в 3 раза.</string>
+
+    <string name="aicabrasioncorrosiondo311">Пресс для отжима жира. Переработка отходов. Основной металл: низколегированная литая сталь. Размеры: ? 248 мм x 210 мм</string>
+    <string name="aicabrasioncorrosiondo312">Абразивный износ и коррозия по причине измельчения отходов животноводства, главным образом в конечной части и по краям.</string>
+    <string name="aicabrasioncorrosiondo313">Высокая износоустойчивость после нанесения 1 слоя 68 HRC. Более рентабельное решение и более длительный срок службы, примерно 5000 ч.</string>
+
+    <string name="aicabrasioncorrosiondo3321">Шнек на складе коры при производстве древесины. Основной металл: нелегированная термообработанная сталь. Размеры: ? 700 x 9500 мм</string>
+    <string name="aicabrasioncorrosiondo3322">Абразивный износ и коррозия по причине контакта с корой и окружающей средой.</string>
+    <string name="aicabrasioncorrosiondo3323">Повышенная коррозионная стойкость. Более длительный срок службы.</string>
+
+    <string name="aicabrasioncorrosiondo701">Шнек экструдера горячего формования пластика используемого на производстве таких резиновых изделий, как подошва обуви. Основной металл: низколегированная литая сталь. Размеры винта: (1600x50) мм</string>
+    <string name="aicabrasioncorrosiondo702">Абразивный износ и коррозия при умеренной температуре по причине закачки резины.</string>
+    <string name="aicabrasioncorrosiondo703">Зафиксируйте время работы и признаки улучшения покрытия.</string>
+
+    <string name="aicabrasioncorrosiondo041">Винтовой конвейер/питатель для обезвоживания древесной стружки. Основной металл: аустенитная нержавеющая сталь (AISI 316). Размеры: ? 120/350 x 2000 мм</string>
+    <string name="aicabrasioncorrosiondo042">Абразивный износ и коррозия при высоком давлении.</string>
+    <string name="aicabrasioncorrosiondo043">Устойчивость к давлению, низкий коэффициент трения, зеркальная полировка и наплавка с минимальным количеством трещин.</string>
+
+    <string name="aicimpactcorrosioncavitec1">Ковши активной гидравлической турбины на гидроэлектростанции. Основной металл: низколегированная литая сталь (410 NiMo).</string>
+    <string name="aicimpactcorrosioncavitec2">Сильная кавитация и эрозия по причине наличия взвешенных твердых частиц в воде, используемой для перемещения ковшей.</string>
+    <string name="aicimpactcorrosioncavitec3">Увеличение срока службы и повышение КПД оборудования. Cavitec имеет лучшие результаты по сравнению с любым другим сплавом.</string>
+
+    <string name="aicimpactcorrosiondo021">Ротор гидроразбивателя для целлюлозно-бумажной промышленности. Основной металл: AISI 316. Размеры: ? 1500 мм</string>
+    <string name="aicimpactcorrosiondo022">Сильный износ по причине наличия взвеси и других материалов в воде.</string>
+    <string name="aicimpactcorrosiondo023">Срок службы: 4-5 месяцев и более быстрый ремонт.</string>
+
+    <string name="aicimpactcorrosiondo051">Вентилятор циркуляционного насоса на тепловой электростанции. Основной металл: высоколегированная литая сталь (GX 10 Cr 13/GX 12 Cr14).</string>
+    <string name="aicimpactcorrosiondo052">Кавитация</string>
+    <string name="aicimpactcorrosiondo053">Увеличение срока службы. Очень долгая эксплуатация, еще не завершена.</string>
+
+    <string name="aicimpactcorrosiondo041">Лопасти гребного винта водоподготовительной установки. Основной металл: чугун</string>
+    <string name="aicimpactcorrosiondo042">Кавитация и эрозия по причине воздействия воды с взвешенными твердыми частицами.</string>
+    <string name="aicimpactcorrosiondo043">Срок службы увеличился до 4 раз.</string>
+
+    <string name="aicabrasionimpactcorrosiondo111">Шнек. Основной металл: сплав CrNi (SMO 254) Размеры: ? 190x174 мм</string>
+    <string name="aicabrasionimpactcorrosiondo112">Абразивный износ и некоторые следы удара в очень агрессивной атмосфере (газы, содержащие серные кислоты).</string>
+    <string name="aicabrasionimpactcorrosiondo113">Увеличение срока службы с шести месяцев до двух лет.</string>
+
+    <string name="aicabrasionimpactcorrosion8336eg1">95 молотков дробилки первичного дробления для утилизации и переработки отходов.</string>
+    <string name="aicabrasionimpactcorrosion8336eg2">Абразивный износ и удар в агрессивной среде.</string>
+    <string name="aicabrasionimpactcorrosion8336eg3">Увеличение срока службы до 22 дней. Доступны устройства Ecotest.</string>
+
+    <string name="aicabrasionimpactcorrosiondo390n1">Роликовая направляющая под нагревательной печью для производства чугуна и стали. Основной металл: низколегированная термообработанная сталь (ASTM 140). Размеры: (20x50x6000) мм</string>
+    <string name="aicabrasionimpactcorrosiondo390n2">Удар, абразивный износ и равномерная коррозия, поскольку горячая полосовая сталь перемещается по данным роликовым направляющим.</string>
+    <string name="aicabrasionimpactcorrosiondo390n3">Увеличение срока службы (на 400%).</string>
+
+    <string name="aicabrasionimpactcorrosiondo311">Пропеллерная мешалка на производстве керамических изделий. Основной металл: конструкционная сталь. Размеры: ? 1000 мм</string>
+    <string name="aicabrasionimpactcorrosiondo312">Абразивный износ и коррозия в результате перемешивания глины и песка с высокой скоростью вращения.</string>
+    <string name="aicabrasionimpactcorrosiondo313">Существенное увеличение срока службы детали. С 60 дней (используя предыдущее решение) до 380 дней.</string>
+
+    <string name="aicabrasionimpactcorrosiondo360x1">a</string>
+    <string name="aicabrasionimpactcorrosiondo360x2">b</string>
+    <string name="aicabrasionimpactcorrosiondo360x3">c</string>
+
+    <string name="aicabrasionimpactcorrosiondo601">Дисковый нож для производства кормов для животных. Основной металл: низколегированная термообработанная сталь</string>
+    <string name="aicabrasionimpactcorrosiondo602">Абразивный износ, удар и коррозия, поскольку нож предназначен для измельчения костей животных.</string>
+    <string name="aicabrasionimpactcorrosiondo603">Увеличение срока службы и возможность механической обработки.</string>
+
+    <string name="aicabrasionimpactcorrosiondo041">Штамп (ковочный пресс). Основной металл: низколегированная термообработанная сталь. Размеры: ? 300 мм t=100 мм Масса: 25 кг</string>
+    <string name="aicabrasionimpactcorrosiondo042">Абразивный износ при высоком давлении. Следы удара и коррозии во время рабочего процесса.</string>
+    <string name="aicabrasionimpactcorrosiondo043">Более продолжительное производство, сокращение количества ремонтов, общее снижение затрат.</string>
+
+    <string name="ahccorrosionheatdo841">Отбойник паровой турбины. Основной металл: никелевый сплав (Hastelloy C). Размеры: ? 1500x300 мм</string>
+    <string name="ahccorrosionheatdo842">Коррозия и нагрев, поскольку воздух, проходящий через входные направляющие, содержит H2S.</string>
+    <string name="ahccorrosionheatdo843">Более быстрый ремонт и отсутствие деформаций. Увеличение срока службы (больше, чем на 50%).</string>
+
+    <string name="ahccorrosionheatdo801">Защитная стальная пластина охлаждающего кольца печи на мусоросжигательном заводе. Основной металл: St 52.3. Размеры: (670x8) мм, расширение: 6000 мм</string>
+    <string name="ahccorrosionheatdo802">Коррозия, вызываемая горячими газами, которые содержат агрессивные пары хлора и серы.</string>
+    <string name="ahccorrosionheatdo803">Избегайте растрескивания защитной пластины и обеспечьте устойчивость к коррозии и абразивному износу.</string>
+
+    <string name="ahccorrosionheatdo041">Ролик установки непрерывного литья. Основной металл: низколегированная термообработанная сталь Размеры: ? 200-400 x 420 мм</string>
+    <string name="ahccorrosionheatdo042">Горячие и окисленные заготовки контактируют с водоохлаждемыми подающими роликами, что вызывает их коррозию и нагрев.</string>
+    <string name="ahccorrosionheatdo043">Выработка 400 000 т по сравнению с 80 000 т при использовании предыдущего решения.</string>
+
+    <string name="ahccorrosionheatdo360x1">a</string>
+    <string name="ahccorrosionheatdo360x2">b</string>
+    <string name="ahccorrosionheatdo360x3">c</string>
+
+    <string name="ahccorrosionheatdo221">Муфель печи для закалки литейных металлов. Основной металл: никелевый сплав. Размеры: (4500x1500) мм</string>
+    <string name="ahccorrosionheatdo222">Растрескивание в муфеле.</string>
+    <string name="ahccorrosionheatdo223">Существенная экономия средств, поскольку решение компании Castolin позволяет избежать покупки нового муфеля.</string>
+
+    <string name="ahccorrosionheatdo4111">Шнековый винт устройства подачи металлических изделий. Основной металл: нелегированная сталь/низколегированная сталь (SS 2353/316L). Размеры: ? 320x2880 мм</string>
+    <string name="ahccorrosionheatdo4112">Шнек смешивает никель с известью и транспортирует эту смесь в печь при температуре 450- 900?C, поэтому он подвергается коррозии, нагреву и абразивному износу.</string>
+    <string name="ahccorrosionheatdo4113">Увеличение срока службы с 3 месяцев до 2 лет.</string>
+
+    <string name="ahcabrasionheatcorrosiondo331">Шнековый винт устройства по переработке песка, используемого при сжигании отходов. Основной металл: низколегированная закаленная сталь.</string>
+    <string name="ahcabrasionheatcorrosiondo332">Абразивный износ и коррозия при высокой температуре.</string>
+    <string name="ahcabrasionheatcorrosiondo333">Увеличение срока службы с 4 месяцев (используя предыдущее решение) до 12 месяцев (в 3 раза больше).</string>
+
+    <string name="ahcabrasionheatcorrosiondo390n1">Лопасть устройства для перемешивания золы на тепловой электростанции. Основной металл: аустенитная нержавеющая сталь (X2CrNi18-8/X2CrNiMo19-12-3), аналогичная маркам 308 и 316.</string>
+    <string name="ahcabrasionheatcorrosiondo390n2">Абразивный износ и коррозия по причине содержания кремния в золе, смешиваемой с водой из сжигаемого лигнита.</string>
+    <string name="ahcabrasionheatcorrosiondo390n3">Увеличение срока службы от 3 месяцев (используя предыдущее решение) до 12 месяцев.</string>
+
+    <string name="ahcabrasionheatcorrosion8336eg1">Лопасти для обработки шлака путем насыщения кислородом. Основной металл: 20Mn5</string>
+    <string name="ahcabrasionheatcorrosion8336eg2">Абразивный износ, коррозия и нагрев, поскольку лопасти перемещают водную массу.</string>
+    <string name="ahcabrasionheatcorrosion8336eg3">Более быстрое нанесение швов, занимает меньше времени, снижение затрат.</string>
+
+    <string name="ahcabrasionheatcorrosiondo701">Клин предохранительного клапана на тепловой электростанции. Основной металл: низколегированная термообработанная сталь (P91). Масса: 0,2 кг</string>
+    <string name="ahcabrasionheatcorrosiondo702">Высокое давление 100 атм. Высокая температура 550?C. Коррозия и износ, вызванные паром.</string>
+    <string name="ahcabrasionheatcorrosiondo703">Быстрый и эффективный процесс, обеспечивающий высокое качество покрытия и более высокую производительность во время работы.</string>
+
+    <string name="ahcabrasionheatcorrosiondo041">Ролики МНЛЗ (машина непрерывного литья заготовок). Металлургический завод. Основной металл: низколегированная литая сталь (21CrMoV5.11) Размеры: ? 140x900 мм</string>
+    <string name="ahcabrasionheatcorrosiondo042">Абразивный износ, нагрев (500- 700?C) и коррозия.</string>
+    <string name="ahcabrasionheatcorrosiondo043">Увеличение срока службы, снижение производственных затрат, повторяющееся решение. Экономия примерно € 300 000 в год. Доступны устройства Ecotest.</string>
+
+    <string name="ahcabrasionheatcorrosiondo360x1">a</string>
+    <string name="ahcabrasionheatcorrosiondo360x2">b</string>
+    <string name="ahcabrasionheatcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo360x1">a</string>
+    <string name="hicheatimpactcorrosiondo360x2">b</string>
+    <string name="hicheatimpactcorrosiondo360x3">c</string>
+
+    <string name="hicheatimpactcorrosiondo041">Ковочный штамп. Молотовая поковка. Основной металл: инструментальная сталь для работы при высоких температурах (1.2714) Размеры: (900x500x280) мм</string>
+    <string name="hicheatimpactcorrosiondo042">Сильные механические удары, термические циклы и резкие воздействия агрессивной среды. Температура штампа составляет примерно 500 °С. Штампы используют для ковки боросодержащей стали, которая применяется в сельском хозяйстве.</string>
+    <string name="hicheatimpactcorrosiondo043">Увеличение производительности на 70%.</string>
+
+    <string name="hicheatimpactcorrosiondo801">Защитная стальная пластина лотка, который используется в процессе сжигания отходов. Основной металл: St 52.3 Размеры: (3000x700) мм и (2000x2600x1000) мм Защитная стальная пластина лотка, который используется в процессе сжигания отходов. Основной металл: St 52.3 Размеры: (3000x700) мм и (2000x2600x1000) мм</string>
+    <string name="hicheatimpactcorrosiondo802">Удар, нагрев и коррозия, поскольку отходы ссыпаются на пластины лотка для подачи в печь для сжигания.</string>
+    <string name="hicheatimpactcorrosiondo803">Увеличение срока службы.</string>
+
+    <string name="hicheatimpactcorrosiondo3321">Пластины износа цементной дробилки. Основной металл: аустенитная марганцевая сталь (13%Mn 2,25%Cr) Масса: 65 кг</string>
+    <string name="hicheatimpactcorrosiondo3322">Удар и коррозия при температуре примерно 80?C.</string>
+    <string name="hicheatimpactcorrosiondo3323">Быстрое выполнение работы и высокие эксплуатационные результаты.</string>
+
+    <string name="hicheatimpactcorrosion8336eg1">Пластина желоба клинкерного холодильника. Основной металл: аустенитная нержавеющая сталь Размеры: 300x417mm</string>
+    <string name="hicheatimpactcorrosion8336eg2">Удар, нагрев и коррозия.</string>
+    <string name="hicheatimpactcorrosion8336eg3">Один год эксплуатации.</string>
+
+    <string name="title_activity_test">испытание</string>
+    <string name="title_activity_aih1">АБРАЗИВНЫЙ ИЗНОС / УДАР / НАГРЕВ</string>
+    <string name="title_activity_aic1">АБРАЗИВНЫЙ ИЗНОС / УДАР / КОРРОЗИЯ</string>
+    <string name="title_activity_ahc1">АБРАЗИВНЫЙ ИЗНОС / НАГРЕВ / КОРРОЗИЯ</string>
+    <string name="title_activity_hic1">НАГРЕВ / УДАР / КОРРОЗИЯ</string>
+    <string name="title_activity_selections">Выбрать процесс:</string>
+    <string name="title_activity_feedback">Бланк запроса</string>
+    <string name="title_activity_erosion">ЭРОЗИЯ</string>
+    <string name="title_activity_DO390N">DO*390N</string>
+    <string name="title_activity_EG8336">8336EG</string>
+    <string name="title_activity_DO48">DO*48</string>
+    <string name="title_activity_DO11">DO*11</string>
+    <string name="title_activity_DO33">DO*33</string>
+    <string name="title_activity_DO322">DO*322</string>
+    <string name="title_activity_mechanical_fatigue">МЕХАНИЧЕСКАЯ УСТАЛОСТЬ</string>
+    <string name="title_activity_DO22">DO*22</string>
+    <string name="title_activity_DO02">DO*02</string>
+    <string name="title_activity_DO257">DO*257</string>
+    <string name="title_activity_cavitation">КАВИТАЦИЯ</string>
+    <string name="title_activity_CAVITEC">CAVITEC</string>
+    <string name="title_activity_DO80">DO*80</string>
+    <string name="title_activity_DO04">DO*04</string>
+    <string name="title_activity_DO05">DO*05</string>
+    <string name="title_activity_DO02cavitation">DO*02</string>
+    <string name="title_activity_read_me">EnDOtec Easy Selector</string>
+    <string name="title_activity_test_app">testApp</string>
+    <string name="title_activity_friction_and_rubbing">Трение и истирание</string>
+    <string name="title_activity_do80frictionrubbing">DO*80</string>
+    <string name="title_activity_do70">DO*70</string>
+    <string name="title_activity_do60">DO*60</string>
+    <string name="title_activity_do329">DO*329</string>
+    <string name="title_activity_do06">DO*06</string>
+    <string name="title_activity_do360x">DO*360X</string>
+    <string name="title_activity_do04frictionrubbing">DO*04</string>
+    <string name="title_activity_aihabrasion">АБРАЗИВНЫЙ ИЗНОС</string>
+    <string name="title_activity_aihimpact">УДАР </string>
+    <string name="title_activity_aihheat">НАГРЕВ</string>
+    <string name="title_activity_aihabrasionimpact">АБРАЗИВНЫЙ ИЗНОС + удар </string>
+    <string name="title_activity_aihimpactabrasion">УДАР + абразивный износ</string>
+    <string name="title_activity_aihabrasionheat">АБРАЗИВНЫЙ ИЗНОС + НАГРЕВ</string>
+    <string name="title_activity_aihimpactheat">УДАР + НАГРЕВ</string>
+    <string name="title_activity_aihabrasionimpactheat">АБРАЗИВНЫЙ ИЗНОС + УДАР + НАГРЕВ</string>
+    <string name="title_activity_aiccorrosion">КОРРОЗИЯ</string>
+    <string name="title_activity_aicabrasioncorrosion">АБРАЗИВНЫЙ ИЗНОС + КОРРОЗИЯ</string>
+    <string name="title_activity_aicimpactcorrosion">УДАР + КОРРОЗИЯ</string>
+    <string name="title_activity_aicabrasionimpactcorrosion">АБРАЗИВНЫЙ ИЗНОС + УДАР + КОРРОЗИЯ</string>
+    <string name="title_activity_ahcheatcorrosion">НАГРЕВ + КОРРОЗИЯ</string>
+    <string name="title_activity_ahcabrasionheatcorrosion">АБРАЗИВНЫЙ ИЗНОС + НАГРЕВ + КОРРОЗИЯ</string>
+    <string name="title_activity_hicheatimpactcorrosion">НАГРЕВ + УДАР + КОРРОЗИЯ</string>
+    <string name="title_activity_aihabrasiondo48">DO*48</string>
+    <string name="title_activity_aihabrasiondo390n">DO*390N</string>
+    <string name="title_activity_aihabrasion8336eg">8336EG</string>
+    <string name="title_activity_aihabrasiondo11">DO*11</string>
+    <string name="title_activity_aihabrasiondo33">DO*33</string>
+    <string name="title_activity_aihabrasiondo30">DO*30</string>
+    <string name="title_activity_aihabrasiondo322">DO*322</string>
+    <string name="title_activity_aihabrasiondo31">DO*31</string>
+    <string name="title_activity_aihabrasiondo06">DO*06</string>
+    <string name="title_activity_aihabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihabrasiondo15">DO*15</string>
+    <string name="title_activity_aihabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactdo05">DO*05</string>
+    <string name="title_activity_aihimpactdo02">DO*02</string>
+    <string name="title_activity_aihimpactdo310">DO*310</string>
+    <string name="title_activity_aihimpactdo327">DO*327</string>
+    <string name="title_activity_aihimpactdo15">DO*15</string>
+    <string name="title_activity_aihimpactdo351">DO*351</string>
+    <string name="title_activity_aihimpactdo13">DO*13</string>
+    <string name="title_activity_aihimpactdo332">DO*332</string>
+    <string name="title_activity_aihheatdo84">DO*84</string>
+    <string name="title_activity_aihheatdo80">DO*80</string>
+    <string name="title_activity_aihheatdo04">DO*04</string>
+    <string name="title_activity_aihheatdo360x">DO*360X</string>
+    <string name="title_activity_aihheatdo70">DO*70</string>
+    <string name="title_activity_aihheatdo60">DO*60</string>
+    <string name="title_activity_aihheatdo22">DO*22</string>
+    <string name="title_activity_aihabrasionimpact8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactdo48">DO*48</string>
+    <string name="title_activity_aihabrasionimpactdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionimpactdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactdo31">DO*31</string>
+    <string name="title_activity_aihabrasionimpactdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactdo351">DO*351</string>
+    <string name="title_activity_aihabrasionimpactdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactdo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo327">DO*327</string>
+    <string name="title_activity_aihimpactabrasiondo360x">DO*360X</string>
+    <string name="title_activity_aihimpactabrasiondo11">DO*11</string>
+    <string name="title_activity_aihimpactabrasiondo329">DO*329</string>
+    <string name="title_activity_aihimpactabrasiondo15">DO*15</string>
+    <string name="title_activity_aihimpactabrasiondo13">DO*13</string>
+    <string name="title_activity_aihimpactabrasiondo351">DO*351</string>
+    <string name="title_activity_aihimpactabrasiondo06">DO*06</string>
+    <string name="title_activity_aihimpactabrasiondo332">DO*332</string>
+    <string name="title_activity_aihimpactabrasiondo05">DO*05</string>
+    <string name="title_activity_aihimpactabrasiondo02">DO*02</string>
+    <string name="title_activity_aihabrasionheatdo390n">DO*390N</string>
+    <string name="title_activity_aihabrasionheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionheatdo33">DO*33</string>
+    <string name="title_activity_aihabrasionheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheatdo360x">DO*360X</string>
+    <string name="title_activity_aihabrasionimpactheatdo04">DO*04</string>
+    <string name="title_activity_aihabrasionimpactheatdo60">DO*60</string>
+    <string name="title_activity_aihabrasionimpactheatdo327">DO*327</string>
+    <string name="title_activity_aihabrasionimpactheatdo06">DO*06</string>
+    <string name="title_activity_aihabrasionimpactheatdo329">DO*329</string>
+    <string name="title_activity_aihabrasionimpactheatdo332">DO*332</string>
+    <string name="title_activity_aihabrasionimpactheatdo15">DO*15</string>
+    <string name="title_activity_aihabrasionimpactheat8336eg">8336EG</string>
+    <string name="title_activity_aihabrasionimpactheatdo390n">DO*390N</string>
+    <string name="title_activity_aiccorrosiondo22">DO*22</string>
+    <string name="title_activity_aiccorrosiondo80">DO*80</string>
+    <string name="title_activity_aiccorrosiondo60">DO*60</string>
+    <string name="title_activity_aiccorrosiondo70">DO*70</string>
+    <string name="title_activity_aiccorrosiondo02">DO*02</string>
+    <string name="title_activity_aiccorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aiccorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasioncorrosiondo411">DO*411</string>
+    <string name="title_activity_aicabrasioncorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasioncorrosiondo33">DO*33</string>
+    <string name="title_activity_aicabrasioncorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasioncorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasioncorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasioncorrosiondo332">DO*332</string>
+    <string name="title_activity_aicabrasioncorrosiondo70">DO*70</string>
+    <string name="title_activity_aicabrasioncorrosiondo04">DO*04</string>
+    <string name="title_activity_aicimpactcorrosioncavitec">CAVITEC</string>
+    <string name="title_activity_aicimpactcorrosiondo02">DO*02</string>
+    <string name="title_activity_aicimpactcorrosiondo05">DO*05</string>
+    <string name="title_activity_aicimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo11">DO*11</string>
+    <string name="title_activity_aicabrasionimpactcorrosion8336eg">8336EG</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo31">DO*31</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo60">DO*60</string>
+    <string name="title_activity_aicabrasionimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo84">DO*84</string>
+    <string name="title_activity_ahccorrosionheatdo80">DO*80</string>
+    <string name="title_activity_ahccorrosionheatdo04">DO*04</string>
+    <string name="title_activity_ahccorrosionheatdo360x">DO*360X</string>
+    <string name="title_activity_ahccorrosionheatdo22">DO*22</string>
+    <string name="title_activity_ahccorrosionheatdo411">DO*411</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo33">DO*33</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo390n">DO*390N</string>
+    <string name="title_activity_ahcabrasionheatcorrosion8336eg">8336EG</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo70">DO*70</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo04">DO*04</string>
+    <string name="title_activity_ahcabrasionheatcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo360x">DO*360X</string>
+    <string name="title_activity_hicheatimpactcorrosiondo04">DO*04</string>
+    <string name="title_activity_hicheatimpactcorrosiondo80">DO*80</string>
+    <string name="title_activity_hicheatimpactcorrosiondo332">DO*332</string>
+    <string name="title_activity_hicheatimpactcorrosion8336eg">8336EG</string>
+
+</resources>
